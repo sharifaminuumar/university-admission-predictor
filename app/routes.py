@@ -13,41 +13,75 @@ def index():
 
 @main.route('/api/predict', methods=['POST'])
 def predict():
-    # 1. Grab the student's grades from the incoming request
-    student_data = request.json
+    data = request.get_json() or {}
 
-    if not student_data:
-        return jsonify({"error": "No grades provided"}), 400
+    selected_uni_code = data.get('university_code', 'UG')
 
-    qualified_programs = []
+    student_grades = {
+        "Core Mathematics": data.get('Core Mathematics'),
+        "English Language": data.get('English Language'),
+        "Integrated Science": data.get('Integrated Science'),
+        "Social Studies": data.get('Social Studies'),
+        "Elective 1": data.get('el1_name'), "Elective 1 Grade": data.get('el1_val'),
+        "Elective 2": data.get('el2_name'), "Elective 2 Grade": data.get('el2_val'),
+        "Elective 3": data.get('el3_name'), "Elective 3 Grade": data.get('el3_val'),
+        "Elective 4": data.get('el4_name'), "Elective 4 Grade": data.get('el4_val'),
+    }
 
-    # 2. Fetch every program from the database
-    all_programs = Program.query.all()
+    # --- WASSCE AGGREGATE CALCULATION ENGINE ---
+    grade_scale = {"A1": 1, "B2": 2, "B3": 3, "C4": 4, "C5": 5, "C6": 6, "D7": 7, "E8": 8, "F9": 9}
 
-    # 3. Feed them to the engine one by one
+    # 1. Parse core values (Core Math, English, Integrated Science are mandatory prerequisites)
+    core_math_val = grade_scale.get(student_grades.get("Core Mathematics"), 9)
+    english_val = grade_scale.get(student_grades.get("English Language"), 9)
+    science_val = grade_scale.get(student_grades.get("Integrated Science"), 9)
+    social_val = grade_scale.get(student_grades.get("Social Studies"), 9)
+
+    # Base core aggregate uses the 3 mandatory cores
+    computed_core_aggregate = core_math_val + english_val + science_val
+
+    # 2. Gather all valid elective scores provided by the student
+    elective_values = []
+    for i in range(1, 5):
+        grade_str = student_grades.get(f"Elective {i} Grade")
+        if grade_str in grade_scale:
+            elective_values.append(grade_scale[grade_str])
+
+    # Sort electives from best to lowest score (1 is best, 9 is worst)
+    elective_values.sort()
+
+    # Take the top 3 best elective values, defaulting to a fallback fail value if missing
+    best_three_electives = elective_values[:3]
+    while len(best_three_electives) < 3:
+        best_three_electives.append(9)
+
+    # Calculate total aggregate score (Best 3 Cores + Best 3 Electives)
+    final_calculated_aggregate = computed_core_aggregate + sum(best_three_electives)
+    # --------------------------------------------
+
+    all_programs = Program.query.join(University).filter(University.short_code == selected_uni_code).all()
+    eligible_list = []
+
     for program in all_programs:
-        # Format the database object into the dictionary our engine expects
-        program_data = {
+        program_data_dict = {
+            "program_name": program.name,
             "cutoff_aggregate": program.cutoff_aggregate,
             "requirements": program.requirements
         }
 
-        # Run the magic
-        result = evaluate_eligibility(student_data, program_data)
+        # Run subject eligibility matching filter check
+        is_eligible, execution_meta = evaluate_eligibility(student_grades, program_data_dict)
 
-        # If they qualify, add it to the success list
-        if result['eligible']:
-            qualified_programs.append({
-                "university": program.university.name,
-                "short_code": program.university.short_code,
+        # 🚨 THE FIX: Ensure the student's numerical aggregate is LESS THAN OR EQUAL TO the cut-off
+        if is_eligible and final_calculated_aggregate <= program.cutoff_aggregate:
+            eligible_list.append({
                 "program_name": program.name,
-                "type": program.program_type,
-                "reason": result['reason']
+                "cutoff": program.cutoff_aggregate,
+                "student_aggregate": final_calculated_aggregate,
+                "university": program.university_data.name
             })
 
-    # 4. Send the results back to the frontend
     return jsonify({
         "status": "success",
-        "total_matches": len(qualified_programs),
-        "results": qualified_programs
+        "eligible_programs": eligible_list
     })

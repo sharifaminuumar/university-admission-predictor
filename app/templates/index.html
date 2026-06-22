@@ -1,44 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="light" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghanaian University Admission Predictor</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>EduPredict Ghana | Admission Predictor</title>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#001e40",
+                        "primary-container": "#003366",
+                        "on-primary": "#ffffff",
+                        "primary-fixed": "#d5e3ff",
+                        "secondary": "#745b00",
+                        "secondary-container": "#fecb00",
+                        "on-secondary-container": "#6e5700",
+                        "surface": "#f9f9fe",
+                        "on-surface": "#1a1c1f",
+                        "surface-variant": "#e2e2e7",
+                        "on-surface-variant": "#43474f",
+                        "outline": "#737780",
+                        "outline-variant": "#c3c6d1",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#f4f3f8",
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "sans-serif"],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+        .form-card { box-shadow: 0px 4px 20px rgba(0, 51, 102, 0.05); transition: all 0.3s ease; }
+        .form-card:hover { box-shadow: 0px 8px 30px rgba(0, 51, 102, 0.08); border-color: rgba(0, 30, 64, 0.1); }
+        .card-lift { transition: transform 0.2s ease, box-shadow 0.2s ease; background: #ffffff; }
+        .card-lift:hover { transform: translateY(-4px); box-shadow: 0px 4px 20px rgba(0, 51, 102, 0.08); }
+        select:focus { box-shadow: 0 0 0 3px rgba(0, 30, 64, 0.15); border-color: #001e40; }
+    </style>
 </head>
-<body>
+<body class="bg-surface text-on-surface font-sans overflow-x-hidden min-h-screen flex flex-col">
 
-<header>
-        <h1>Ghanaian University Admission Predictor</h1>
-        <p>Instantly match your WASSCE results against official university entry requirements.</p>
-    </header>
+    <nav class="bg-surface shadow-sm sticky top-0 z-50 h-16 flex items-center">
+        <div class="flex justify-center md:justify-start items-center w-full px-6 max-w-7xl mx-auto h-16">
+            <div class="text-2xl font-bold text-primary flex items-center gap-2">
+                <span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">school</span>
+                EduPredict Ghana
+            </div>
+        </div>
+    </nav>
 
-    <div class="card">
-        <form id="gradeForm">
-            <h2>Core Subjects</h2>
-            <div class="grid">
-                <div class="form-group"><label>Core Mathematics</label><select id="Core Mathematics" required></select></div>
-                <div class="form-group"><label>English Language</label><select id="English Language" required></select></div>
-                <div class="form-group"><label>Integrated Science</label><select id="Integrated Science" required></select></div>
-                <div class="form-group"><label>Social Studies</label><select id="Social Studies" required></select></div>
+    <main class="flex-grow">
+        <section class="pt-12 pb-8">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4 leading-tight">
+                    Predict Your Admission Eligibility
+                </h1>
+                <p class="text-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
+                    Our data-driven engine simulates official university admission criteria to give you a realistic chance of acceptance based on your WASSCE results.
+                </p>
+            </div>
+        </section>
+
+        <section class="pb-16">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="form-card bg-surface-container-lowest p-6 md:p-10 rounded-2xl border border-outline-variant">
+                    <form id="gradeForm" class="space-y-8">
+
+                        <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant">
+                            <label class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
+                            <div class="relative">
+                                <select id="universitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-white focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer">
+                                    <option value="UG">University of Ghana (Legon)</option>
+                                    <option value="KNUST">Kwame Nkrumah University of Science and Technology (KNUST)</option>
+                                </select>
+                                <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                            <div class="space-y-4">
+                                <h3 class="font-bold text-primary uppercase tracking-wider pb-2 border-b border-outline-variant flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-primary">verified</span> Core Subjects
+                                </h3>
+
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm font-medium text-on-surface-variant">Core Mathematics</label>
+                                    <select id="Core Mathematics" class="h-11 rounded-lg border-outline-variant focus:border-primary bg-white"></select>
+                                </div>
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm font-medium text-on-surface-variant">English Language</label>
+                                    <select id="English Language" class="h-11 rounded-lg border-outline-variant focus:border-primary bg-white"></select>
+                                </div>
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm font-medium text-on-surface-variant">Integrated Science</label>
+                                    <select id="Integrated Science" class="h-11 rounded-lg border-outline-variant focus:border-primary bg-white"></select>
+                                </div>
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm font-medium text-on-surface-variant">Social Studies</label>
+                                    <select id="Social Studies" class="h-11 rounded-lg border-outline-variant focus:border-primary bg-white"></select>
+                                </div>
+                            </div>
+
+                            <div class="space-y-4">
+                                <h3 class="font-bold text-secondary uppercase tracking-wider pb-2 border-b border-outline-variant flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-secondary">star_half</span> Elective Subjects
+                                </h3>
+
+                                <div id="electives-container" class="space-y-3"></div>
+
+                                <div class="pt-2">
+                                    <p class="text-xs text-on-surface-variant flex items-start gap-1 bg-surface-container-low p-3 rounded-lg border border-outline-variant">
+                                        <span class="material-symbols-outlined text-[16px]">info</span>
+                                        Only your top 3 elective grades will be used for the final WASSCE aggregate calculation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-8 flex flex-col items-center border-t border-outline-variant">
+                            <button id="submitBtn" type="submit" class="w-full md:w-auto min-w-[300px] h-14 bg-primary text-white rounded-full font-bold text-lg shadow-lg hover:bg-primary-container active:scale-95 transition-all flex items-center justify-center gap-2">
+                                <span id="btnSpinner" class="material-symbols-outlined animate-spin hidden">sync</span>
+                                <span id="btnText">Analyze Eligibility</span>
+                                <span class="material-symbols-outlined">analytics</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="results-container" class="pb-20 max-w-5xl mx-auto px-6 hidden">
+            <div class="bg-white rounded-2xl p-6 mb-8 border border-outline-variant flex flex-col md:flex-row justify-between items-center gap-6 shadow-sm">
+                <div class="flex flex-col gap-1 text-center md:text-left">
+                    <span class="text-on-surface-variant text-sm font-semibold uppercase tracking-wider">Computed Standing</span>
+                    <div class="flex items-center justify-center md:justify-start gap-3">
+                        <h2 class="text-primary text-4xl font-bold">Aggregate <span id="summary-aggregate">--</span></h2>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-1 text-center md:text-right">
+                    <span class="text-on-surface-variant text-sm font-semibold uppercase tracking-wider">Target Institution</span>
+                    <div class="flex items-center justify-center md:justify-end gap-2 bg-surface-container-low border border-outline-variant px-4 py-2 rounded-lg">
+                        <span class="material-symbols-outlined text-primary">account_balance</span>
+                        <span id="summary-uni" class="font-bold text-lg text-primary">--</span>
+                    </div>
+                </div>
             </div>
 
-            <h2>Elective Subjects</h2>
-            <div id="electives-container">
+            <div>
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-2xl font-bold text-primary flex items-center gap-2">
+                        <span class="material-symbols-outlined text-3xl text-green-600">verified</span>
+                        Qualified Programs
+                    </h2>
+                    <span id="match-count" class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-bold text-sm">-- Found</span>
                 </div>
 
-            <button type="submit" id="submitBtn">
-                <span class="spinner" id="btnSpinner"></span>
-                <span id="btnText">Analyze Eligibility</span>
-            </button>
-        </form>
-    </div>
+                <div id="results-list" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    </div>
+            </div>
+        </section>
 
-    <div class="card" id="results-container">
-        <h2 style="border-bottom: none; margin-bottom: 12px;" id="match-count"></h2>
-        <div id="results-list"></div>
-    </div>
+    </main>
 
-    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <footer class="bg-surface-container-highest border-t border-outline-variant mt-auto">
+        <div class="w-full py-8 px-6 flex flex-col md:flex-row justify-between items-center gap-4 max-w-7xl mx-auto text-sm text-on-surface-variant">
+            <div class="font-bold text-primary">EduPredict Ghana</div>
+            <p>© 2026 Admission Predictor Ghana. All academic data is for simulation purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="/static/main.js?v=2"></script>
 </body>
 </html>

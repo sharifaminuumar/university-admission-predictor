@@ -1,8 +1,8 @@
 from flask_sqlalchemy import SQLAlchemy
 import json
 
+# Instantiate db here to prevent circular import loops across modules
 db = SQLAlchemy()
-
 
 class University(db.Model):
     __tablename__ = 'university'
@@ -12,7 +12,7 @@ class University(db.Model):
     short_code = db.Column(db.String(20), nullable=False, unique=True)
 
     # Relationship: One university has many programs
-    programs = db.relationship('Program', backref='university', lazy=True, cascade="all, delete-orphan")
+    programs = db.relationship('Program', backref='university_data', lazy=True, cascade="all, delete-orphan")
 
 
 class Program(db.Model):
@@ -24,7 +24,7 @@ class Program(db.Model):
     cutoff_aggregate = db.Column(db.Integer, nullable=False)
     program_type = db.Column(db.String(50), default="Regular")
 
-    # We store the complex nested requirements here as a serialized JSON string
+    # Serialized JSON string string requirements column field mapping
     _requirements = db.Column('requirements', db.Text, nullable=False)
 
     @property

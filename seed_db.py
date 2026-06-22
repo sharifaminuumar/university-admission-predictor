@@ -1,58 +1,59 @@
-import os
 import json
-from app.models import db, University, Program
-from flask import Flask
+import os
+from app import create_app, db
 
-# Find the absolute path to the root directory
-basedir = os.path.abspath(os.path.dirname(__file__))
+app = create_app()
 
-app = Flask(__name__)
-# Force the database to be created EXACTLY in this root directory
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'admissions.db')
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db.init_app(app)
+with app.app_context():
+    # Delay model scanning until database configuration context is live
+    from app.models import University, Program
 
-DATA_DIR = os.path.join(basedir, 'data') # Make the data path absolute too
+    # Wipe the old structural variations out to build clean relationships
+    db.drop_all()
+    db.create_all()
+    print("Database tables cleanly initialized.")
 
-def seed_database():
-    with app.app_context():
-        print(f"Creating database at: {os.path.join(basedir, 'admissions.db')}")
-        db.drop_all()
-        db.create_all()
+    # 1. Create Parent University Instances
+    ug_uni = University(name="University of Ghana", short_code="UG")
+    knust_uni = University(name="Kwame Nkrumah University of Science and Technology", short_code="KNUST")
 
-        # ... (keep the rest of your seed_database loop exactly the same)
-        for filename in os.listdir(DATA_DIR):
-            if filename.endswith('.json'):
-                filepath = os.path.join(DATA_DIR, filename)
+    db.session.add(ug_uni)
+    db.session.add(knust_uni)
+    db.session.flush()  # Flushes instances to assign parent primary ID keys to memory
 
-                with open(filepath, 'r') as file:
-                    data = json.load(file)
+    # 2. Process University of Ghana Data Assets
+    ug_path = os.path.join('data', 'ug.json')
+    if os.path.exists(ug_path):
+        with open(ug_path, 'r', encoding='utf-8') as f:
+            ug_data = json.load(f)
+            programs_list = ug_data.get('programs', ug_data) if isinstance(ug_data, dict) else ug_data
 
-                    # 1. Create the University
-                    uni = University(
-                        name=data['university_name'],
-                        short_code=data['short_code']
-                    )
-                    db.session.add(uni)
-                    db.session.flush()  # Gets the university ID without fully committing yet
+            for item in programs_list:
+                reqs = item.get('requirements', item)
+                prog = Program(
+                    university_id=ug_uni.id,
+                    name=item['program_name'],
+                    cutoff_aggregate=item['cutoff_aggregate'],
+                    requirements=reqs  # Triggers model dictionary setter method
+                )
+                db.session.add(prog)
+        print("Successfully seeded University of Ghana programmatic assets.")
 
-                    print(f"Loading {len(data['programs'])} programs for {uni.short_code}...")
+    # 3. Process KNUST Data Assets
+    knust_path = os.path.join('data', 'knust.json')
+    if os.path.exists(knust_path):
+        with open(knust_path, 'r', encoding='utf-8') as f:
+            knust_data = json.load(f)
 
-                    # 2. Create the Programs
-                    for prog_data in data['programs']:
-                        program = Program(
-                            university_id=uni.id,
-                            name=prog_data['program_name'],
-                            cutoff_aggregate=prog_data['cutoff_aggregate'],
-                            program_type=prog_data.get('type', 'Regular'),
-                            requirements=prog_data['requirements']  # The setter we wrote handles the JSON conversion!
-                        )
-                        db.session.add(program)
+            for item in knust_data:
+                prog = Program(
+                    university_id=knust_uni.id,
+                    name=item['program_name'],
+                    cutoff_aggregate=item['cutoff_aggregate'],
+                    requirements=item['requirements']
+                )
+                db.session.add(prog)
+        print("Successfully seeded KNUST programmatic assets.")
 
-        # Save everything to the database
-        db.session.commit()
-        print("Database seeding complete! 🚀")
-
-
-if __name__ == '__main__':
-    seed_database()
+    db.session.commit()
+    print("\nSeeding sequence complete! Both relational trees are completely live.")

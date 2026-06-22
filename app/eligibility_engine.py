@@ -39,36 +39,72 @@ def check_mandatory_subjects(student_subjects, required_subjects):
     return True, "Passed"
 
 
-def evaluate_eligibility(student_data, program_data):
+def evaluate_eligibility(student_grades, program_data):
     """
-    The main engine function.
+    Validates a student's WASSCE grades against institutional prerequisite thresholds.
+    Returns: (is_eligible, explanation_string_or_meta)
     """
-    reqs = program_data['requirements']
+    # 1. Establish the passing grade criteria (Must be A1 to C6)
+    failing_grades = {"D7", "E8", "F9", "", "Grade"}
 
-    # 1. Check Mandatory Cores
-    core_check, core_msg = check_mandatory_subjects(student_data, reqs.get('mandatory_cores', []))
-    if not core_check:
-        return {"eligible": False, "reason": core_msg}
+    # 2. Extract and enforce Core Prerequisites
+    core_math = student_grades.get("Core Mathematics")
+    english = student_grades.get("English Language")
+    science = student_grades.get("Integrated Science")
 
-    # 2. Check Mandatory Electives
-    elective_check, elective_msg = check_mandatory_subjects(student_data, reqs.get('mandatory_electives', []))
-    if not elective_check:
-        return {"eligible": False, "reason": elective_msg}
+    # Fail immediately if any core prerequisite is missing or below a C6
+    if core_math in failing_grades or english in failing_grades or science in failing_grades:
+        return False, "Failing grade in mandatory core prerequisites (English, Core Math, or Integrated Science)."
 
-    # 3. Calculate Aggregate
-    student_aggregate = calculate_aggregate(student_data, program_data)
-    cutoff = program_data['cutoff_aggregate']
+    # 3. Extract program specific requirements from database JSON definition
+    requirements = program_data.get("requirements", {})
+    mandatory_cores = requirements.get("mandatory_cores", [])
+    mandatory_electives = requirements.get("mandatory_electives", [])
 
-    if student_aggregate > cutoff:
-        return {
-            "eligible": False,
-            "reason": f"Aggregate {student_aggregate} exceeds the cutoff of {cutoff}."
-        }
-
-    return {
-        "eligible": True,
-        "reason": f"Qualifies with an aggregate of {student_aggregate} (Cutoff: {cutoff})."
+    # Map out the student's entire result portfolio for quick lookups
+    all_student_subjects = {
+        "Core Mathematics": core_math,
+        "English Language": english,
+        "Integrated Science": science,
+        "Social Studies": student_grades.get("Social Studies")
     }
+
+    # Add electives to portfolio map
+    for i in range(1, 5):
+        name = student_grades.get(f"Elective {i}")
+        grade = student_grades.get(f"Elective {i} Grade")
+        if name and grade:
+            all_student_subjects[name] = grade
+
+    # 4. Check specific mandatory core dependencies (e.g., matching minimum grades if set)
+    for req in mandatory_cores:
+        sub_name = req.get("subject")
+        min_grade = req.get("minimum_grade", "C6")  # Default baseline to C6
+        student_grade = all_student_subjects.get(sub_name)
+
+        if not student_grade or student_grade in failing_grades:
+            return False, f"Missing or failing grade in core prerequisite: {sub_name}"
+
+    # 5. Check specific mandatory elective dependencies (e.g., Elective Math for Engineering)
+    for req in mandatory_electives:
+        sub_name = req.get("subject")
+        student_grade = all_student_subjects.get(sub_name)
+
+        if not student_grade or student_grade in failing_grades:
+            return False, f"Missing or failing grade in required elective: {sub_name}"
+
+    # 6. Verify that the student has at least 3 passing electives overall
+    valid_elective_count = 0
+    for i in range(1, 5):
+        el_name = student_grades.get(f"Elective {i}")
+        el_grade = student_grades.get(f"Elective {i} Grade")
+        if el_name and el_grade and el_grade not in failing_grades:
+            valid_elective_count += 1
+
+    if valid_elective_count < 3:
+        return False, "Applicant must possess at least 3 passing elective subjects (A1-C6)."
+
+    return True, "Qualified"
 
 
 def calculate_aggregate(student_subjects, program_data):

@@ -16,9 +16,11 @@ with app.app_context():
     # 1. Create Parent University Instances
     ug_uni = University(name="University of Ghana", short_code="UG")
     knust_uni = University(name="Kwame Nkrumah University of Science and Technology", short_code="KNUST")
+    uds_uni = University(name="University for Development Studies", short_code="UDS") # <-- Added UDS
 
     db.session.add(ug_uni)
     db.session.add(knust_uni)
+    db.session.add(uds_uni) # <-- Added UDS
     db.session.flush()  # Flushes instances to assign parent primary ID keys to memory
 
     # 2. Process University of Ghana Data Assets
@@ -26,6 +28,7 @@ with app.app_context():
     if os.path.exists(ug_path):
         with open(ug_path, 'r', encoding='utf-8') as f:
             ug_data = json.load(f)
+            # Your brilliant original failsafe!
             programs_list = ug_data.get('programs', ug_data) if isinstance(ug_data, dict) else ug_data
 
             for item in programs_list:
@@ -55,5 +58,24 @@ with app.app_context():
                 db.session.add(prog)
         print("Successfully seeded KNUST programmatic assets.")
 
+    # 4. Process UDS Data Assets (Mirroring your UG logic)
+    uds_path = os.path.join('data', 'uds.json')
+    if os.path.exists(uds_path):
+        with open(uds_path, 'r', encoding='utf-8') as f:
+            uds_data = json.load(f)
+            # Using your failsafe again here just in case!
+            programs_list = uds_data.get('programs', uds_data) if isinstance(uds_data, dict) else uds_data
+
+            for item in programs_list:
+                reqs = item.get('requirements', item)
+                prog = Program(
+                    university_id=uds_uni.id,
+                    name=item['program_name'],
+                    cutoff_aggregate=item['cutoff_aggregate'],
+                    requirements=reqs
+                )
+                db.session.add(prog)
+        print("Successfully seeded UDS programmatic assets.")
+
     db.session.commit()
-    print("\nSeeding sequence complete! Both relational trees are completely live.")
+    print("\nSeeding sequence complete! All relational trees are completely live.")

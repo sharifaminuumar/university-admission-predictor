@@ -161,7 +161,9 @@ function displayResults(data, uniCode) {
 
     // Set Header UI
     if (summaryUni) {
-        summaryUni.innerText = uniCode === 'UG' ? 'University of Ghana' : 'KNUST';
+        if (uniCode === 'UG') summaryUni.innerText = 'University of Ghana';
+        else if (uniCode === 'KNUST') summaryUni.innerText = 'Kwame Nkrumah University of Science and Technology';
+        else if (uniCode === 'UDS') summaryUni.innerText = 'University for Development Studies';
     }
 
     if (programs.length === 0) {

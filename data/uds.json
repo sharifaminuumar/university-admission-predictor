@@ -1,0 +1,248 @@
+{
+  "university_name": "University for Development Studies",
+  "short_code": "UDS",
+  "programs": [
+    {
+      "program_name": "Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+      "cutoff_aggregate": 8,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Biology", "minimum_grade": "C6"}, {"subject": "Chemistry", "minimum_grade": "C6"}, {"subject": "Physics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "Doctor of Pharmacy (Pharm D)",
+      "cutoff_aggregate": 9,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Biology", "minimum_grade": "C6"}, {"subject": "Chemistry", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Nursing",
+      "cutoff_aggregate": 12,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Midwifery",
+      "cutoff_aggregate": 12,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "Doctor of Medical Laboratory Science (MLS.D)",
+      "cutoff_aggregate": 12,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Biology", "minimum_grade": "C6"}, {"subject": "Chemistry", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Dietetics",
+      "cutoff_aggregate": 14,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Biology", "minimum_grade": "C6"}, {"subject": "Chemistry", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Public Health",
+      "cutoff_aggregate": 15,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "Bachelor of Laws (LLB)",
+      "cutoff_aggregate": 10,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Civil Engineering",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Elective Mathematics", "minimum_grade": "C6"}, {"subject": "Physics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Mechanical Engineering",
+      "cutoff_aggregate": 20,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Elective Mathematics", "minimum_grade": "C6"}, {"subject": "Physics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Computer Science",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Elective Mathematics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Information Technology",
+      "cutoff_aggregate": 20,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Forensic Science",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Biology", "minimum_grade": "C6"}, {"subject": "Chemistry", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Biotechnology and Molecular Biology",
+      "cutoff_aggregate": 20,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Biology", "minimum_grade": "C6"}, {"subject": "Chemistry", "minimum_grade": "C6"}],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Accounting",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Banking and Finance",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Economics",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Economics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Agriculture Technology",
+      "cutoff_aggregate": 22,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Agribusiness",
+      "cutoff_aggregate": 22,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BA. Development Education",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BEd. Early Childhood Education",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BEd. Basic Education",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    }
+  ]
+}

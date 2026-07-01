@@ -159,11 +159,19 @@ function displayResults(data, uniCode) {
 
     const programs = data.eligible_programs || [];
 
-    // Set Header UI
+    // Set Header UI with all universities
     if (summaryUni) {
-        if (uniCode === 'UG') summaryUni.innerText = 'University of Ghana';
-        else if (uniCode === 'KNUST') summaryUni.innerText = 'Kwame Nkrumah University of Science and Technology';
-        else if (uniCode === 'UDS') summaryUni.innerText = 'University for Development Studies';
+        if (uniCode === 'UG') {
+            summaryUni.innerText = 'University of Ghana';
+        } else if (uniCode === 'KNUST') {
+            summaryUni.innerText = 'KNUST';
+        } else if (uniCode === 'UDS') {
+            summaryUni.innerText = 'UDS';
+        } else if (uniCode === 'UPSA') {
+            summaryUni.innerText = 'UPSA';
+        } else {
+            summaryUni.innerText = uniCode;
+        }
     }
 
     if (programs.length === 0) {
@@ -178,9 +186,9 @@ function displayResults(data, uniCode) {
         return;
     }
 
-// Safely extract the score exactly like the cards do!
-    if (summaryAgg) {
-        summaryAgg.innerText = programs.student_aggregate;
+    // Safely extract the score from the FIRST program in the array
+    if (summaryAgg && programs.length > 0) {
+        summaryAgg.innerText = programs[0].student_aggregate;
     }
 
     count.innerText = `${programs.length} Found`;

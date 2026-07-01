@@ -1,0 +1,193 @@
+{
+  "university_name": "University of Professional Studies, Accra",
+  "short_code": "UPSA",
+  "programs": [
+    {
+      "program_name": "Bachelor of Laws (LLB)",
+      "cutoff_aggregate": 12,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Accounting",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Accounting and Finance",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Business Economics",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Economics", "minimum_grade": "C6"}, {"subject": "Elective Mathematics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Actuarial Science",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Elective Mathematics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Banking and Finance",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "Bachelor of Business Administration",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Information Technology",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Applied Marketing",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Real Estate Management and Finance",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Logistics and Transport Management",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BA. Public Relations Management",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BA. Communication Studies",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BA. Applied French and Communications",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}, {"subject": "Social Studies", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "French", "minimum_grade": "C6"}],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Data Science and Analytics",
+      "cutoff_aggregate": 18,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Elective Mathematics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Applied Statistics",
+      "cutoff_aggregate": 20,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [{"subject": "Elective Mathematics", "minimum_grade": "C6"}],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    },
+    {
+      "program_name": "BSc. Agribusiness and Finance",
+      "cutoff_aggregate": 24,
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [{"subject": "English Language", "minimum_grade": "C6"}, {"subject": "Core Mathematics", "minimum_grade": "C6"}, {"subject": "Integrated Science", "minimum_grade": "C6"}],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      }
+    }
+  ]
+}

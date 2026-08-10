@@ -39,6 +39,27 @@ def check_mandatory_subjects(student_subjects, required_subjects):
     return True, "Passed"
 
 
+def build_subject_portfolio(student_grades):
+    """
+    Flattens the raw form-submission grade dict (with its "Elective N" / "Elective N Grade"
+    key pairs) into a single {subject_name: grade} map keyed by actual subject names.
+    """
+    portfolio = {
+        "Core Mathematics": student_grades.get("Core Mathematics"),
+        "English Language": student_grades.get("English Language"),
+        "Integrated Science": student_grades.get("Integrated Science"),
+        "Social Studies": student_grades.get("Social Studies")
+    }
+
+    for i in range(1, 5):
+        name = student_grades.get(f"Elective {i}")
+        grade = student_grades.get(f"Elective {i} Grade")
+        if name and grade:
+            portfolio[name] = grade
+
+    return portfolio
+
+
 def evaluate_eligibility(student_grades, program_data):
     """
     Validates a student's WASSCE grades against institutional prerequisite thresholds.
@@ -62,19 +83,7 @@ def evaluate_eligibility(student_grades, program_data):
     mandatory_electives = requirements.get("mandatory_electives", [])
 
     # Map out the student's entire result portfolio for quick lookups
-    all_student_subjects = {
-        "Core Mathematics": core_math,
-        "English Language": english,
-        "Integrated Science": science,
-        "Social Studies": student_grades.get("Social Studies")
-    }
-
-    # Add electives to portfolio map
-    for i in range(1, 5):
-        name = student_grades.get(f"Elective {i}")
-        grade = student_grades.get(f"Elective {i} Grade")
-        if name and grade:
-            all_student_subjects[name] = grade
+    all_student_subjects = build_subject_portfolio(student_grades)
 
     # 4. Check specific mandatory core dependencies (e.g., matching minimum grades if set)
     for req in mandatory_cores:

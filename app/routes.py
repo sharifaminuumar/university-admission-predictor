@@ -11,6 +11,40 @@ def index():
     return render_template('index.html')
 
 
+@main.route('/api/programs/<uni_code>', methods=['GET'])
+def list_programs(uni_code):
+    """Browse mode: every program for one university, with raw cutoffs/requirements.
+
+    No grades involved — this is the read-only catalogue behind the "Browse
+    Programmes" tab, so students can look up requirements without filling the form.
+    """
+    university = University.query.filter_by(short_code=uni_code.upper()).first()
+
+    if university is None:
+        return jsonify({
+            "status": "error",
+            "message": f"Unknown university code: {uni_code}"
+        }), 404
+
+    programs = [
+        {
+            "program_name": program.name,
+            "cutoff_aggregate": program.cutoff_aggregate,
+            "program_type": program.program_type,
+            "requirements": program.requirements
+        }
+        for program in sorted(university.programs, key=lambda p: p.name)
+    ]
+
+    return jsonify({
+        "status": "success",
+        "university": university.name,
+        "university_code": university.short_code,
+        "program_count": len(programs),
+        "programs": programs
+    })
+
+
 @main.route('/api/predict', methods=['POST'])
 def predict():
     data = request.get_json() or {}

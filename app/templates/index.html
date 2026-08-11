@@ -44,7 +44,11 @@
         .form-card:hover { box-shadow: 0px 8px 30px rgba(0, 51, 102, 0.08); border-color: rgba(0, 30, 64, 0.1); }
         .card-lift { transition: transform 0.2s ease, box-shadow 0.2s ease; background: #ffffff; }
         .card-lift:hover { transform: translateY(-4px); box-shadow: 0px 4px 20px rgba(0, 51, 102, 0.08); }
-        select:focus { box-shadow: 0 0 0 3px rgba(0, 30, 64, 0.15); border-color: #001e40; }
+        select:focus, input:focus { box-shadow: 0 0 0 3px rgba(0, 30, 64, 0.15); border-color: #001e40; outline: none; }
+        /* Mode tabs are styled purely off aria-selected so the JS only flips one attribute */
+        .mode-tab { color: #43474f; }
+        .mode-tab[aria-selected="true"] { background: #001e40; color: #ffffff; box-shadow: 0 2px 8px rgba(0, 30, 64, 0.25); }
+        .mode-tab[aria-selected="false"]:hover { background: rgba(0, 30, 64, 0.06); }
     </style>
 </head>
 <body class="bg-surface text-on-surface font-sans overflow-x-hidden min-h-screen flex flex-col">
@@ -73,18 +77,25 @@
         <section class="pb-16">
             <div class="max-w-4xl mx-auto px-6">
                 <div class="form-card bg-surface-container-lowest p-6 md:p-10 rounded-2xl border border-outline-variant">
+
+                    <div role="tablist" aria-label="Choose a mode" class="flex flex-col sm:flex-row gap-2 mb-8 bg-surface-container-low p-1.5 rounded-xl border border-outline-variant">
+                        <button type="button" id="tab-eligibility" role="tab" aria-selected="true" aria-controls="panel-eligibility"
+                                class="mode-tab flex-1 h-12 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all">
+                            <span class="material-symbols-outlined text-[20px]">analytics</span> Check Eligibility
+                        </button>
+                        <button type="button" id="tab-browse" role="tab" aria-selected="false" aria-controls="panel-browse"
+                                class="mode-tab flex-1 h-12 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all">
+                            <span class="material-symbols-outlined text-[20px]">menu_book</span> Browse Programmes
+                        </button>
+                    </div>
+
+                    <div id="panel-eligibility" role="tabpanel" aria-labelledby="tab-eligibility">
                     <form id="gradeForm" class="space-y-8">
 
                         <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant">
-                            <label class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
+                            <label for="universitySelector" class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
                             <div class="relative">
-                                <select id="universitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-white focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer">
-                                    <option value="UG">University of Ghana (Legon)</option>
-                                    <option value="KNUST">Kwame Nkrumah University of Science and Technology (KNUST)</option>
-                                    <option value="UDS">University for Development Studies (UDS)</option>
-                                    <option value="UPSA">University of Professional Studies, Accra (UPSA)</option>
-                                    <option value="UCC">University of Cape Coast (UCC)</option>
-                                </select>
+                                <select id="universitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-white focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
                                 <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
                             </div>
                         </div>
@@ -137,6 +148,21 @@
                             </button>
                         </div>
                     </form>
+                    </div>
+
+                    <div id="panel-browse" role="tabpanel" aria-labelledby="tab-browse" class="hidden">
+                        <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant">
+                            <label for="browseUniversitySelector" class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
+                            <div class="relative">
+                                <select id="browseUniversitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-white focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
+                                <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
+                            </div>
+                            <p class="text-xs text-on-surface-variant mt-3 flex items-start gap-1">
+                                <span class="material-symbols-outlined text-[16px]">info</span>
+                                No grades needed — pick a school to see every programme with its cut-off and required subjects.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -167,9 +193,34 @@
                     <span id="match-count" class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-bold text-sm">-- Found</span>
                 </div>
 
+                <div class="relative mb-6">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">search</span>
+                    <input id="results-search" type="search" autocomplete="off" placeholder="Filter your qualified programmes by name…"
+                           class="w-full h-12 pl-12 pr-4 rounded-lg border-outline-variant bg-white focus:border-primary focus:ring-0"/>
+                </div>
+
                 <div id="results-list" class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     </div>
             </div>
+        </section>
+
+        <section id="browse-container" class="pb-20 max-w-5xl mx-auto px-6 hidden">
+            <div class="flex items-center justify-between mb-6 flex-wrap gap-3">
+                <h2 class="text-2xl font-bold text-primary flex items-center gap-2">
+                    <span class="material-symbols-outlined text-3xl text-primary">menu_book</span>
+                    <span id="browse-heading">Programmes</span>
+                </h2>
+                <span id="browse-count" class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-bold text-sm">-- Programmes</span>
+            </div>
+
+            <div class="relative mb-6">
+                <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">search</span>
+                <input id="browse-search" type="search" autocomplete="off" placeholder="Search programmes, e.g. Computer Science…"
+                       class="w-full h-12 pl-12 pr-4 rounded-lg border-outline-variant bg-white focus:border-primary focus:ring-0"/>
+            </div>
+
+            <div id="browse-list" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                </div>
         </section>
 
     </main>
@@ -181,6 +232,6 @@
         </div>
     </footer>
 
-    <script src="/static/main.js?v=2"></script>
+    <script src="/static/main.js?v=3"></script>
 </body>
 </html>

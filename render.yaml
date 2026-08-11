@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: edupredict-ghana
+    runtime: python
+    plan: free
+    # seed_db.py runs at build time so the SQLite file is baked into the
+    # deploy image — Render's filesystem is ephemeral, so the DB must be
+    # regenerated from data/*.json on every deploy rather than persisted.
+    buildCommand: "pip install -r requirements.txt && python seed_db.py"
+    # No --bind needed: gunicorn defaults to 0.0.0.0:$PORT when Render sets PORT.
+    startCommand: "gunicorn run:app"

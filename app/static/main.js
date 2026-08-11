@@ -1,16 +1,17 @@
 const grades = ["", "A1", "B2", "B3", "C4", "C5", "C6", "D7", "E8", "F9"];
 const electivesList = [
-    "Accounting", "Elective Mathematics", "Agricultural Science", "Animal Husbandry",
+    "Accounting", "Akan", "Elective Mathematics", "Agricultural Science", "Animal Husbandry",
     "Applied Technology", "Arabic", "Art and Design Foundation", "Art and Design Studio",
     "Automobile Technology", "Biology", "Biomedical Science", "Building Construction Technology",
     "Business Management", "Chemistry", "Christian Religious Studies (CRS)", "Clothing and Textiles",
     "Computer Science", "Computing / ICT", "Crop Husbandry", "Design & Communication Technology",
-    "Economics", "Electrical and Electronic Technology", "Engineering Science", "Fisheries",
-    "Food and Nutrition", "French", "Geography", "Ghanaian Languages", "Government",
+    "Economics", "Electrical and Electronic Technology", "Engineering Science", "Financial Accounting",
+    "Fisheries", "Food and Nutrition", "French", "General Knowledge in Art", "Geography",
+    "Ghanaian Language", "Ghanaian Languages", "Government", "Graphic Design",
     "History", "Horticulture", "Islamic Religious Studies (IRS)", "Literature in English",
     "Management in Living", "Metal Technology", "Performing Arts", "Physical Education and Health",
-    "Physics", "Religious and Moral Education (RME)", "Robotics", "Spanish", "Technical Drawing",
-    "Wood Technology"
+    "Physics", "Religious and Moral Education (RME)", "Religious Studies", "Robotics", "Spanish",
+    "Technical Drawing", "Wood Technology"
 ].sort();
 
 // Populate Core Grade dropdowns
@@ -169,6 +170,8 @@ function displayResults(data, uniCode) {
             summaryUni.innerText = 'UDS';
         } else if (uniCode === 'UPSA') {
             summaryUni.innerText = 'UPSA';
+        } else if (uniCode === 'UCC') {
+            summaryUni.innerText = 'University of Cape Coast';
         } else {
             summaryUni.innerText = uniCode;
         }

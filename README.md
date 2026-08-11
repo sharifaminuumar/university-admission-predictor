@@ -46,6 +46,12 @@ Institutional requirements are maintained as structured declarative dictionaries
 
 ---
 
+## Currently Supported Institutions
+
+University of Ghana (UG), KNUST, University for Development Studies (UDS), University of Professional Studies Accra (UPSA). University of Cape Coast (UCC) is being onboarded next.
+
+---
+
 ## Installation & Setup
 
 Follow these steps to run this project locally:
@@ -57,13 +63,13 @@ cd university-admission-predictor
 
 ```
 
-
-2. **Install standard project dependencies:**
+2. **Create a virtual environment and install dependencies:**
 ```bash
-pip install flask flask-sqlalchemy
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
 ```
-
 
 3. **Seed the relational database artifacts:**
 ```bash
@@ -71,10 +77,19 @@ python seed_db.py
 
 ```
 
+This populates `instance/admissions.db` — the canonical SQLite file, resolved via Flask's instance folder so its location is stable regardless of where you run commands from. It's gitignored and fully disposable; rerun this command any time to reset it.
 
 4. **Fire up the localized web development environment:**
 ```bash
 python run.py
 
 ```
+
+The app serves at `http://127.0.0.1:5000`.
+
+---
+
+## For Contributors / AI Assistants
+
+See [`CLAUDE.md`](CLAUDE.md) for architecture notes, developer rules (UTF-8 encoding, no compiled/DB artifacts in git, manual-only commits), and the university-onboarding runbook.
 

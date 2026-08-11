@@ -18,11 +18,13 @@ with app.app_context():
     knust_uni = University(name="Kwame Nkrumah University of Science and Technology", short_code="KNUST")
     uds_uni = University(name="University for Development Studies", short_code="UDS")
     upsa_uni = University(name="University of Professional Studies, Accra", short_code="UPSA")
+    ucc_uni = University(name="University of Cape Coast", short_code="UCC")
 
     db.session.add(ug_uni)
     db.session.add(knust_uni)
     db.session.add(uds_uni)
     db.session.add(upsa_uni)
+    db.session.add(ucc_uni)
     db.session.flush()  # Flushes instances to assign parent primary ID keys to memory
 
     # 2. Process University of Ghana Data Assets
@@ -79,24 +81,42 @@ with app.app_context():
                 db.session.add(prog)
         print("Successfully seeded UDS programmatic assets.")
 
-        # 5. Process UPSA Data Assets
-        upsa_path = os.path.join('data', 'upsa.json')
-        if os.path.exists(upsa_path):
-            with open(upsa_path, 'r', encoding='utf-8') as f:
-                upsa_data = json.load(f)
-                # Using your failsafe again here just in case!
-                programs_list = upsa_data.get('programs', upsa_data) if isinstance(upsa_data, dict) else upsa_data
+    # 5. Process UPSA Data Assets
+    upsa_path = os.path.join('data', 'upsa.json')
+    if os.path.exists(upsa_path):
+        with open(upsa_path, 'r', encoding='utf-8') as f:
+            upsa_data = json.load(f)
+            # Using your failsafe again here just in case!
+            programs_list = upsa_data.get('programs', upsa_data) if isinstance(upsa_data, dict) else upsa_data
 
-                for item in programs_list:
-                    reqs = item.get('requirements', item)
-                    prog = Program(
-                        university_id=upsa_uni.id,
-                        name=item['program_name'],
-                        cutoff_aggregate=item['cutoff_aggregate'],
-                        requirements=reqs
-                    )
-                    db.session.add(prog)
-            print("Successfully seeded UPSA programmatic assets.")
+            for item in programs_list:
+                reqs = item.get('requirements', item)
+                prog = Program(
+                    university_id=upsa_uni.id,
+                    name=item['program_name'],
+                    cutoff_aggregate=item['cutoff_aggregate'],
+                    requirements=reqs
+                )
+                db.session.add(prog)
+        print("Successfully seeded UPSA programmatic assets.")
+
+    # 6. Process UCC Data Assets
+    ucc_path = os.path.join('data', 'ucc.json')
+    if os.path.exists(ucc_path):
+        with open(ucc_path, 'r', encoding='utf-8') as f:
+            ucc_data = json.load(f)
+            programs_list = ucc_data.get('programs', ucc_data) if isinstance(ucc_data, dict) else ucc_data
+
+            for item in programs_list:
+                reqs = item.get('requirements', item)
+                prog = Program(
+                    university_id=ucc_uni.id,
+                    name=item['program_name'],
+                    cutoff_aggregate=item['cutoff_aggregate'],
+                    requirements=reqs
+                )
+                db.session.add(prog)
+        print("Successfully seeded UCC programmatic assets.")
 
     db.session.commit()
     print("\nSeeding sequence complete! All relational trees are completely live.")

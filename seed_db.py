@@ -72,6 +72,9 @@ with app.app_context():
                 name=item['program_name'],
                 cutoff_aggregate=item['cutoff_aggregate'],
                 program_type=item.get('type', 'Regular'),
+                # Files seeded before this field existed carry no cutoff_source; they
+                # are recorded as "unverified" rather than being claimed as published.
+                cutoff_source=item.get('cutoff_source', 'unverified'),
                 requirements=item.get('requirements', item)  # triggers the model's dict setter
             ))
 

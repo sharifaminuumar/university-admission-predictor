@@ -24,6 +24,15 @@ class Program(db.Model):
     cutoff_aggregate = db.Column(db.Integer, nullable=False)
     program_type = db.Column(db.String(50), default="Regular")
 
+    # Provenance of cutoff_aggregate:
+    #   "published"       - a real per-programme cut-off read from the university
+    #   "general_ceiling" - the university's site-wide minimum entry aggregate, used
+    #                       because no per-programme cut-off is published anywhere
+    #   "unverified"      - older seed data predating this field
+    # The UI must distinguish these: a general_ceiling match means "meets the minimum
+    # entry bar", NOT "would likely be admitted".
+    cutoff_source = db.Column(db.String(30), default="unverified", nullable=False)
+
     # Serialized JSON string string requirements column field mapping
     _requirements = db.Column('requirements', db.Text, nullable=False)
 

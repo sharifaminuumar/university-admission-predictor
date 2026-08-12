@@ -102,7 +102,31 @@ def evaluate_eligibility(student_grades, program_data):
         if not student_grade or student_grade in failing_grades:
             return False, f"Missing or failing grade in required elective: {sub_name}"
 
-    # 6. Verify that the student has at least 3 passing electives overall
+    # 6. Check flexible "any N of these subjects" elective pools.
+    # Some programs (e.g. UHAS Medicine: "any three of Chemistry, Biology, Physics
+    # and Elective Mathematics") name no individually compulsory elective, so
+    # mandatory_electives cannot express them. Without this check a General Arts
+    # applicant would be reported as qualifying for Medicine.
+    elective_options = requirements.get("elective_options")
+    if elective_options:
+        option_subjects = elective_options.get("subjects", [])
+        minimum_required = elective_options.get("minimum_required", len(option_subjects))
+        min_grade = elective_options.get("minimum_grade", "C6")
+
+        matched = [
+            subject for subject in option_subjects
+            if all_student_subjects.get(subject)
+            and all_student_subjects[subject] not in failing_grades
+            and meets_minimum_grade(all_student_subjects[subject], min_grade)
+        ]
+
+        if len(matched) < minimum_required:
+            return False, (
+                f"Requires at least {minimum_required} of: {', '.join(option_subjects)} "
+                f"(at {min_grade} or better). Applicant has {len(matched)}."
+            )
+
+    # 7. Verify that the student has at least 3 passing electives overall
     valid_elective_count = 0
     for i in range(1, 5):
         el_name = student_grades.get(f"Elective {i}")

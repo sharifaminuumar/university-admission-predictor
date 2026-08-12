@@ -60,11 +60,11 @@ if (window.matchMedia) {
 const grades = ["", "A1", "B2", "B3", "C4", "C5", "C6", "D7", "E8", "F9"];
 const electivesList = [
     "Accounting", "Akan", "Elective Mathematics", "Agricultural Science", "Animal Husbandry",
-    "Applied Technology", "Arabic", "Art and Design Foundation", "Art and Design Studio",
+    "Applied Electricity", "Applied Technology", "Arabic", "Art and Design Foundation", "Art and Design Studio",
     "Automobile Technology", "Biology", "Biomedical Science", "Building Construction Technology",
     "Business Management", "Chemistry", "Christian Religious Studies (CRS)", "Clothing and Textiles",
     "Computer Science", "Computing / ICT", "Crop Husbandry", "Design & Communication Technology",
-    "Economics", "Electrical and Electronic Technology", "Engineering Science", "Financial Accounting",
+    "Economics", "Electrical and Electronic Technology", "Electronics", "Engineering Science", "Financial Accounting",
     "Fisheries", "Food and Nutrition", "French", "General Knowledge in Art", "Geography",
     "Ghanaian Language", "Ghanaian Languages", "Government", "Graphic Design",
     "History", "Horticulture", "Islamic Religious Studies (IRS)", "Literature in English",
@@ -381,6 +381,8 @@ function renderEligibilityResults(query) {
                     <span class="text-2xl font-bold text-on-surface-variant">${escapeHtml(prog.cutoff)}</span>
                 </div>
             </div>
+
+            <div class="mt-3">${cutoffSourceBadge(prog.cutoff_source)}${cutoffCaveat(prog.cutoff_source)}</div>
         </div>
     `).join("");
 }
@@ -396,6 +398,45 @@ if (resultsSearch) {
 
 // null = nothing loaded yet; an array = catalogue ready for the chosen school.
 let browsePrograms = null;
+
+// How much a cut-off can actually be trusted. Only ~21% of seeded programmes have a
+// real published cut-off; the rest are their university's site-wide entry minimum,
+// which means "clears the minimum bar", not "would be admitted". Showing both
+// identically would overstate a student's chances, so every card is labelled.
+const CUTOFF_SOURCE_BADGES = {
+    published: {
+        label: "Competitive cut-off",
+        icon: "verified",
+        className: "bg-primary-fixed text-primary",
+        tooltip: "A real cut-off aggregate published by the university for this specific programme."
+    },
+    general_ceiling: {
+        label: "General entry ceiling",
+        icon: "info",
+        className: "bg-warning-container text-on-warning-container border border-warning-outline",
+        tooltip: "This university publishes no cut-off for this programme, so this is its site-wide minimum entry aggregate. Meeting it means you clear the minimum entry requirement — not that you would be admitted. The real departmental cut-off is likely lower (more competitive)."
+    },
+    unverified: {
+        label: "Unverified cut-off",
+        icon: "help",
+        className: "bg-surface-container-low text-on-surface-variant border border-outline-variant",
+        tooltip: "This cut-off predates our sourcing records and has not been traced to an official university publication."
+    }
+};
+
+function cutoffSourceBadge(source) {
+    const meta = CUTOFF_SOURCE_BADGES[source] || CUTOFF_SOURCE_BADGES.unverified;
+    return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold ${meta.className}" title="${escapeHtml(meta.tooltip)}">
+                <span class="material-symbols-outlined text-[13px]">${meta.icon}</span>${escapeHtml(meta.label)}
+            </span>`;
+}
+
+function cutoffCaveat(source) {
+    if (source !== "general_ceiling") return "";
+    return `<p class="text-[11px] text-on-surface-variant mt-2 leading-snug">
+                Minimum university entry threshold — not a guaranteed departmental cut-off.
+            </p>`;
+}
 
 function subjectChips(requirementList, emptyText) {
     if (!Array.isArray(requirementList) || requirementList.length === 0) {
@@ -494,6 +535,8 @@ function renderBrowsePrograms(query) {
                     <span class="text-2xl font-bold text-primary">${escapeHtml(prog.cutoff_aggregate)}</span>
                 </div>
             </div>
+
+            <div class="mb-3">${cutoffSourceBadge(prog.cutoff_source)}${cutoffCaveat(prog.cutoff_source)}</div>
 
             <div class="mb-3">
                 <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1.5">Required Cores</span>

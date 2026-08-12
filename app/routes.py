@@ -30,6 +30,7 @@ def list_programs(uni_code):
         {
             "program_name": program.name,
             "cutoff_aggregate": program.cutoff_aggregate,
+            "cutoff_source": program.cutoff_source,
             "program_type": program.program_type,
             "requirements": program.requirements
         }
@@ -87,6 +88,7 @@ def predict():
             eligible_list.append({
                 "program_name": program.name,
                 "cutoff": program.cutoff_aggregate,
+                "cutoff_source": program.cutoff_source,
                 "student_aggregate": student_aggregate,
                 "university": program.university_data.name
             })

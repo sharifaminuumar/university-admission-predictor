@@ -9,14 +9,36 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Biology",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site states 'any three (3) of the following electives: Chemistry, Biology, Physics and Elective Mathematics' - no single elective is individually mandatory, so the array is left empty. The engine cannot express 'all three electives must come from this set of four', so this check is looser than the real rule. Applicants must also pass an entrance examination and selection interview."
     },
@@ -27,14 +49,36 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Biology",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site states 'any three (3) of the following electives: Chemistry, Biology, Physics and Elective Mathematics' - no single elective is individually mandatory. Applicants must also pass an entrance aptitude examination and selection interview."
     },
@@ -45,14 +89,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Chemistry", "minimum_grade": "C6"},
-          {"subject": "Biology", "minimum_grade": "C6"}
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -66,14 +128,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Biology", "minimum_grade": "C6"},
-          {"subject": "Chemistry", "minimum_grade": "C6"}
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -87,14 +167,36 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Biology",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Neuropsychology option requires 'any three (3) of the following electives: Chemistry, Biology, Physics and Elective Mathematics' - no single elective is individually mandatory. Cut-off page lists a single figure of 10 for 'Combined Bachelor and Master of Psychology', applied to all three options."
     },
@@ -105,10 +207,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -123,10 +237,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -141,14 +267,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Physics", "minimum_grade": "C6"},
-          {"subject": "Biology", "minimum_grade": "C6"}
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -162,14 +306,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Chemistry", "minimum_grade": "C6"},
-          {"subject": "Biology", "minimum_grade": "C6"}
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -183,10 +345,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -201,10 +375,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -219,10 +405,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -237,10 +435,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
@@ -255,14 +465,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Physics", "minimum_grade": "C6"},
-          {"subject": "Biology", "minimum_grade": "C6"}
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -276,10 +504,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -294,14 +534,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Physics", "minimum_grade": "C6"},
-          {"subject": "Biology", "minimum_grade": "C6"}
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -315,10 +573,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -333,10 +603,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -351,13 +633,28 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Chemistry", "minimum_grade": "C6"}
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"
@@ -371,10 +668,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -389,10 +698,22 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
@@ -407,14 +728,32 @@
       "type": "Regular",
       "requirements": {
         "mandatory_cores": [
-          {"subject": "English Language", "minimum_grade": "C6"},
-          {"subject": "Core Mathematics", "minimum_grade": "C6"},
-          {"subject": "Integrated Science", "minimum_grade": "C6"},
-          {"subject": "Social Studies", "minimum_grade": "C6"}
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "C6"
+          }
         ],
         "mandatory_electives": [
-          {"subject": "Biology", "minimum_grade": "C6"},
-          {"subject": "Physics", "minimum_grade": "C6"}
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
         ],
         "elective_category_pool": "Sciences",
         "global_minimum_grade": "C6"

@@ -8,7 +8,9 @@ A Flask web app that predicts which Ghanaian university programs a student quali
 
 Universities currently seeded (10, 644 programmes): **UG**, **KNUST**, **UDS**, **UPSA**, **UCC**, **UEW**, **UHAS**, **UMAT**, **UENR**, **AAMUSTED**.
 
-**Data-quality caveat worth knowing before trusting a result:** only ~21% of seeded programmes have a real published per-programme cut-off (UCC and UHAS). UMaT, UENR and AAMUSTED publish none at all, so ~48% of programmes sit at their university's site-wide ceiling (aggregate 36) — those entries mean "meets the minimum entry bar", *not* "would likely be admitted". Each school's `data/<code>_notes.md` records the sourcing. The distinction is tracked as `cutoff_source` in the JSON but is **not currently persisted to the database** (`seed_db.py` only stores `requirements`), so the UI cannot yet distinguish the two.
+**Data-quality caveat worth knowing before trusting a result:** only ~21% of seeded programmes have a real published per-programme cut-off (UCC and UHAS). UMaT, UENR and AAMUSTED publish none at all, so ~48% of programmes sit at their university's site-wide ceiling (aggregate 36) — those entries mean "meets the minimum entry bar", *not* "would likely be admitted". Each school's `data/<code>_notes.md` (gitignored) records the sourcing.
+
+This provenance is carried end to end as **`cutoff_source`**: a column on `Program`, set from the JSON during seeding, returned by both API endpoints, and rendered as a badge on every programme card. Its three values are `published` (a real per-programme cut-off), `general_ceiling` (the university's site-wide minimum, shown with an amber badge and an explicit "not a guaranteed departmental cut-off" caveat), and `unverified` (the default for the older UG/KNUST/UDS/UPSA files, which predate the field — they are *not* claimed as published). Any new data file should set `cutoff_source` explicitly.
 
 ## Core Commands
 
@@ -53,7 +55,7 @@ Theme resolution order: saved `localStorage['edupredict-theme']` → OS `prefers
 
 **`eligibility_engine.py`** is the algorithmic core, deliberately decoupled from Flask and the DB so it stays independently testable:
 - `build_subject_portfolio(student_grades)` — flattens the raw "Elective N / Elective N Grade" form keys into a single `{subject_name: grade}` map.
-- `evaluate_eligibility(student_grades, program_data)` — validates mandatory cores/electives and minimum grades; returns `(is_eligible, reason)`.
+- `evaluate_eligibility(student_grades, program_data)` — validates mandatory cores/electives and minimum grades; returns `(is_eligible, reason)`. It also enforces the optional **`elective_options`** block, which expresses "any N of these subjects" requirements that `mandatory_electives` cannot: `{"subjects": [...], "minimum_required": 3, "minimum_grade": "C6"}`. Use it for OR-shaped rules — UHAS Medicine ("any three of Chemistry, Biology, Physics and Elective Mathematics") and UMaT's substitutable third elective ("Chemistry **or** Applied Electricity **or** Electronics", `minimum_required: 1`). Without it those programmes are badly wrong in opposite directions: Medicine wrongly accepted a General Arts student, and UMaT wrongly ignored the substitute entirely. **Every subject named in `elective_options.subjects` must also exist in `electivesList` in `main.js`** — same rule as `mandatory_electives`, or the alternative is unselectable and silently becomes a false negative.
 - `calculate_aggregate(student_subjects, program_data)` — computes the Best-6 aggregate. **Important:** the 3rd core subject depends on the program's `requirements.elective_category_pool` — `"Sciences"` always uses Integrated Science, anything else (`"Any"`, etc.) uses `min(Integrated Science, Social Studies)`. This must be computed **per program**, not once globally, since different programs in the same request can have different pools.
 
 **Models (`app/models.py`):**

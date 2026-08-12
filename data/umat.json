@@ -111,7 +111,15 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Geography"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site states electives Mathematics, Physics and Chemistry, but adds that Geomatic Engineering applicants may substitute Chemistry with Geography; only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -471,7 +479,17 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Technical Drawing",
+            "Metal Technology",
+            "Automobile Technology"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site: \"Physics, Mathematics, and Chemistry or Technical Drawing or Metal Work or Auto-Mechanic\"; the substitutable third elective is not recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -506,7 +524,16 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site: \"Physics, Mathematics, and Chemistry or Applied Electricity or Electronics\"; the substitutable third elective is not recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -541,7 +568,16 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site: \"Physics, Mathematics, and Chemistry or Applied Electricity or Electronics\"; the substitutable third elective is not recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -576,7 +612,16 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Listed on the site in the same block as Electrical and Electronic / Renewable Energy Engineering (\"Physics, Mathematics, and Chemistry or Applied Electricity or Electronics\"), though a following NOTE names only EEE and Renewable Energy as allowed to substitute Chemistry - ambiguous on the source page. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -611,7 +656,18 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics",
+            "Computing / ICT",
+            "Computer Science"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site: \"Physics, Mathematics and Chemistry or Applied Electricity or Electronics or ICT or Computer Studies\"; the substitutable third elective is not recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -760,7 +816,21 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics",
+            "Computing / ICT",
+            "Computer Science",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site: \"Physics, Mathematics and Chemistry or Applied Electricity or Electronics or ICT or Computer Studies or Metal Work or Technical Drawing or Auto-Mechanic\"; the substitutable third elective is not recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -878,7 +948,15 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Building Construction Technology"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "Site: \"Mathematics, Physics, and Chemistry or Building Construction\"; the substitutable third elective is not recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -1036,7 +1114,18 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Metal Work or Technical Drawing or Applied Electricity or Applied Electronics - only the two non-substitutable electives are recorded as mandatory. Fee-paying programme. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -1071,7 +1160,16 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Metal Work or Technical Drawing - only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     },
@@ -1106,7 +1204,16 @@
           }
         ],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
       },
       "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Applied Electricity or Applied Electronics - only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
     }

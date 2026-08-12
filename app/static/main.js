@@ -1,3 +1,62 @@
+// ---------------------------------------------------------------------------
+// Theme (light / dark)
+// ---------------------------------------------------------------------------
+// The initial class is applied by an inline script in index.html <head> so the
+// page never flashes the wrong theme; this only handles toggling afterwards.
+const THEME_STORAGE_KEY = "edupredict-theme";
+
+function currentTheme() {
+    return document.documentElement.classList.contains("dark") ? "dark" : "light";
+}
+
+function applyTheme(theme) {
+    const isDark = theme === "dark";
+    const root = document.documentElement;
+    root.classList.toggle("dark", isDark);
+    root.classList.toggle("light", !isDark);
+
+    const icon = document.getElementById("themeToggleIcon");
+    const button = document.getElementById("themeToggle");
+
+    // Show the theme you'd switch *to*, which is the usual convention.
+    if (icon) icon.innerText = isDark ? "light_mode" : "dark_mode";
+    if (button) {
+        const label = isDark ? "Switch to light mode" : "Switch to dark mode";
+        button.setAttribute("aria-pressed", String(isDark));
+        button.setAttribute("aria-label", label);
+        button.title = label;
+    }
+}
+
+applyTheme(currentTheme());
+
+const themeToggle = document.getElementById("themeToggle");
+if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        applyTheme(next);
+        try {
+            localStorage.setItem(THEME_STORAGE_KEY, next);
+        } catch (err) {
+            // Private browsing / storage disabled: the theme still applies for this page view.
+            console.warn("Could not persist theme preference:", err);
+        }
+    });
+}
+
+// Follow the OS setting live, but only until the user has made an explicit choice.
+if (window.matchMedia) {
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", event => {
+        let hasExplicitChoice = false;
+        try {
+            hasExplicitChoice = Boolean(localStorage.getItem(THEME_STORAGE_KEY));
+        } catch (err) {
+            hasExplicitChoice = false;
+        }
+        if (!hasExplicitChoice) applyTheme(event.matches ? "dark" : "light");
+    });
+}
+
 const grades = ["", "A1", "B2", "B3", "C4", "C5", "C6", "D7", "E8", "F9"];
 const electivesList = [
     "Accounting", "Akan", "Elective Mathematics", "Agricultural Science", "Animal Husbandry",
@@ -92,7 +151,7 @@ if (electivesContainer) {
 
         const nameSelect = document.createElement("select");
         nameSelect.id = `el${i}_name`;
-        nameSelect.className = "w-full h-10 rounded-lg border-outline-variant focus:border-primary text-sm bg-white";
+        nameSelect.className = "w-full h-10 rounded-lg border-outline-variant focus:border-primary text-sm bg-surface-container-lowest";
         if (i < 4) nameSelect.required = true;
 
         let defaultOpt = document.createElement("option");
@@ -119,7 +178,7 @@ if (electivesContainer) {
 
         const valSelect = document.createElement("select");
         valSelect.id = `el${i}_val`;
-        valSelect.className = "w-full h-10 rounded-lg border-outline-variant focus:border-primary text-sm bg-white";
+        valSelect.className = "w-full h-10 rounded-lg border-outline-variant focus:border-primary text-sm bg-surface-container-lowest";
         if (i < 4) valSelect.required = true;
 
         grades.forEach(grade => {
@@ -273,9 +332,9 @@ function renderEligibilityResults(query) {
     // No qualifying programs at all — distinct from "search matched nothing".
     if (total === 0) {
         count.innerText = "0 Found";
-        count.className = "bg-red-100 text-red-800 px-4 py-1 rounded-full font-bold text-sm";
+        count.className = "bg-error-container-strong text-on-error-container px-4 py-1 rounded-full font-bold text-sm";
         list.innerHTML = `
-            <div class="md:col-span-2 bg-red-50 border border-red-200 text-red-800 p-6 rounded-xl">
+            <div class="md:col-span-2 bg-error-container border border-error-outline text-on-error-container p-6 rounded-xl">
                 <div class="flex items-center gap-2 mb-2"><span class="material-symbols-outlined">warning</span><strong class="text-lg">No matches found</strong></div>
                 <p>You either failed a mandatory core subject (A1-C6 required) or do not meet the minimum aggregate cuts for this institution.</p>
             </div>`;
@@ -298,7 +357,7 @@ function renderEligibilityResults(query) {
         <div class="card-lift border-l-4 border-l-primary p-5 border-y border-r border-outline-variant rounded-xl overflow-hidden relative">
             <div class="flex justify-between items-start mb-3">
                 <span class="material-symbols-outlined text-primary bg-primary-fixed p-2 rounded-lg">school</span>
-                <span class="bg-green-100 text-green-700 px-2 py-1 rounded text-xs font-bold flex items-center gap-1">
+                <span class="bg-success-container text-on-success-container px-2 py-1 rounded text-xs font-bold flex items-center gap-1">
                     <span class="material-symbols-outlined text-[14px]">check_circle</span> Qualified
                 </span>
             </div>
@@ -387,7 +446,7 @@ async function loadBrowsePrograms(uniCode) {
         browsePrograms = null;
         if (count) count.innerText = "Error";
         list.innerHTML = `
-            <div class="md:col-span-2 bg-red-50 border border-red-200 text-red-800 p-6 rounded-xl">
+            <div class="md:col-span-2 bg-error-container border border-error-outline text-on-error-container p-6 rounded-xl">
                 <div class="flex items-center gap-2 mb-2"><span class="material-symbols-outlined">error</span><strong class="text-lg">Could not load programmes</strong></div>
                 <p>Please check your connection and try selecting the institution again.</p>
             </div>`;

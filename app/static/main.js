@@ -81,7 +81,12 @@ const UNIVERSITIES = [
     { code: "KNUST", dropdownLabel: "Kwame Nkrumah University of Science and Technology (KNUST)", summaryLabel: "KNUST" },
     { code: "UDS", dropdownLabel: "University for Development Studies (UDS)", summaryLabel: "UDS" },
     { code: "UPSA", dropdownLabel: "University of Professional Studies, Accra (UPSA)", summaryLabel: "UPSA" },
-    { code: "UCC", dropdownLabel: "University of Cape Coast (UCC)", summaryLabel: "University of Cape Coast" }
+    { code: "UCC", dropdownLabel: "University of Cape Coast (UCC)", summaryLabel: "University of Cape Coast" },
+    { code: "UEW", dropdownLabel: "University of Education, Winneba (UEW)", summaryLabel: "University of Education, Winneba" },
+    { code: "UHAS", dropdownLabel: "University of Health and Allied Sciences (UHAS)", summaryLabel: "UHAS" },
+    { code: "UMAT", dropdownLabel: "University of Mines and Technology (UMaT)", summaryLabel: "UMaT" },
+    { code: "UENR", dropdownLabel: "University of Energy and Natural Resources (UENR)", summaryLabel: "UENR" },
+    { code: "AAMUSTED", dropdownLabel: "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development (AAMUSTED)", summaryLabel: "AAMUSTED" }
 ];
 
 function summaryLabelFor(uniCode) {

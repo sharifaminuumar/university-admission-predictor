@@ -6,7 +6,9 @@ Project memory for the Ghanaian University Admission Predictor. Keep this file c
 
 A Flask web app that predicts which Ghanaian university programs a student qualifies for from their WASSCE results. A student picks a target institution and enters core + elective grades; the app computes their Best-6 aggregate and checks it against each program's cutoff and subject-specific requirements.
 
-Universities currently seeded: **UG**, **KNUST**, **UDS**, **UPSA**.
+Universities currently seeded (10, 644 programmes): **UG**, **KNUST**, **UDS**, **UPSA**, **UCC**, **UEW**, **UHAS**, **UMAT**, **UENR**, **AAMUSTED**.
+
+**Data-quality caveat worth knowing before trusting a result:** only ~21% of seeded programmes have a real published per-programme cut-off (UCC and UHAS). UMaT, UENR and AAMUSTED publish none at all, so ~48% of programmes sit at their university's site-wide ceiling (aggregate 36) — those entries mean "meets the minimum entry bar", *not* "would likely be admitted". Each school's `data/<code>_notes.md` records the sourcing. The distinction is tracked as `cutoff_source` in the JSON but is **not currently persisted to the database** (`seed_db.py` only stores `requirements`), so the UI cannot yet distinguish the two.
 
 ## Core Commands
 
@@ -80,7 +82,7 @@ Deployed to **Render** as a Python web service, configured declaratively by `ren
 - **Encoding:** all text files (`.py`, `.md`, `.json`, `.txt`, `.gitignore`, etc.) must be UTF-8. This repo previously had `.gitignore`/`README.md`/`requirements.txt` corrupted as UTF-16, which silently broke `.gitignore` pattern matching — verify with `file <path>` if anything seems off.
 - **Never track compiled/generated artifacts:** no `*.pyc`, `__pycache__/`, or `*.db`/`*.sqlite3` files in git. `.gitignore` already excludes these; don't force-add over it.
 - **Git commits are manual only.** Claude must never run `git commit` or `git push`. Always propose the exact `git add`/`git commit -m "..."` commands and let the user run them.
-- When adding a new university, follow the runbook: **(1)** add `data/<code>.json`, **(2)** add the `University` instance + processing block in `seed_db.py`, **(3)** add one entry to the `UNIVERSITIES` constant at the top of `app/static/main.js`. That constant is the single source of truth for the frontend — both dropdowns (eligibility + browse) and the results header are built from it, so there is no longer a hardcoded `<option>` list in `index.html` or a per-school `if` branch to update.
+- When adding a new university, follow the runbook: **(1)** add `data/<code>.json` (plus a `data/<code>_notes.md` documenting sourcing), **(2)** add one tuple to the `UNIVERSITIES` list at the top of `seed_db.py` — it loops over that list, so no per-school code block is needed and a missing data file is skipped with a warning rather than crashing, **(3)** add one entry to the `UNIVERSITIES` constant at the top of `app/static/main.js`. That constant is the single source of truth for the frontend — both dropdowns (eligibility + browse) and the results header are built from it, so there is no hardcoded `<option>` list in `index.html` or a per-school `if` branch to update. Short codes must be UPPERCASE in both places.
 - Any elective subject named in a program's `mandatory_electives` must also exist in the `electivesList` array in `main.js`, or students can never select it and that program becomes unreachable. Cross-check after adding a school.
 
 ## Maintenance

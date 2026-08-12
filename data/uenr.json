@@ -1,0 +1,1116 @@
+{
+  "university_name": "University of Energy and Natural Resources",
+  "short_code": "UENR",
+  "programs": [
+    {
+      "program_name": "BSc. Petroleum Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off."
+    },
+    {
+      "program_name": "BSc. Environmental Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off."
+    },
+    {
+      "program_name": "BSc. Computer Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The third required elective is an either/or choice on the source page, so only the two unconditionally required electives are enforced here. Third elective: Chemistry or Applied Electronics."
+    },
+    {
+      "program_name": "BSc. Electrical and Electronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The third required elective is an either/or choice on the source page, so only the two unconditionally required electives are enforced here. Third elective: Chemistry, Applied Electricity or Applied Electronics."
+    },
+    {
+      "program_name": "BSc. Mechanical Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The third required elective is an either/or choice on the source page, so only the two unconditionally required electives are enforced here. Third elective: Chemistry, Technical Drawing, Auto Mechanics or Metal Work."
+    },
+    {
+      "program_name": "BSc. Renewable Energy Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The third required elective is an either/or choice on the source page, so only the two unconditionally required electives are enforced here. Third elective: Chemistry or Technical Drawing."
+    },
+    {
+      "program_name": "BSc. Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The third required elective is an either/or choice on the source page, so only the two unconditionally required electives are enforced here. Third elective: Chemistry or Technical Drawing."
+    },
+    {
+      "program_name": "BSc. Agricultural Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The third required elective is an either/or choice on the source page, so only the two unconditionally required electives are enforced here. Third elective: Chemistry, Technical Drawing, Auto Mechanics or Metal Work."
+    },
+    {
+      "program_name": "BSc. Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off."
+    },
+    {
+      "program_name": "BSc. Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Source requires three electives that must include Elective Mathematics; the other two are unspecified."
+    },
+    {
+      "program_name": "BSc. Mathematics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Source requires three electives that must include Elective Mathematics; the other two are unspecified."
+    },
+    {
+      "program_name": "BSc. Statistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Source requires three electives that must include Elective Mathematics; the other two are unspecified."
+    },
+    {
+      "program_name": "BSc. Actuarial Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Source requires three electives that must include Elective Mathematics; the other two are unspecified."
+    },
+    {
+      "program_name": "BSc. Medical Laboratory Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Electives: Chemistry, plus Elective Mathematics or Physics, plus Biology, General Agriculture or Forestry. Only Chemistry is unconditional. Entrance examination and interview also required."
+    },
+    {
+      "program_name": "BSc. Biological Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Electives: Chemistry, plus Elective Mathematics or Physics, plus Biology, General Agriculture or Forestry. Only Chemistry is unconditional."
+    },
+    {
+      "program_name": "BSc. Chemistry",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Third elective is Biology or Elective Mathematics, so it is not enforced."
+    },
+    {
+      "program_name": "BSc. Nursing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Sources conflict on electives: the 2022/23 PDF lists Elective Mathematics, Physics, Chemistry and Biology, while the School of Sciences page allows Science, General Arts, Agriculture or Home Economics electives. No elective is enforced. Entrance examination and interview also required."
+    },
+    {
+      "program_name": "Diploma in Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Electives: Elective Mathematics plus any other two."
+    },
+    {
+      "program_name": "Diploma in Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Electives: Elective Mathematics plus any other two."
+    },
+    {
+      "program_name": "Diploma in Statistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Electives: Elective Mathematics plus any other two."
+    },
+    {
+      "program_name": "BSc. Natural Resources Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Any three electives from Chemistry, Physics, Elective Mathematics, Biology, General Agriculture or Forestry, so none is individually mandatory."
+    },
+    {
+      "program_name": "BSc. Fire, Safety and Disaster Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Any three science electives from Physics, Elective Mathematics, Chemistry, Biology, Agriculture or Forestry, so none is individually mandatory."
+    },
+    {
+      "program_name": "BSc. Hospitality Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Any three electives from the Science, General Arts, Home Economics, Business, Agriculture or Visual Arts programmes."
+    },
+    {
+      "program_name": "Diploma in Natural Resources Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Any three elective subjects."
+    },
+    {
+      "program_name": "Diploma in Fire, Safety and Disaster Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Any three elective subjects."
+    },
+    {
+      "program_name": "BSc. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Economics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Electives: Elective Mathematics, Economics and any other one elective."
+    },
+    {
+      "program_name": "BSc. Resource Enterprise and Entrepreneurship",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Electives may come from the Science, General Arts, Agriculture, Home Economics, Business or Visual Arts programmes."
+    },
+    {
+      "program_name": "BSc. Planning and Sustainability",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Electives drawn from Geography, Economics, Elective Mathematics, Chemistry, Physics and Biology, so none is individually mandatory."
+    },
+    {
+      "program_name": "BSc. Climate Change and Sustainable Development",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Electives drawn from Geography, Economics, Elective Mathematics, Chemistry, Physics and Biology, so none is individually mandatory."
+    },
+    {
+      "program_name": "BSc. Geoinformation Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Science applicants offer any three of Chemistry, Physics, Biology, General Agriculture or Forestry; General Arts applicants offer Elective Mathematics and Geography plus one of History, Government or Economics. The separate requirement of at least C6 in Social Studies is not enforced by this app."
+    },
+    {
+      "program_name": "Diploma in Geo-Information Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Core is English, Core Mathematics and Integrated Science or Social Studies, plus any three elective subjects."
+    },
+    {
+      "program_name": "BSc. Agriculture",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Electives come from alternative science/agriculture combinations (Biology, Chemistry, Physics, Elective Mathematics, General Agriculture, Forestry), so none is individually mandatory."
+    },
+    {
+      "program_name": "BSc. Agribusiness",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Any three electives from the Science, General Agriculture, Business, General Arts, Home Economics or Visual Arts programmes."
+    },
+    {
+      "program_name": "BSc. Agricultural and Resource Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Listed in the 2022/23 PDF alongside BSc. Agriculture and BSc. Agribusiness with the same alternative elective combinations, so no elective is enforced."
+    },
+    {
+      "program_name": "Diploma in Agriculture",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. UENR lists the admission aggregate for its diploma programmes as \"Open\" (WASSCE passes A1-D7 accepted). 36 is used here because it is the weakest aggregate expressible with the credit passes this app models. Any three elective subjects."
+    },
+    {
+      "program_name": "BSc. Sustainable Mining",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. Core is English, Core Mathematics and Integrated Science or Social Studies. Science applicants offer any three of Chemistry, Physics, Elective Mathematics, Biology, General Agriculture or Forestry; General Arts applicants offer two of Elective Mathematics, Geography, Economics plus one of History or Government."
+    },
+    {
+      "program_name": "BSc. Sustainable Land Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off is published by UENR. The official 2022/2023 Admission Requirements & Cut-Off Points document lists \"Aggregate 6-36\" for every degree programme, and the university's FAQ states WASSCE applicants need \"an aggregate score of 36 or better\". 36 is therefore the site-wide general ceiling, not a competitive cut-off. The source names only English Language and Mathematics as required cores, so Integrated Science is not listed as mandatory here. Electives: any three from the General Arts, General Agriculture, Business or Science programmes."
+    }
+  ]
+}

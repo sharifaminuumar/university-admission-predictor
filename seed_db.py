@@ -1,6 +1,43 @@
 import json
 import os
+
 from app import create_app, db
+
+# The single place to register a school: (short_code, display name, data filename).
+# short_code must be UPPERCASE — /api/programs/<uni_code> matches on the uppercased code.
+UNIVERSITIES = [
+    ("UG", "University of Ghana", "ug.json"),
+    ("KNUST", "Kwame Nkrumah University of Science and Technology", "knust.json"),
+    ("UDS", "University for Development Studies", "uds.json"),
+    ("UPSA", "University of Professional Studies, Accra", "upsa.json"),
+    ("UCC", "University of Cape Coast", "ucc.json"),
+    ("UEW", "University of Education, Winneba", "uew.json"),
+    ("UHAS", "University of Health and Allied Sciences", "uhas.json"),
+    ("UMAT", "University of Mines and Technology", "umat.json"),
+    ("UENR", "University of Energy and Natural Resources", "uenr.json"),
+    ("AAMUSTED", "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development", "aamusted.json"),
+]
+
+# Resolved from this file's location, not the working directory, so seeding behaves
+# the same whether run locally or from Render's build step.
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+
+
+def load_programs(filename):
+    """Returns the program list from a data file, or None if the file is absent.
+
+    Files are either {"university_name": ..., "programs": [...]} or a bare
+    [...] array (knust.json), so both shapes are accepted.
+    """
+    path = os.path.join(DATA_DIR, filename)
+    if not os.path.exists(path):
+        return None
+
+    with open(path, 'r', encoding='utf-8') as f:
+        payload = json.load(f)
+
+    return payload.get('programs', payload) if isinstance(payload, dict) else payload
+
 
 app = create_app()
 
@@ -11,112 +48,39 @@ with app.app_context():
     # Wipe the old structural variations out to build clean relationships
     db.drop_all()
     db.create_all()
-    print("Database tables cleanly initialized.")
+    print("Database tables cleanly initialized.\n")
 
-    # 1. Create Parent University Instances
-    ug_uni = University(name="University of Ghana", short_code="UG")
-    knust_uni = University(name="Kwame Nkrumah University of Science and Technology", short_code="KNUST")
-    uds_uni = University(name="University for Development Studies", short_code="UDS")
-    upsa_uni = University(name="University of Professional Studies, Accra", short_code="UPSA")
-    ucc_uni = University(name="University of Cape Coast", short_code="UCC")
+    seeded_universities = 0
+    seeded_programs = 0
+    missing_files = []
 
-    db.session.add(ug_uni)
-    db.session.add(knust_uni)
-    db.session.add(uds_uni)
-    db.session.add(upsa_uni)
-    db.session.add(ucc_uni)
-    db.session.flush()  # Flushes instances to assign parent primary ID keys to memory
+    for short_code, name, filename in UNIVERSITIES:
+        programs = load_programs(filename)
 
-    # 2. Process University of Ghana Data Assets
-    ug_path = os.path.join('data', 'ug.json')
-    if os.path.exists(ug_path):
-        with open(ug_path, 'r', encoding='utf-8') as f:
-            ug_data = json.load(f)
-            # Your brilliant original failsafe!
-            programs_list = ug_data.get('programs', ug_data) if isinstance(ug_data, dict) else ug_data
+        if programs is None:
+            missing_files.append(filename)
+            print(f"  !  {short_code:<9} skipped — data/{filename} not found.")
+            continue
 
-            for item in programs_list:
-                reqs = item.get('requirements', item)
-                prog = Program(
-                    university_id=ug_uni.id,
-                    name=item['program_name'],
-                    cutoff_aggregate=item['cutoff_aggregate'],
-                    requirements=reqs  # Triggers model dictionary setter method
-                )
-                db.session.add(prog)
-        print("Successfully seeded University of Ghana programmatic assets.")
+        university = University(name=name, short_code=short_code)
+        db.session.add(university)
+        db.session.flush()  # assigns the parent primary key before adding children
 
-    # 3. Process KNUST Data Assets
-    knust_path = os.path.join('data', 'knust.json')
-    if os.path.exists(knust_path):
-        with open(knust_path, 'r', encoding='utf-8') as f:
-            knust_data = json.load(f)
+        for item in programs:
+            db.session.add(Program(
+                university_id=university.id,
+                name=item['program_name'],
+                cutoff_aggregate=item['cutoff_aggregate'],
+                program_type=item.get('type', 'Regular'),
+                requirements=item.get('requirements', item)  # triggers the model's dict setter
+            ))
 
-            for item in knust_data:
-                prog = Program(
-                    university_id=knust_uni.id,
-                    name=item['program_name'],
-                    cutoff_aggregate=item['cutoff_aggregate'],
-                    requirements=item['requirements']
-                )
-                db.session.add(prog)
-        print("Successfully seeded KNUST programmatic assets.")
-
-    # 4. Process UDS Data Assets (Mirroring your UG logic)
-    uds_path = os.path.join('data', 'uds.json')
-    if os.path.exists(uds_path):
-        with open(uds_path, 'r', encoding='utf-8') as f:
-            uds_data = json.load(f)
-            # Using your failsafe again here just in case!
-            programs_list = uds_data.get('programs', uds_data) if isinstance(uds_data, dict) else uds_data
-
-            for item in programs_list:
-                reqs = item.get('requirements', item)
-                prog = Program(
-                    university_id=uds_uni.id,
-                    name=item['program_name'],
-                    cutoff_aggregate=item['cutoff_aggregate'],
-                    requirements=reqs
-                )
-                db.session.add(prog)
-        print("Successfully seeded UDS programmatic assets.")
-
-    # 5. Process UPSA Data Assets
-    upsa_path = os.path.join('data', 'upsa.json')
-    if os.path.exists(upsa_path):
-        with open(upsa_path, 'r', encoding='utf-8') as f:
-            upsa_data = json.load(f)
-            # Using your failsafe again here just in case!
-            programs_list = upsa_data.get('programs', upsa_data) if isinstance(upsa_data, dict) else upsa_data
-
-            for item in programs_list:
-                reqs = item.get('requirements', item)
-                prog = Program(
-                    university_id=upsa_uni.id,
-                    name=item['program_name'],
-                    cutoff_aggregate=item['cutoff_aggregate'],
-                    requirements=reqs
-                )
-                db.session.add(prog)
-        print("Successfully seeded UPSA programmatic assets.")
-
-    # 6. Process UCC Data Assets
-    ucc_path = os.path.join('data', 'ucc.json')
-    if os.path.exists(ucc_path):
-        with open(ucc_path, 'r', encoding='utf-8') as f:
-            ucc_data = json.load(f)
-            programs_list = ucc_data.get('programs', ucc_data) if isinstance(ucc_data, dict) else ucc_data
-
-            for item in programs_list:
-                reqs = item.get('requirements', item)
-                prog = Program(
-                    university_id=ucc_uni.id,
-                    name=item['program_name'],
-                    cutoff_aggregate=item['cutoff_aggregate'],
-                    requirements=reqs
-                )
-                db.session.add(prog)
-        print("Successfully seeded UCC programmatic assets.")
+        seeded_universities += 1
+        seeded_programs += len(programs)
+        print(f"  +  {short_code:<9} seeded {len(programs):>4} programmes.")
 
     db.session.commit()
-    print("\nSeeding sequence complete! All relational trees are completely live.")
+
+    print(f"\nSeeding complete: {seeded_universities} universities, {seeded_programs} programmes.")
+    if missing_files:
+        print(f"Missing data files ({len(missing_files)}): {', '.join(missing_files)}")

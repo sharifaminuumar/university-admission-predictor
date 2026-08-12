@@ -27,4 +27,6 @@ Thumbs.db
 
 # Personal Notes
 note.md
-data/ucc_notes.md
+
+# Per-university data sourcing notes (working documents, not shipped data)
+data/*_notes.md

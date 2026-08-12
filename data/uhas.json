@@ -1,0 +1,425 @@
+{
+  "university_name": "University of Health and Allied Sciences",
+  "short_code": "UHAS",
+  "programs": [
+    {
+      "program_name": "Bachelor of Medicine, Bachelor of Surgery (MBChB)",
+      "cutoff_aggregate": 8,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site states 'any three (3) of the following electives: Chemistry, Biology, Physics and Elective Mathematics' - no single elective is individually mandatory, so the array is left empty. The engine cannot express 'all three electives must come from this set of four', so this check is looser than the real rule. Applicants must also pass an entrance examination and selection interview."
+    },
+    {
+      "program_name": "Bachelor of Dental Surgery",
+      "cutoff_aggregate": 8,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site states 'any three (3) of the following electives: Chemistry, Biology, Physics and Elective Mathematics' - no single elective is individually mandatory. Applicants must also pass an entrance aptitude examination and selection interview."
+    },
+    {
+      "program_name": "Doctor of Pharmacy (Pharm D)",
+      "cutoff_aggregate": 8,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Chemistry", "minimum_grade": "C6"},
+          {"subject": "Biology", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'Chemistry and Biology plus Physics or Elective Mathematics.' Third elective (Physics OR Elective Mathematics) is an either/or the engine cannot express, so only Chemistry and Biology are enforced."
+    },
+    {
+      "program_name": "Doctor of Medical Laboratory Sciences",
+      "cutoff_aggregate": 10,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Biology", "minimum_grade": "C6"},
+          {"subject": "Chemistry", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'Biology and Chemistry plus Physics or Elective Mathematics.' The either/or third elective is not enforced. Cut-off page lists this as 'Doctor of Medical Laboratory' (10)."
+    },
+    {
+      "program_name": "Combined Bachelor and Master of Psychology (Neuropsychology)",
+      "cutoff_aggregate": 10,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Neuropsychology option requires 'any three (3) of the following electives: Chemistry, Biology, Physics and Elective Mathematics' - no single elective is individually mandatory. Cut-off page lists a single figure of 10 for 'Combined Bachelor and Master of Psychology', applied to all three options."
+    },
+    {
+      "program_name": "Combined Bachelor and Master of Psychology (Clinical)",
+      "cutoff_aggregate": 10,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'Clinical and Counselling Options: All Core Subjects listed in A above in addition to credit passes in any three (3) elective subjects.' Cut-off 10 is the shared 'Combined Bachelor and Master of Psychology' figure."
+    },
+    {
+      "program_name": "Combined Bachelor and Master of Psychology (Counselling)",
+      "cutoff_aggregate": 10,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'Clinical and Counselling Options ... credit passes in any three (3) elective subjects.' Cut-off 10 is the shared 'Combined Bachelor and Master of Psychology' figure."
+    },
+    {
+      "program_name": "Bachelor of Diagnostic Imaging (Radiography)",
+      "cutoff_aggregate": 12,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Physics", "minimum_grade": "C6"},
+          {"subject": "Biology", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'Physics and Biology plus Chemistry or Elective Mathematics.' The either/or third elective is not enforced."
+    },
+    {
+      "program_name": "Bachelor of Dietetics",
+      "cutoff_aggregate": 14,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Chemistry", "minimum_grade": "C6"},
+          {"subject": "Biology", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Encodes the Science-student route only: 'Chemistry and Biology plus Physics or Elective Mathematics.' UHAS also admits Home Economics applicants via 'Biology or Chemistry plus any two of Food & Nutrition, Management in Living, General Knowledge in Art' - that alternative route is NOT captured here, so some genuinely eligible Home Economics students will be shown as ineligible."
+    },
+    {
+      "program_name": "Bachelor of Nursing",
+      "cutoff_aggregate": 15,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'any three (3) electives in the following programmes: General Science, General Arts, General Agric and Home Economics' - no named mandatory elective. Applicants must also pass an entrance examination and selection interview."
+    },
+    {
+      "program_name": "Bachelor of Midwifery",
+      "cutoff_aggregate": 15,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Same requirement block as Nursing: 'any three (3) electives in ... General Science, General Arts, General Agric and Home Economics'. Entrance examination and selection interview required."
+    },
+    {
+      "program_name": "Bachelor of Public Health Nursing",
+      "cutoff_aggregate": 15,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Same requirement block as Nursing and Midwifery. Entrance examination and selection interview required."
+    },
+    {
+      "program_name": "Bachelor of Health Services Administration",
+      "cutoff_aggregate": 16,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The cut-off page lists '16*/18*' with a key reading '* Non-Science Students, ** Science Students'. The stricter figure (16) is used here so the app does not overstate anyone's chances; science-track applicants may in fact be admitted up to 18. Electives: 'any three (3) electives in ... General Sciences, Business, General Arts, Home Economics, Visual Arts and General Agricultural Science' - none individually mandatory."
+    },
+    {
+      "program_name": "Bachelor of Physiotherapy",
+      "cutoff_aggregate": 16,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Physics", "minimum_grade": "C6"},
+          {"subject": "Biology", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Grouped with Radiography and Orthotics & Prosthetics: 'Physics and Biology plus Chemistry or Elective Mathematics.'"
+    },
+    {
+      "program_name": "Bachelor of Speech, Language and Hearing Sciences",
+      "cutoff_aggregate": 16,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Two routes are published: Science students need any three of Biology, Physics, Chemistry, Elective Mathematics; Non-Science students need a minimum of B2 in Integrated Science plus any three General Arts/Agricultural Science/Home Economics electives. Neither route names a single mandatory elective, and the B2 Integrated Science condition on the non-science route is not enforced here."
+    },
+    {
+      "program_name": "Bachelor of Orthotics and Prosthetics",
+      "cutoff_aggregate": 17,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Physics", "minimum_grade": "C6"},
+          {"subject": "Biology", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Cut-off page names this 'Orthotics & Prosthetics' (17). Requirements grouped with Radiography and Physiotherapy: 'Physics and Biology plus Chemistry or Elective Mathematics.'"
+    },
+    {
+      "program_name": "Bachelor of Public Health (Disease Control)",
+      "cutoff_aggregate": 17,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "BPH admits both Science students (any three of Chemistry, Biology, Physics, Elective Mathematics) and Non-Science students (three General Arts / Agricultural Science / Home Economics electives), so no elective is mandatory and the pool is 'Any'."
+    },
+    {
+      "program_name": "Bachelor of Public Health (Nutrition)",
+      "cutoff_aggregate": 17,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Shares the single BPH requirement block covering all four options; both science and non-science routes are accepted."
+    },
+    {
+      "program_name": "Bachelor of Biochemistry and Molecular Biology",
+      "cutoff_aggregate": 18,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Chemistry", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Two routes: Science students need 'Chemistry and Biology plus Physics or Elective Mathematics'; Agricultural Science students need 'Animal Husbandry or General Agric, Physics or Elective Mathematics plus Chemistry'. Chemistry is the only subject required on BOTH routes, so it is the only mandatory elective recorded. The cut-off page names this programme 'Bachelor of Medical Biochemistry and Molecular Biology' (18) while the programmes page names it 'Bachelor of Biochemistry and Molecular Biology' - treated as the same programme."
+    },
+    {
+      "program_name": "Bachelor of Public Health (Health Information)",
+      "cutoff_aggregate": 19,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Shares the single BPH requirement block covering all four options; both science and non-science routes are accepted."
+    },
+    {
+      "program_name": "Bachelor of Public Health (Health Promotion)",
+      "cutoff_aggregate": 19,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Shares the single BPH requirement block covering all four options; both science and non-science routes are accepted."
+    },
+    {
+      "program_name": "Bachelor of Sports and Exercise Medical Sciences",
+      "cutoff_aggregate": 22,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"},
+          {"subject": "Social Studies", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [
+          {"subject": "Biology", "minimum_grade": "C6"},
+          {"subject": "Physics", "minimum_grade": "C6"}
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Site: 'Biology and Physics plus Chemistry or Elective Mathematics.' The either/or third elective is not enforced."
+    }
+  ]
+}

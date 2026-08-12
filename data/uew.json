@@ -1,0 +1,3794 @@
+{
+  "university_name": "University of Education, Winneba",
+  "short_code": "UEW",
+  "programs": [
+    {
+      "program_name": "B.A. Art Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "General Knowledge in Art",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page states one of the three elective art subjects must be General Knowledge in Art."
+    },
+    {
+      "program_name": "B.A. Creative Arts and Design Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Creative-arts electives are listed only as 'an added advantage'."
+    },
+    {
+      "program_name": "B.A. Dagaare Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Dagaare Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Dagbani Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Dagbani Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Dangme Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Dangme Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Development Communication",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Economics Education with (Geography, History, Political Science, Social Studies)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. English Language (Winneba/Ajumako Campus)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. English Language Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Literature in English",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires three electives 'including English Literature'; mapped to Literature in English."
+    },
+    {
+      "program_name": "B.A. Ewe Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Ghanaian Language",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires three electives including 'the Ghanaian Language to be studied'; mapped to the generic Ghanaian Language subject."
+    },
+    {
+      "program_name": "B.A. Ewe Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Fante Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Fante Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Fashion Design and Textile Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Clothing and Textiles",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page says one of the three elective art subjects must be 'Fashion or Textile'; mapped to Clothing and Textiles (inferred mapping)."
+    },
+    {
+      "program_name": "B.A. French Education (Winneba/Ajumako Campus)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "French",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.A. French Education with (English, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Ga Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Ga Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Geography Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Geography",
+            "minimum_grade": "B3"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires A1-B3 in Geography plus two other electives including one of Economics, Elective Mathematics, Government or History (that 'one of' choice is not encoded)."
+    },
+    {
+      "program_name": "B.A. Geography Education with (Economics, History, Political Science, Social Studies)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. German Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires three electives including English, French or any Ghanaian Language (an OR, so not encoded). German itself is explicitly NOT required at WASSCE."
+    },
+    {
+      "program_name": "B.A. Gonja Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Gonja Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Graphic Design",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Graphic Design",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires at least C6 in Graphic Design plus two other visual arts subjects."
+    },
+    {
+      "program_name": "B.A. Gurune Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Gurune Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. History Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page adds a departmental rule: at least C4 in History OR Government. The engine cannot express OR, so no elective is marked mandatory - verify manually."
+    },
+    {
+      "program_name": "B.A. History Education with (Economics, Geography, History, Social Studies)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Journalism and Media Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.A. Kasem Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Kasem Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Kusaal Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Kusaal Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Likpakpaanl Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Likpakpaanl Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Dagaare Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Dagbani Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Dangme Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and English Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Ewe Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Fante Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and French Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Ga Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Gonja Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Gurene Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Kusaal Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Nzema Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Linguistics and Twi Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Music Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). A credit in Music is stated only as 'an advantage', so it is not encoded as mandatory."
+    },
+    {
+      "program_name": "B.A. Nzema Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Nzema Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Political Science Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.A. Political Science Education with (Economics, Geography, History, Social Studies)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Religions and Moral Studies Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Christian Religious Studies OR Islamic Studies - an OR the engine cannot express, so neither is marked mandatory."
+    },
+    {
+      "program_name": "B.A. Sisaali Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Sisaali Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Social Studies Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimum_grade": "B3"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Social Studies at B3 or better, plus three electives including two of Geography, Economics, History, Government (the 'two of' choice is not encoded)."
+    },
+    {
+      "program_name": "B.A. Social Studies Education with (Economics, Geography, History, Political Science)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Strategic Communication (Public Relations and Advertising)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.A. Theatre Arts",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Literature in English is stated only as 'an advantage'."
+    },
+    {
+      "program_name": "B.A. Translation Studies",
+      "cutoff_aggregate": 24,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Ghanaian Language",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page states direct applicants must have six subjects with an overall aggregate of 24 or better, plus at least C6 (WASSCE) in the relevant Ghanaian language and at least C4 in English Language. The page does not separate the WASSCE and SSSCE aggregates, so the 24 may be an SSSCE figure - a human should verify. The C4 English rule is not encoded."
+    },
+    {
+      "program_name": "B.A. Twi Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.A. Twi Education with (English, French, German, Linguistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.B.A. Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The WASSCE bullet asks for any three relevant business electives, but a second block lower on the same page demands C6 in Business Management AND Financial Accounting. Conflicting - the looser WASSCE bullet was used; verify manually."
+    },
+    {
+      "program_name": "B.B.A. Accounting Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.B.A. Banking and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page notes a candidate must have credit in Integrated Science before Social Studies can be considered."
+    },
+    {
+      "program_name": "B.B.A. Business Information System",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.B.A. Human Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page notes a candidate must have at least C6 in Integrated Science before Social Studies can be considered."
+    },
+    {
+      "program_name": "B.B.A. Logistics and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.B.A. Procurement and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Accounting Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Agriculture Science Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Art and Design Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Basic Education (JHS)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Basic Education (Upper Primary P4 - P6)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Biology Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Chemistry Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Clothing and Textiles Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Community-Based Rehabilitation and Disability Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Computing Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Counselling Psychology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Dagaare Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Dagbani Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Dangme Education (with English, French, German, Linguistics options)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Early Childhood Education (4-Year)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Early Grade Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. English Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Ewe Education (with English, French, German, Linguistics options)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Fante Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Fashion Design and Textiles Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Food and Nutrition",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Ed. Food and Nutrition Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. French Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Ga Education (with English, French, German, Linguistics options)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Gonja Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Gurune Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. History Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. ICT Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Integrated Home Economics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Kasem Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Kusaal Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Language (English, French or a Ghanaian Language) with Linguistics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Likpakpaanl Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Management Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Mathematics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Music (Performing Arts) Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Nzema Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Performing Arts",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Physical Education and Health",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Physics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Psychology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Religions and Moral Studies Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Sisaali Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Social Studies Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Ed. Special Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Ed. Twi Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Sc. Accounting Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Sc. Agricultural Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Sc. Biology Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Biology plus two of Chemistry, Physics, Elective Mathematics; Agricultural Science is explicitly not accepted."
+    },
+    {
+      "program_name": "B.Sc. Chemistry Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Chemistry plus any two of Physics, Biology, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Sc. Clothing and Textiles Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Integrated Science as a core and any three electives; Clothing and Textiles is stated only as 'an advantage'."
+    },
+    {
+      "program_name": "B.Sc. Environmental Health and Sanitation Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires three electives from a wide list (Physics, Elective Mathematics, Chemistry, Biology, Geography, Economics, Government, ICT, Management in Living, Food and Nutrition, General Knowledge in Art, General Agriculture, Horticulture, Animal Husbandry, Electronics); none is individually mandatory."
+    },
+    {
+      "program_name": "B.Sc. Environmental Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Sc. Family Life Management Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page lists an elective set (Food and Nutrition, Management in Living, Clothing and Textiles, Chemistry, Biology, Social Studies, Economics) without naming which three are compulsory."
+    },
+    {
+      "program_name": "B.Sc. Food and Nutrition Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Sc. Food and Nutrition Education (Home Economics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Food and Nutrition",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Management in Living",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Food and Nutrition, Management in Living, plus one of Chemistry, Biology, Economics, French or General Knowledge in Art (that final OR is not encoded)."
+    },
+    {
+      "program_name": "B.Sc. Health Administration and Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page offers two alternative elective sets (a science set, or a business/social set), so no single elective is mandatory."
+    },
+    {
+      "program_name": "B.Sc. Information and Communication Technology Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Physics plus any two of Chemistry, Biology, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Sc. Insurance and Risk Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Sc. Integrated Home Economics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Food and Nutrition",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Clothing and Textiles",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Management in Living",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Food and Nutrition, Clothing and Textiles, Management in Living, plus one of Chemistry, Biology, Economics, French or General Knowledge in Art (that final OR is not encoded)."
+    },
+    {
+      "program_name": "B.Sc. Integrated Science Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires three electives drawn from Physics, Chemistry, Elective Mathematics, Biology; no single one is mandatory."
+    },
+    {
+      "program_name": "B.Sc. Management Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Sc. Mathematics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements)."
+    },
+    {
+      "program_name": "B.Sc. Mathematics Education with Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). The UEW programme page for this course lists no entry requirements, so only the university-wide WASSCE minimum is applied."
+    },
+    {
+      "program_name": "B.Sc. Physical Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page also requires passing a departmental practical interview."
+    },
+    {
+      "program_name": "B.Sc. Physics Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires Physics plus any two of Chemistry, Biology, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Sc. Sports Coaching",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page also requires passing a departmental practical interview."
+    },
+    {
+      "program_name": "Bachelor of Fine Art in Animation",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Graphic Design",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). Page requires at least C6 in Graphic Design plus two other visual arts subjects."
+    },
+    {
+      "program_name": "Bachelor of Music",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "UEW publishes no programme-specific cut-off point. Falls back to UEW's site-wide WASSCE ceiling: six credit passes (A1-C6) with a total aggregate of 36 or better (uew.edu.gh/admissions/apply/entry-requirements). A credit in Music is stated only as 'an advantage'."
+    }
+  ]
+}

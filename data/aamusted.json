@@ -1,0 +1,2223 @@
+{
+  "university_name": "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development",
+  "short_code": "AAMUSTED",
+  "programs": [
+    {
+      "program_name": "B.Sc. Construction Technology and Management with Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Wood Technology with Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Welding and Fabrication Technology with Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Plumbing, Gas and Sanitary Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Mechanical Engineering Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Mechanical Engineering Technology Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Automotive Engineering Technology Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Electrical and Electronics Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Electrical and Electronics Engineering Technology Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Sc. Biomedical Equipment Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Technical Education / Faculty of Engineering and Technology entry text names a choice of three electives from Automotive Mechanics, Elective Mathematics, Physics, Engineering Science, Chemistry, Technical Drawing, Biology, Applied Electricity, Electronics, Metalwork, Welding, Information Technology, Economics and Geography - no single elective is compulsory, so none are listed."
+    },
+    {
+      "program_name": "B.Ed. Applied Technology (Building Construction and Wood)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "B.Ed. Applied Technology (Electrical and Electronics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "B.Ed. Applied Technology (Automotive and Mechanical)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "B.Ed. Design and Communication Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "B.Ed. STEM (Engineering with Biomedical Science)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "B.Ed. STEM (Engineering with Manufacturing)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "B.Ed. STEM (Engineering with Robotics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Grouped with the technical/engineering faculties."
+    },
+    {
+      "program_name": "2-Year Diploma in Construction Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-Year Diploma in Electrical and Electronics Engineering Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-year Diploma in Wood Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-year Diploma in Architecture and Digital Construction",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "B.Sc. Fashion Design and Textiles Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Clothing and Textiles",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: credit passes in 'Clothing & Textiles or Textiles, and any other two electives'."
+    },
+    {
+      "program_name": "B.Sc. Catering and Hospitality Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Food and Nutrition",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: credit passes in 'Food and Nutrition, and any other two electives'."
+    },
+    {
+      "program_name": "B.Ed. Home Economics (Clothing and Textiles)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found."
+    },
+    {
+      "program_name": "B.Ed. Home Economics (Food and Nutrition)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found."
+    },
+    {
+      "program_name": "2-year Diploma in Fashion Design and Textiles",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text names a choice list (Clothing & Textiles or Textiles, Biology, Management in Living, General Knowledge in Art, Chemistry, etc.), so no elective is compulsory."
+    },
+    {
+      "program_name": "2-year Diploma in Catering and Hospitality",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text names a choice list (Food and Nutrition, Biology, Management in Living, General Knowledge in Art, Chemistry, etc.), so no elective is compulsory."
+    },
+    {
+      "program_name": "B.Ed. Mathematics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: 'MUST pass Elective Mathematics and any two elective subjects'. Applicants without Elective Mathematics but with B3 or better in Core Mathematics may also apply - the app cannot model that alternative route."
+    },
+    {
+      "program_name": "B.Sc. Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires 'any three (3) elective subjects'."
+    },
+    {
+      "program_name": "B.Sc. Cyber Security and Digital Forensics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires 'any three (3) elective subjects'."
+    },
+    {
+      "program_name": "B.Ed. Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires 'any three (3) elective subjects'."
+    },
+    {
+      "program_name": "B.Ed. Computing with Artificial Intelligence (AI)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires 'any three (3) elective subjects'."
+    },
+    {
+      "program_name": "B.Ed. Computing with Internet of Things (IOT)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires 'any three (3) elective subjects'."
+    },
+    {
+      "program_name": "B.Ed. English",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Literature in English",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires at least a credit pass in Literature in English; applicants without it must have B3 or better in Core English - the app cannot model that alternative route."
+    },
+    {
+      "program_name": "B.Ed. French",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "French",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires at least a credit pass in French."
+    },
+    {
+      "program_name": "B.Ed. Arabic",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Arabic",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires at least a credit pass in Arabic Studies."
+    },
+    {
+      "program_name": "B.Ed. Early Grade (Early Childhood)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Ed. Junior High",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Ed. Upper Primary",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Ed. Social Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Ed. Geography",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Ed. Ghanaian Language",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Ed. Physical Education and Health",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires three cores plus any three elective subjects."
+    },
+    {
+      "program_name": "B.Sc. Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Admin Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc Computerised Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Banking and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Procurement and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Marketing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.B.A. Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.B.A. Human Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Ed. Business Studies (Accounting)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Ed. Business Studies (Management)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Economics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: applicants seeking to read B.Sc. Economics or B.Sc. Economics with Social Studies Education must have at least a credit pass in Economics."
+    },
+    {
+      "program_name": "B.Ed. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Economics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: applicants seeking to read B.Sc. Economics or B.Sc. Economics with Social Studies Education must have at least a credit pass in Economics."
+    },
+    {
+      "program_name": "2-year Diploma in Business Administration, Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-year Diploma in Business Administration, Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-year Diploma in Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-year Diploma in Human Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "2-year Diploma in Office Management and Computer Applications",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+    },
+    {
+      "program_name": "B.Sc. Entrepreneurship Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Marketing and Entrepreneurship",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Business Education entry text requires three elective subjects 'relevant to the programme of study' without naming compulsory ones."
+    },
+    {
+      "program_name": "B.Sc. Agricultural Science Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: at least a credit in Chemistry and any two of Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Sc. Natural Resources Management and Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: any three of the agriculture/science elective list suffice; credit passes in Geography, Economics and Government are also acceptable."
+    },
+    {
+      "program_name": "B.Sc. Agricultural Engineering, Technology and Innovations Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: any three of the agriculture/science elective list suffice."
+    },
+    {
+      "program_name": "B.Sc. Agribusiness Management and Entrepreneurship Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text: credit passes in all the business subjects are acceptable."
+    },
+    {
+      "program_name": "B.Ed. Agricultural Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. The B.Sc. equivalent requires a credit in Chemistry, but that was not transferred here."
+    },
+    {
+      "program_name": "B.Ed. General Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Science Education entry text: at least a credit in Chemistry plus any two of Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Ed. Biology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Science Education entry text: at least a credit in Chemistry plus any two of Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Ed. Chemistry",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Science Education entry text: at least a credit in Chemistry plus any two of Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Ed. Physics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Science Education entry text: at least a credit in Chemistry plus any two of Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Sc. Nutrition and Dietetics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Faculty of Science Education entry text: at least a credit in Chemistry plus any two of Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics."
+    },
+    {
+      "program_name": "B.Sc. Environmental Health and Sanitation",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires credits in three electives from a broad list (Chemistry, Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics, Geography, Economics, Food and Nutrition, General Knowledge in Art, Literature, French, Twi, etc.), so none is compulsory."
+    },
+    {
+      "program_name": "B.Sc. Occupational Health and Safety",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text requires credits in three electives from a broad list (Chemistry, Physics, Biology, General Agriculture, Animal Husbandry, Horticulture, Forestry, Elective Mathematics, Geography, Economics, Food and Nutrition, General Knowledge in Art, Literature, French, Twi, etc.), so none is compulsory."
+    },
+    {
+      "program_name": "B.Sc. Public Health (Disease Control)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Science-track applicants need three electives from Chemistry, Physics, Biology or Elective Mathematics; a non-science track with a wider elective list also exists, so no elective is listed as compulsory. All Public Health applicants must also pass a selection interview, which the app cannot model."
+    },
+    {
+      "program_name": "B.Sc. Public Health (Nutrition)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Science-track applicants need three electives from Chemistry, Physics, Biology or Elective Mathematics; a non-science track with a wider elective list also exists, so no elective is listed as compulsory. All Public Health applicants must also pass a selection interview, which the app cannot model."
+    },
+    {
+      "program_name": "B.Sc. Public Health (Promotion)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Science-track applicants need three electives from Chemistry, Physics, Biology or Elective Mathematics; a non-science track with a wider elective list also exists, so no elective is listed as compulsory. All Public Health applicants must also pass a selection interview, which the app cannot model."
+    },
+    {
+      "program_name": "Diploma in Environmental Health and Sanitation",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found."
+    },
+    {
+      "program_name": "2-Year Diploma in Junior High Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass."
+    },
+    {
+      "program_name": "2-Year Diploma in Upper Primary Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass."
+    },
+    {
+      "program_name": "2-Year Diploma in Early Grade Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass."
+    }
+  ]
+}

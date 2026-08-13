@@ -32,4 +32,6 @@ note.md
 data/*_notes.md
 
 # Skills set
+skills-lock.json.agents/
+.claude/
 skills-lock.json

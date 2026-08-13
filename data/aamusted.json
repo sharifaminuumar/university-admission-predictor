@@ -473,107 +473,111 @@
     },
     {
       "program_name": "2-Year Diploma in Construction Technology",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-Year Diploma in Electrical and Electronics Engineering Technology",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Wood Technology",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Architecture and Digital Construction",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows grades A1-D7 in three cores (English Language and Core Mathematics included) plus two electives from a choice list; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "B.Sc. Fashion Design and Textiles Education",
@@ -691,55 +695,57 @@
     },
     {
       "program_name": "2-year Diploma in Fashion Design and Textiles",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text names a choice list (Clothing & Textiles or Textiles, Biology, Management in Living, General Knowledge in Art, Chemistry, etc.), so no elective is compulsory."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text names a choice list (Clothing & Textiles or Textiles, Biology, Management in Living, General Knowledge in Art, Chemistry, etc.), so no elective is compulsory. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Catering and Hospitality",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text names a choice list (Food and Nutrition, Biology, Management in Living, General Knowledge in Art, Chemistry, etc.), so no elective is compulsory."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text names a choice list (Food and Nutrition, Biology, Management in Living, General Knowledge in Art, Chemistry, etc.), so no elective is compulsory. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "B.Ed. Mathematics",
@@ -1501,133 +1507,138 @@
     },
     {
       "program_name": "2-year Diploma in Business Administration, Accounting",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Business Administration, Management",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Economics",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Human Resource Management",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-year Diploma in Office Management and Computer Applications",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Diploma entry text allows A1-D7 in three cores plus any two electives; the app's engine cannot model a D7 pass, so C6 is used. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "B.Sc. Entrepreneurship Education",
@@ -2103,48 +2114,49 @@
     },
     {
       "program_name": "Diploma in Environmental Health and Sanitation",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. No programme-specific WASSCE requirement text is published for this programme; only the general university requirement was found. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-Year Diploma in Junior High Education",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [
@@ -2154,28 +2166,29 @@
           }
         ],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-Year Diploma in Upper Primary Education",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [
@@ -2185,28 +2198,29 @@
           }
         ],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "2-Year Diploma in Early Grade Education",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [
@@ -2216,9 +2230,10 @@
           }
         ],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass."
+      "notes": "No programme-specific cut-off aggregate is published by AAMUSTED/USTED. Fallback to the university-wide WASSCE ceiling: six credit passes with a total aggregate of 36 or better. Entry text for the sandwich education diplomas states applicants 'MUST pass Elective Mathematics and any two elective subjects'; recorded as written although it looks like an editorial carry-over in the source document. Grades A1-D7 are accepted for cores there, but the app's engine cannot model a D7 pass. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     }
   ]
 }

@@ -153,6 +153,11 @@
         .mode-tab { color: var(--color-on-surface-variant); }
         .mode-tab[aria-selected="true"] { background: var(--color-primary); color: var(--color-on-primary); box-shadow: var(--shadow-tab); }
         .mode-tab[aria-selected="false"]:hover { background: var(--tab-hover-bg); }
+        /* Band filter reuses the aria-selected pattern so the JS only flips one attribute */
+        .band-tab { color: var(--color-on-surface-variant); }
+        .band-tab[aria-selected="true"] { background: var(--color-primary); color: var(--color-on-primary); box-shadow: var(--shadow-tab); }
+        .band-tab[aria-selected="false"]:hover:not(:disabled) { background: var(--tab-hover-bg); }
+        .band-tab:disabled { opacity: 0.45; cursor: not-allowed; }
     </style>
 </head>
 <body class="bg-surface text-on-surface font-sans overflow-x-hidden min-h-screen flex flex-col">
@@ -316,6 +321,9 @@
                     <span id="match-count" class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-bold text-sm">-- Found</span>
                 </div>
 
+                <div id="band-filter" role="group" aria-label="Filter results by chance band"
+                     class="flex gap-1.5 mb-4 bg-surface-container-low p-1.5 rounded-xl border border-outline-variant"></div>
+
                 <div class="relative mb-6">
                     <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">search</span>
                     <input id="results-search" type="search" autocomplete="off" placeholder="Filter your qualified programmes by name…"
@@ -355,6 +363,6 @@
         </div>
     </footer>
 
-    <script src="/static/main.js?v=6"></script>
+    <script src="/static/main.js?v=7"></script>
 </body>
 </html>

@@ -773,341 +773,354 @@
     },
     {
       "program_name": "Diploma in Computational Statistics",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Telecommunications Engineering",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Information Technology",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "Programme page: 'Grades A1-D7 in 3 core subjects (English, Mathematics, Integrated Science/Social Studies) and 3 relevant electives.' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "Programme page: 'Grades A1-D7 in 3 core subjects (English, Mathematics, Integrated Science/Social Studies) and 3 relevant electives.' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Information Systems",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "Programme page: 'Applicants must have passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE'; three cores (English, Mathematics, Integrated Science or Social Studies) plus any three electives. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "Programme page: 'Applicants must have passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE'; three cores (English, Mathematics, Integrated Science or Social Studies) plus any three electives. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Data Science and Analytics",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "Programme page: 'Passes (A1-D7) in 3 core subjects (English, Mathematics, Integrated Science/Social Studies) and 3 elective subjects (at least 3 credit passes A1-C6).' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "Programme page: 'Passes (A1-D7) in 3 core subjects (English, Mathematics, Integrated Science/Social Studies) and 3 elective subjects (at least 3 credit passes A1-C6).' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Cyber Security",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Computer Science",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "Programme page: 'Credit passes (A1-C6) in three (3) core subjects including English, Mathematics, and Integrated Science/Social Studies, plus three (3) relevant elective subjects.' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "Programme page: 'Credit passes (A1-C6) in three (3) core subjects including English, Mathematics, and Integrated Science/Social Studies, plus three (3) relevant elective subjects.' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Multimedia Technology",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Web Application Development",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Sciences",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Public Relations",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Any",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Management",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Accounting",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "The programme page was checked and publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "The programme page was checked and publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Marketing",
-      "cutoff_aggregate": 39,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
         "mandatory_cores": [
           {
             "subject": "English Language",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Core Mathematics",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           },
           {
             "subject": "Integrated Science",
-            "minimum_grade": "C6"
+            "minimum_grade": "D7"
           }
         ],
         "mandatory_electives": [],
         "elective_category_pool": "Business",
-        "global_minimum_grade": "C6"
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
       },
-      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     }
   ]
 }

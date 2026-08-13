@@ -65,34 +65,46 @@ def evaluate_eligibility(student_grades, program_data):
     Validates a student's WASSCE grades against institutional prerequisite thresholds.
     Returns: (is_eligible, explanation_string_or_meta)
     """
-    # 1. Establish the passing grade criteria (Must be A1 to C6)
+    # 1. Elective passes always require a credit (A1-C6). Only the CORE threshold is
+    # programme-configurable, which mirrors how Ghanaian diplomas are actually
+    # advertised: "Passes (A1-D7)" in the cores, "a minimum of C6" in the electives.
     failing_grades = {"D7", "E8", "F9", "", "Grade"}
 
-    # 2. Extract and enforce Core Prerequisites
-    core_math = student_grades.get("Core Mathematics")
-    english = student_grades.get("English Language")
-    science = student_grades.get("Integrated Science")
-
-    # Fail immediately if any core prerequisite is missing or below a C6
-    if core_math in failing_grades or english in failing_grades or science in failing_grades:
-        return False, "Failing grade in mandatory core prerequisites (English, Core Math, or Integrated Science)."
-
-    # 3. Extract program specific requirements from database JSON definition
+    # 2. Extract program specific requirements from database JSON definition
     requirements = program_data.get("requirements", {})
     mandatory_cores = requirements.get("mandatory_cores", [])
     mandatory_electives = requirements.get("mandatory_electives", [])
 
+    # Degree programmes need a credit pass in the cores; diploma/HND entry commonly
+    # accepts a D7 pass, so a programme may relax this via core_minimum_grade.
+    core_minimum_grade = requirements.get("core_minimum_grade", "C6")
+
+    def core_passes(grade):
+        return bool(grade) and meets_minimum_grade(grade, core_minimum_grade)
+
+    # 3. Enforce the universal core prerequisites at that threshold
+    core_math = student_grades.get("Core Mathematics")
+    english = student_grades.get("English Language")
+    science = student_grades.get("Integrated Science")
+
+    if not (core_passes(core_math) and core_passes(english) and core_passes(science)):
+        return False, (
+            f"Core prerequisites (English, Core Maths, Integrated Science) must each be "
+            f"{core_minimum_grade} or better."
+        )
+
     # Map out the student's entire result portfolio for quick lookups
     all_student_subjects = build_subject_portfolio(student_grades)
 
-    # 4. Check specific mandatory core dependencies (e.g., matching minimum grades if set)
+    # 4. Check specific mandatory core dependencies. A per-subject minimum_grade
+    # (e.g. Social Studies at B3) still wins over the programme-wide core threshold.
     for req in mandatory_cores:
         sub_name = req.get("subject")
-        min_grade = req.get("minimum_grade", "C6")  # Default baseline to C6
+        min_grade = req.get("minimum_grade", core_minimum_grade)
         student_grade = all_student_subjects.get(sub_name)
 
-        if not student_grade or student_grade in failing_grades:
-            return False, f"Missing or failing grade in core prerequisite: {sub_name}"
+        if not student_grade or not meets_minimum_grade(student_grade, min_grade):
+            return False, f"Missing or failing grade in core prerequisite: {sub_name} (needs {min_grade})"
 
     # 5. Check specific mandatory elective dependencies (e.g., Elective Math for Engineering)
     for req in mandatory_electives:
@@ -138,6 +150,30 @@ def evaluate_eligibility(student_grades, program_data):
         return False, "Applicant must possess at least 3 passing elective subjects (A1-C6)."
 
     return True, "Qualified"
+
+
+def classify_band(student_aggregate, cutoff_aggregate, cutoff_source=None):
+    """Grades how comfortably a student clears a programme's cut-off.
+
+    Returns (band, margin) where margin = cutoff - student_aggregate; a larger
+    margin means the student is further below (better than) the cut-off.
+
+    - "Safe"        margin >= 3
+    - "Competitive" 0 <= margin < 3
+    - "Reach"       the cut-off is not a real published one, so clearing it proves
+                    only that the student meets the university's minimum entry bar.
+                    The true departmental cut-off is unknown and almost certainly
+                    lower, so these can never honestly be called Safe.
+    """
+    margin = cutoff_aggregate - student_aggregate
+
+    if cutoff_source == "general_ceiling":
+        return "Reach", margin
+    if margin >= 3:
+        return "Safe", margin
+    if margin >= 0:
+        return "Competitive", margin
+    return "Reach", margin
 
 
 def calculate_aggregate(student_subjects, program_data):

@@ -1086,7 +1086,7 @@
     },
     {
       "program_name": "Diploma in General Drilling",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
@@ -1126,13 +1126,14 @@
           ],
           "minimum_required": 1,
           "minimum_grade": "C6"
-        }
+        },
+        "core_minimum_grade": "D7"
       },
-      "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Metal Work or Technical Drawing or Applied Electricity or Applied Electronics - only the two non-substitutable electives are recorded as mandatory. Fee-paying programme. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
+      "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Metal Work or Technical Drawing or Applied Electricity or Applied Electronics - only the two non-substitutable electives are recorded as mandatory. Fee-paying programme. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Plant and Maintenance Engineering",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
@@ -1170,13 +1171,14 @@
           ],
           "minimum_required": 1,
           "minimum_grade": "C6"
-        }
+        },
+        "core_minimum_grade": "D7"
       },
-      "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Metal Work or Technical Drawing - only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
+      "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Metal Work or Technical Drawing - only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     },
     {
       "program_name": "Diploma in Electrical and Electronic Engineering",
-      "cutoff_aggregate": 36,
+      "cutoff_aggregate": 54,
       "cutoff_source": "general_ceiling",
       "type": "Diploma",
       "requirements": {
@@ -1214,9 +1216,10 @@
           ],
           "minimum_required": 1,
           "minimum_grade": "C6"
-        }
+        },
+        "core_minimum_grade": "D7"
       },
-      "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Applied Electricity or Applied Electronics - only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published."
+      "notes": "WASSCE route: passes (A1-D7) in English Language, Mathematics and Integrated Science, plus a minimum of C6 in Physics, Elective Mathematics, and Chemistry or Applied Electricity or Applied Electronics - only the two non-substitutable electives are recorded as mandatory. UMaT publishes no per-programme cut-off aggregate on its website. Its stated site-wide minimum entry requirement is aggregate 36 (\"minimum entry requirement of aggregate 36\"), used here as the ceiling. Actual competitive departmental cut-offs are lower and are not published. Diploma entry publishes no aggregate ceiling (D7 cores are accepted), so no aggregate bar is applied; subject requirements still apply."
     }
   ]
 }

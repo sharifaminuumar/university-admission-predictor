@@ -379,7 +379,41 @@ function displayResults(data, uniCode) {
 
     // A fresh prediction starts from an unfiltered list.
     if (searchInput) searchInput.value = "";
+    activeBandFilter = "";
+    renderBandFilter();
     renderEligibilityResults("");
+}
+
+// "" means every band; otherwise one of BAND_ORDER.
+let activeBandFilter = "";
+
+function renderBandFilter() {
+    const container = document.getElementById("band-filter");
+    if (!container || lastEligiblePrograms === null) return;
+
+    const counts = BAND_ORDER.reduce((acc, band) => {
+        acc[band] = lastEligiblePrograms.filter(prog => prog.band === band).length;
+        return acc;
+    }, {});
+
+    const buttons = [{ value: "", label: "All", n: lastEligiblePrograms.length }]
+        .concat(BAND_ORDER.map(band => ({ value: band, label: band, n: counts[band] })));
+
+    container.innerHTML = buttons.map(btn => `
+        <button type="button" class="band-tab flex-1 h-10 rounded-lg font-bold text-xs sm:text-sm transition-all px-2"
+                data-band="${escapeHtml(btn.value)}" aria-selected="${btn.value === activeBandFilter}"
+                ${btn.n === 0 && btn.value !== "" ? "disabled" : ""}>
+            ${escapeHtml(btn.label)} (${btn.n})
+        </button>`).join("");
+
+    container.querySelectorAll("button[data-band]").forEach(button => {
+        button.addEventListener("click", () => {
+            activeBandFilter = button.getAttribute("data-band");
+            const searchInput = document.getElementById("results-search");
+            renderBandFilter();
+            renderEligibilityResults(searchInput ? searchInput.value : "");
+        });
+    });
 }
 
 function renderEligibilityResults(query) {
@@ -389,41 +423,43 @@ function renderEligibilityResults(query) {
 
     const term = query.trim().toLowerCase();
     const total = lastEligiblePrograms.length;
-    const visible = term
-        ? lastEligiblePrograms.filter(prog => prog.program_name.toLowerCase().includes(term))
-        : lastEligiblePrograms;
+    const visible = lastEligiblePrograms.filter(prog =>
+        (!term || prog.program_name.toLowerCase().includes(term)) &&
+        (!activeBandFilter || prog.band === activeBandFilter)
+    );
 
-    // No qualifying programs at all — distinct from "search matched nothing".
+    // No qualifying programs at all — distinct from "filters matched nothing".
     if (total === 0) {
         count.innerText = "0 Found";
         count.className = "bg-error-container-strong text-on-error-container px-4 py-1 rounded-full font-bold text-sm";
         list.innerHTML = `
             <div class="md:col-span-2 bg-error-container border border-error-outline text-on-error-container p-6 rounded-xl">
                 <div class="flex items-center gap-2 mb-2"><span class="material-symbols-outlined">warning</span><strong class="text-lg">No matches found</strong></div>
-                <p>You either failed a mandatory core subject (A1-C6 required) or do not meet the minimum aggregate cuts for this institution.</p>
+                <p>You either missed a mandatory subject requirement or do not meet the minimum aggregate cuts for this institution.</p>
             </div>`;
         return;
     }
 
-    count.innerText = term ? `${visible.length} of ${total} Found` : `${total} Found`;
+    const filtering = Boolean(term || activeBandFilter);
+    count.innerText = filtering ? `${visible.length} of ${total} Found` : `${total} Found`;
     count.className = "bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-bold text-sm";
 
     if (visible.length === 0) {
+        const what = term ? `matches <strong>"${escapeHtml(query.trim())}"</strong>` : "";
+        const band = activeBandFilter ? `in the <strong>${escapeHtml(activeBandFilter)}</strong> band` : "";
         list.innerHTML = `
             <div class="md:col-span-2 bg-surface-container-low border border-outline-variant text-on-surface-variant p-6 rounded-xl text-center">
                 <span class="material-symbols-outlined text-3xl mb-2">search_off</span>
-                <p>No qualified programme matches <strong>"${escapeHtml(query.trim())}"</strong>.</p>
+                <p>No qualified programme ${[what, band].filter(Boolean).join(" ")}.</p>
             </div>`;
         return;
     }
 
     list.innerHTML = visible.map(prog => `
         <div class="card-lift border-l-4 border-l-primary p-5 border-y border-r border-outline-variant rounded-xl overflow-hidden relative">
-            <div class="flex justify-between items-start mb-3">
+            <div class="flex justify-between items-start gap-2 mb-3">
                 <span class="material-symbols-outlined text-primary bg-primary-fixed p-2 rounded-lg">school</span>
-                <span class="bg-success-container text-on-success-container px-2 py-1 rounded text-xs font-bold flex items-center gap-1">
-                    <span class="material-symbols-outlined text-[14px]">check_circle</span> Qualified
-                </span>
+                ${bandBadge(prog.band)}
             </div>
 
             <h3 class="text-lg font-bold text-on-surface mb-1 leading-tight">${escapeHtml(prog.program_name)}</h3>
@@ -438,6 +474,11 @@ function renderEligibilityResults(query) {
                 <div>
                     <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1">Cut-off</span>
                     <span class="text-2xl font-bold text-on-surface-variant">${escapeHtml(prog.cutoff)}</span>
+                </div>
+                <div class="h-10 w-px bg-outline-variant"></div>
+                <div>
+                    <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1">Margin</span>
+                    <span class="text-2xl font-bold text-on-surface-variant">${prog.margin >= 0 ? "+" : ""}${escapeHtml(prog.margin)}</span>
                 </div>
             </div>
 
@@ -487,6 +528,36 @@ function cutoffSourceBadge(source) {
     const meta = CUTOFF_SOURCE_BADGES[source] || CUTOFF_SOURCE_BADGES.unverified;
     return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold ${meta.className}" title="${escapeHtml(meta.tooltip)}">
                 <span class="material-symbols-outlined text-[13px]">${meta.icon}</span>${escapeHtml(meta.label)}
+            </span>`;
+}
+
+// How comfortably the student clears each cut-off. Computed server-side by
+// eligibility_engine.classify_band() so the UI never re-derives the rule.
+const BAND_BADGES = {
+    Safe: {
+        icon: "shield_person",
+        className: "bg-success-container text-on-success-container",
+        tooltip: "Your aggregate is at least 3 points better than this cut-off."
+    },
+    Competitive: {
+        icon: "target",
+        className: "bg-primary-fixed text-primary",
+        tooltip: "You clear this cut-off, but only just — within 3 points. Treat it as contested."
+    },
+    Reach: {
+        icon: "trending_up",
+        className: "bg-warning-container text-on-warning-container border border-warning-outline",
+        tooltip: "This university publishes no real cut-off for this programme, so clearing the minimum entry bar does not mean you would be admitted. The actual departmental cut-off is unknown and likely more competitive."
+    }
+};
+
+const BAND_ORDER = ["Safe", "Competitive", "Reach"];
+
+function bandBadge(band) {
+    const meta = BAND_BADGES[band];
+    if (!meta) return "";
+    return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold ${meta.className}" title="${escapeHtml(meta.tooltip)}">
+                <span class="material-symbols-outlined text-[13px]">${meta.icon}</span>${escapeHtml(band)}
             </span>`;
 }
 

@@ -1,6 +1,11 @@
 from flask import Blueprint, request, jsonify, render_template
 from .models import Program, University
-from .eligibility_engine import evaluate_eligibility, calculate_aggregate, build_subject_portfolio
+from .eligibility_engine import (
+    evaluate_eligibility,
+    calculate_aggregate,
+    build_subject_portfolio,
+    classify_band,
+)
 
 main = Blueprint('main', __name__)
 
@@ -86,14 +91,24 @@ def predict():
         student_aggregate = calculate_aggregate(student_portfolio, program_data_dict)
 
         if student_aggregate <= program.cutoff_aggregate:
+            band, margin = classify_band(
+                student_aggregate, program.cutoff_aggregate, program.cutoff_source
+            )
             eligible_list.append({
                 "program_name": program.name,
                 "cutoff": program.cutoff_aggregate,
                 "cutoff_source": program.cutoff_source,
                 "student_aggregate": student_aggregate,
+                "margin": margin,
+                "band": band,
                 "university": program.university_data.name,
                 "region": program.university_data.region
             })
+
+    # Safest first: biggest margin, then the more trustworthy cut-offs, then by name
+    # so the ordering is stable across identical requests.
+    band_rank = {"Safe": 0, "Competitive": 1, "Reach": 2}
+    eligible_list.sort(key=lambda p: (band_rank.get(p["band"], 3), -p["margin"], p["program_name"]))
 
     return jsonify({
         "status": "success",

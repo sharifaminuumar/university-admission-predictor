@@ -455,15 +455,24 @@ function renderEligibilityResults(query) {
         return;
     }
 
-    list.innerHTML = visible.map(prog => `
-        <div class="card-lift border-l-4 border-l-primary p-5 border-y border-r border-outline-variant rounded-xl overflow-hidden relative">
+    list.innerHTML = visible.map(prog => {
+        const notEligible = prog.eligible === false;
+        const open = isOpenEntry(prog);
+
+        return `
+        <div class="result-card card-lift border-l-4 ${notEligible ? "border-l-error-outline" : "border-l-primary"} p-5 border-y border-r border-outline-variant rounded-xl overflow-hidden relative">
             <div class="flex justify-between items-start gap-2 mb-3">
-                <span class="material-symbols-outlined text-primary bg-primary-fixed p-2 rounded-lg">school</span>
+                <span class="material-symbols-outlined ${notEligible ? "text-on-error-container bg-error-container" : "text-primary bg-primary-fixed"} p-2 rounded-lg">school</span>
                 ${bandBadge(prog.band)}
             </div>
 
             <h3 class="text-lg font-bold text-on-surface mb-1 leading-tight">${escapeHtml(prog.program_name)}</h3>
             <p class="text-sm text-on-surface-variant mb-4">${escapeHtml(prog.university)}</p>
+
+            ${notEligible ? `
+            <p class="text-xs font-bold text-on-error-container bg-error-container border border-error-outline rounded-lg px-3 py-2 mb-4">
+                You do not qualify yet — your aggregate is ${Math.abs(prog.margin)} point${Math.abs(prog.margin) === 1 ? "" : "s"} above this cut-off.
+            </p>` : ""}
 
             <div class="flex items-center gap-6 pt-3 border-t border-outline-variant">
                 <div>
@@ -473,22 +482,24 @@ function renderEligibilityResults(query) {
                 <div class="h-10 w-px bg-outline-variant"></div>
                 <div>
                     <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1">Cut-off</span>
-                    <span class="text-2xl font-bold text-on-surface-variant">${escapeHtml(prog.cutoff)}</span>
+                    <span class="text-2xl font-bold text-on-surface-variant">${formatCutoff(prog)}</span>
                 </div>
                 <div class="h-10 w-px bg-outline-variant"></div>
                 <div>
                     <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1">Margin</span>
-                    <span class="text-2xl font-bold text-on-surface-variant">${prog.margin >= 0 ? "+" : ""}${escapeHtml(prog.margin)}</span>
+                    <span class="text-2xl font-bold text-on-surface-variant" ${open ? 'title="No aggregate bar, so there is no margin to measure."' : ""}>${open ? "—" : `${prog.margin >= 0 ? "+" : ""}${escapeHtml(prog.margin)}`}</span>
                 </div>
             </div>
+
+            ${improvementTip(prog)}
 
             <div class="pt-4 mt-4 border-t border-outline-variant">
                 ${requirementsSection(prog.requirements)}
             </div>
 
             <div>${cutoffSourceBadge(prog.cutoff_source)}${cutoffCaveat(prog.cutoff_source)}</div>
-        </div>
-    `).join("");
+        </div>`;
+    }).join("");
 }
 
 const resultsSearch = document.getElementById("results-search");
@@ -555,7 +566,28 @@ const BAND_BADGES = {
     }
 };
 
-const BAND_ORDER = ["Safe", "Competitive", "Reach"];
+BAND_BADGES["Near Miss"] = {
+    icon: "notifications_active",
+    className: "bg-error-container-strong text-on-error-container border border-error-outline",
+    tooltip: "You do NOT currently qualify for this programme — your aggregate is just above its cut-off. It is listed because a single grade improvement would close the gap."
+};
+
+const BAND_ORDER = ["Safe", "Competitive", "Reach", "Near Miss"];
+
+// Diploma entry publishes no aggregate bar, encoded as the maximum possible
+// aggregate (54). Showing a student "CUT-OFF 54" reads as a real threshold, so
+// label it for what it is.
+const OPEN_ENTRY_AGGREGATE = 54;
+
+function isOpenEntry(prog) {
+    const cutoff = prog.cutoff !== undefined ? prog.cutoff : prog.cutoff_aggregate;
+    return cutoff >= OPEN_ENTRY_AGGREGATE && prog.cutoff_source === "general_ceiling";
+}
+
+function formatCutoff(prog) {
+    const cutoff = prog.cutoff !== undefined ? prog.cutoff : prog.cutoff_aggregate;
+    return isOpenEntry(prog) ? "Open" : escapeHtml(cutoff);
+}
 
 function bandBadge(band) {
     const meta = BAND_BADGES[band];
@@ -563,6 +595,27 @@ function bandBadge(band) {
     return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold ${meta.className}" title="${escapeHtml(meta.tooltip)}">
                 <span class="material-symbols-outlined text-[13px]">${meta.icon}</span>${escapeHtml(band)}
             </span>`;
+}
+
+// The single grade upgrade that would close the gap, computed server-side by
+// eligibility_engine.suggest_improvement().
+function improvementTip(prog) {
+    const tip = prog.improvement;
+    if (!tip) return "";
+
+    const goal = tip.goal === "qualify"
+        ? "would make you eligible"
+        : "would move this into the Safe band";
+
+    return `<div class="mt-4 flex items-start gap-2 bg-surface-container-low border border-outline-variant rounded-lg px-3 py-2">
+                <span class="material-symbols-outlined text-[16px] text-secondary shrink-0 mt-0.5">lightbulb</span>
+                <p class="text-xs text-on-surface-variant leading-snug">
+                    <strong class="text-on-surface">Tip:</strong>
+                    upgrading <strong class="text-on-surface">${escapeHtml(tip.subject)}</strong>
+                    from ${escapeHtml(tip.from_grade)} to ${escapeHtml(tip.to_grade)}
+                    cuts your aggregate to <strong class="text-on-surface">${escapeHtml(tip.new_aggregate)}</strong>, which ${goal}.
+                </p>
+            </div>`;
 }
 
 function cutoffCaveat(source) {
@@ -714,7 +767,7 @@ function renderBrowsePrograms(query) {
                 <h3 class="text-lg font-bold text-on-surface leading-tight">${escapeHtml(prog.program_name)}</h3>
                 <div class="text-right shrink-0">
                     <span class="text-xs text-on-surface-variant block uppercase tracking-wider">Cut-off</span>
-                    <span class="text-2xl font-bold text-primary">${escapeHtml(prog.cutoff_aggregate)}</span>
+                    <span class="text-2xl font-bold text-primary">${formatCutoff(prog)}</span>
                 </div>
             </div>
 
@@ -738,4 +791,138 @@ if (browseSelector) {
 const browseSearch = document.getElementById("browse-search");
 if (browseSearch) {
     browseSearch.addEventListener("input", event => renderBrowsePrograms(event.target.value));
+}
+
+// ---------------------------------------------------------------------------
+// Shareable links: encode the form state in the URL so a student can save or
+// send their result and have it reproduce exactly.
+// ---------------------------------------------------------------------------
+
+// Short query keys, mapped to the element ids they populate.
+const SHARE_PARAMS = {
+    uni: "universitySelector",
+    eng: "English Language",
+    math: "Core Mathematics",
+    sci: "Integrated Science",
+    soc: "Social Studies"
+};
+
+function readFormState() {
+    const state = {};
+
+    Object.entries(SHARE_PARAMS).forEach(([key, id]) => {
+        const el = document.getElementById(id);
+        if (el && el.value) state[key] = el.value;
+    });
+
+    for (let i = 1; i <= 4; i++) {
+        const name = document.getElementById(`el${i}_name`);
+        const grade = document.getElementById(`el${i}_val`);
+        if (name && grade && name.value && grade.value) {
+            state[`elec${i}_name`] = name.value;
+            state[`elec${i}_grade`] = grade.value;
+        }
+    }
+
+    return state;
+}
+
+function buildShareUrl() {
+    const params = new URLSearchParams(readFormState());
+    return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+}
+
+// Returns true when the URL carried enough state to run a prediction.
+function hydrateFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    if ([...params.keys()].length === 0) return false;
+
+    // Only accept values the dropdowns actually offer, so a hand-edited or
+    // truncated link can never inject an unselectable option.
+    const setIfValid = (id, value) => {
+        const el = document.getElementById(id);
+        if (!el || !value) return false;
+        const allowed = [...el.options].some(option => option.value === value);
+        if (allowed) el.value = value;
+        return allowed;
+    };
+
+    let filled = 0;
+    Object.entries(SHARE_PARAMS).forEach(([key, id]) => {
+        if (params.has(key) && setIfValid(id, params.get(key))) filled++;
+    });
+
+    for (let i = 1; i <= 4; i++) {
+        const name = params.get(`elec${i}_name`);
+        const grade = params.get(`elec${i}_grade`);
+        if (name && grade) {
+            const okName = setIfValid(`el${i}_name`, name);
+            const okGrade = setIfValid(`el${i}_val`, grade);
+            if (okName && okGrade) filled++;
+        }
+    }
+
+    // Needs the three universal cores plus three electives to be worth running.
+    return filled >= 6;
+}
+
+let toastTimer = null;
+
+function showToast(message) {
+    const toast = document.getElementById("toast");
+    if (!toast) return;
+
+    toast.innerText = message;
+    toast.classList.remove("hidden");
+    // Force a reflow so the transition replays on repeated clicks.
+    void toast.offsetWidth;
+    toast.classList.add("toast-visible");
+
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+        toast.classList.remove("toast-visible");
+        setTimeout(() => toast.classList.add("hidden"), 300);
+    }, 2600);
+}
+
+async function copyShareLink() {
+    const url = buildShareUrl();
+
+    try {
+        await navigator.clipboard.writeText(url);
+        showToast("Link copied to clipboard!");
+    } catch (err) {
+        // Clipboard API needs a secure context and permission; fall back to a
+        // selectable temporary field so the link is never simply lost.
+        const field = document.createElement("textarea");
+        field.value = url;
+        field.setAttribute("readonly", "");
+        field.style.position = "fixed";
+        field.style.opacity = "0";
+        document.body.appendChild(field);
+        field.select();
+        let copied = false;
+        try {
+            copied = document.execCommand("copy");
+        } catch (fallbackError) {
+            copied = false;
+        }
+        document.body.removeChild(field);
+        showToast(copied ? "Link copied to clipboard!" : "Could not copy — check the address bar.");
+    }
+
+    // Reflect the shared state in the address bar so a manual copy works too.
+    window.history.replaceState({}, "", url);
+}
+
+const shareButton = document.getElementById("shareBtn");
+if (shareButton) shareButton.addEventListener("click", copyShareLink);
+
+const printButton = document.getElementById("printBtn");
+if (printButton) printButton.addEventListener("click", () => window.print());
+
+// Run last, once every dropdown has been populated.
+if (hydrateFromUrl()) {
+    const form = document.getElementById("gradeForm");
+    if (form) form.dispatchEvent(new Event("submit", { bubbles: true, cancelable: true }));
 }

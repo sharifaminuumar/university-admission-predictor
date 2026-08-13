@@ -5,9 +5,17 @@ from .eligibility_engine import (
     calculate_aggregate,
     build_subject_portfolio,
     classify_band,
+    suggest_improvement,
 )
 
 main = Blueprint('main', __name__)
+
+# A programme missed by this many aggregate points or fewer is still shown, flagged
+# as not eligible, together with the single grade upgrade that would close the gap.
+NEAR_MISS_WINDOW = -3
+
+# classify_band() calls margin >= 3 "Safe"; reused so the advice targets match.
+SAFE_MARGIN = 3
 
 
 @main.route('/', methods=['GET'])
@@ -84,33 +92,59 @@ def predict():
         # Run subject eligibility matching filter check
         is_eligible, execution_meta = evaluate_eligibility(student_grades, program_data_dict)
         if not is_eligible:
+            # A subject requirement is missing, which no grade upgrade can fix once
+            # results are out, so there is no useful advice to offer here.
             continue
 
         # Aggregate is computed per-program since the 3rd core (Science vs Social Studies)
         # depends on that program's elective_category_pool requirement
         student_aggregate = calculate_aggregate(student_portfolio, program_data_dict)
+        margin = program.cutoff_aggregate - student_aggregate
 
-        if student_aggregate <= program.cutoff_aggregate:
-            band, margin = classify_band(
-                student_aggregate, program.cutoff_aggregate, program.cutoff_source
-            )
-            eligible_list.append({
-                "program_name": program.name,
-                "cutoff": program.cutoff_aggregate,
-                "cutoff_source": program.cutoff_source,
-                "student_aggregate": student_aggregate,
-                "margin": margin,
-                "band": band,
-                "university": program.university_data.name,
-                "region": program.university_data.region,
-                # Sent so a result card can show WHY the student qualifies, using the
-                # same requirement chips the Browse catalogue renders.
-                "requirements": program_data_dict["requirements"]
-            })
+        if margin < 0:
+            # Subject requirements are met and only the aggregate falls short. If it is
+            # close, show it as an explicitly-not-eligible "Near Miss" with advice.
+            if margin < NEAR_MISS_WINDOW:
+                continue
 
-    # Safest first: biggest margin, then the more trustworthy cut-offs, then by name
-    # so the ordering is stable across identical requests.
-    band_rank = {"Safe": 0, "Competitive": 1, "Reach": 2}
+            tip = suggest_improvement(student_portfolio, program_data_dict, program.cutoff_aggregate)
+            if tip is None:
+                continue
+            band, eligible, goal = "Near Miss", False, "qualify"
+        else:
+            band, _ = classify_band(student_aggregate, program.cutoff_aggregate, program.cutoff_source)
+            eligible, goal = True, "reach the Safe band"
+
+            # A Reach band comes from the cut-off being unpublished, not from the
+            # student's grades, so no upgrade can move it — offering a target would
+            # imply a change that cannot happen.
+            if band == "Competitive":
+                tip = suggest_improvement(
+                    student_portfolio, program_data_dict, program.cutoff_aggregate - SAFE_MARGIN
+                )
+            else:
+                tip = None
+
+        eligible_list.append({
+            "program_name": program.name,
+            "cutoff": program.cutoff_aggregate,
+            "cutoff_source": program.cutoff_source,
+            "program_type": program.program_type,
+            "student_aggregate": student_aggregate,
+            "margin": margin,
+            "band": band,
+            "eligible": eligible,
+            "improvement": (dict(tip, goal=goal) if tip else None),
+            "university": program.university_data.name,
+            "region": program.university_data.region,
+            # Sent so a result card can show WHY the student qualifies, using the
+            # same requirement chips the Browse catalogue renders.
+            "requirements": program_data_dict["requirements"]
+        })
+
+    # Safest first, with the not-yet-eligible Near Misses last, then by name so the
+    # ordering is stable across identical requests.
+    band_rank = {"Safe": 0, "Competitive": 1, "Reach": 2, "Near Miss": 3}
     eligible_list.sort(key=lambda p: (band_rank.get(p["band"], 3), -p["margin"], p["program_name"]))
 
     return jsonify({

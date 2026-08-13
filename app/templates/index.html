@@ -158,6 +158,45 @@
         .band-tab[aria-selected="true"] { background: var(--color-primary); color: var(--color-on-primary); box-shadow: var(--shadow-tab); }
         .band-tab[aria-selected="false"]:hover:not(:disabled) { background: var(--tab-hover-bg); }
         .band-tab:disabled { opacity: 0.45; cursor: not-allowed; }
+
+        /* Toast slides up and fades in; .hidden still hard-hides it for screen readers. */
+        #toast { opacity: 0; transform: translate(-50%, 12px); transition: opacity .25s ease, transform .25s ease; }
+        #toast.toast-visible { opacity: 1; transform: translate(-50%, 0); }
+
+        @media print {
+            /* Print the prediction report only — drop the chrome, the input form and
+               every interactive control, and force light colours so the output is
+               readable on paper regardless of the on-screen theme. */
+            :root, .light, .dark {
+                --color-surface: #ffffff;
+                --color-surface-container-lowest: #ffffff;
+                --color-surface-container-low: #ffffff;
+                --color-surface-container-highest: #ffffff;
+                --color-on-surface: #000000;
+                --color-on-surface-variant: #333333;
+                --color-primary: #000000;
+                --color-outline-variant: #999999;
+                color-scheme: light;
+            }
+            nav, footer, form, #panel-browse, #browse-container,
+            .no-print, #band-filter, #results-search, [role="tablist"] { display: none !important; }
+            body { background: #ffffff !important; }
+            main { display: block !important; }
+            #results-container { display: block !important; padding: 0 !important; max-width: none !important; }
+            /* Two columns of cards waste paper and split awkwardly across pages. */
+            #results-list { display: block !important; }
+            .result-card {
+                break-inside: avoid;
+                page-break-inside: avoid;
+                border: 1px solid #999999 !important;
+                box-shadow: none !important;
+                transform: none !important;
+                margin-bottom: 10px;
+                padding: 10px !important;
+            }
+            .card-lift:hover { transform: none !important; box-shadow: none !important; }
+            a[href]:after { content: ""; }
+        }
     </style>
 </head>
 <body class="bg-surface text-on-surface font-sans overflow-x-hidden min-h-screen flex flex-col">
@@ -321,6 +360,17 @@
                     <span id="match-count" class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-bold text-sm">-- Found</span>
                 </div>
 
+                <div class="flex flex-wrap gap-2 mb-4 no-print">
+                    <button type="button" id="shareBtn"
+                            class="h-11 px-4 rounded-lg bg-primary text-on-primary font-bold text-sm flex items-center gap-2 hover:bg-primary-container hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">link</span> Share / Save Results
+                    </button>
+                    <button type="button" id="printBtn"
+                            class="h-11 px-4 rounded-lg border border-outline-variant text-on-surface-variant font-bold text-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">print</span> Print
+                    </button>
+                </div>
+
                 <div id="band-filter" role="group" aria-label="Filter results by chance band"
                      class="flex gap-1.5 mb-4 bg-surface-container-low p-1.5 rounded-xl border border-outline-variant"></div>
 
@@ -363,6 +413,9 @@
         </div>
     </footer>
 
-    <script src="/static/main.js?v=8"></script>
+    <div id="toast" role="status" aria-live="polite"
+         class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] px-5 py-3 rounded-full bg-primary text-on-primary font-bold text-sm shadow-lg no-print"></div>
+
+    <script src="/static/main.js?v=9"></script>
 </body>
 </html>

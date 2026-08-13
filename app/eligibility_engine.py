@@ -152,6 +152,52 @@ def evaluate_eligibility(student_grades, program_data):
     return True, "Qualified"
 
 
+def suggest_improvement(student_subjects, program_data, target_aggregate):
+    """Finds the smallest single-subject upgrade that reaches target_aggregate.
+
+    Returns {subject, from_grade, to_grade, steps, new_aggregate} or None when no
+    single upgrade is enough (or the student is already there).
+
+    Only subjects the student actually sat are considered — advising someone to
+    "take Physics" is useless after results are out. Ties are broken by the
+    smallest grade jump, then by the lowest resulting aggregate.
+    """
+    current = calculate_aggregate(student_subjects, program_data)
+    if current <= target_aggregate:
+        return None
+
+    # Best (fewest grade steps) improvement found so far.
+    best = None
+
+    for subject, grade in student_subjects.items():
+        if grade not in GRADE_POINTS:
+            continue
+
+        # Try progressively better grades, stopping at the first that suffices.
+        for candidate, points in sorted(GRADE_POINTS.items(), key=lambda kv: -kv[1]):
+            if points >= GRADE_POINTS[grade]:
+                continue
+
+            trial = dict(student_subjects)
+            trial[subject] = candidate
+            new_aggregate = calculate_aggregate(trial, program_data)
+
+            if new_aggregate <= target_aggregate:
+                steps = GRADE_POINTS[grade] - points
+                option = {
+                    "subject": subject,
+                    "from_grade": grade,
+                    "to_grade": candidate,
+                    "steps": steps,
+                    "new_aggregate": new_aggregate,
+                }
+                if best is None or (steps, new_aggregate) < (best["steps"], best["new_aggregate"]):
+                    best = option
+                break
+
+    return best
+
+
 def classify_band(student_aggregate, cutoff_aggregate, cutoff_source=None):
     """Grades how comfortably a student clears a programme's cut-off.
 

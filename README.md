@@ -1,55 +1,82 @@
 # EduPredict Ghana — University Admission Predictor
 
-A full-stack Python web application that calculates a student's optimised WASSCE **Best-6 aggregate** and evaluates it against the published entry requirements of Ghanaian universities — across **10 institutions and 644 programmes**.
+A full-stack Python web application that calculates a student's optimised WASSCE **Best-6 aggregate** and evaluates it against the published entry requirements of Ghanaian universities — across **14 institutions and 770 programmes**. Free, no account, no paid checks.
 
-Unlike standard applications that only perform simple CRUD operations, this system handles complex, localised algorithmic evaluation rules: per-programme core and elective combinations, subject-specific minimum grades, "any three of these four subjects" pools, and a third-core selection rule that changes depending on whether a programme is science-track.
+Unlike standard applications that only perform simple CRUD operations, this system handles complex, localised algorithmic evaluation rules: per-programme core and elective combinations, subject-specific minimum grades, "any three of these four subjects" pools, relaxed D7 core thresholds for diploma entry, and a third-core selection rule that changes depending on whether a programme is science-track.
 
 ---
 
 ## Features
 
-**Two modes**, switchable from tabs at the top of the main card:
+The app is organised into five views, each with its own URL hash so any of them can be linked to directly.
 
-* **Check Eligibility** — enter your core and elective grades, pick a target institution, and get every programme you qualify for, with your computed aggregate against each cut-off. Results have a live search box for filtering by programme name.
-* **Browse Programmes** — no grades required. Pick an institution to browse its full catalogue with each programme's cut-off, required core subjects, required electives, and elective pool. Also live-searchable, so you can type "Computer Science" and immediately see what it demands.
+### 🎯 Check Eligibility (`#predict`)
+Enter your core and elective grades, pick a target institution, and get every programme you qualify for.
 
-**Cut-off transparency.** Every programme card carries a badge showing how much its cut-off can be trusted (see [Data honesty](#data-honesty) below) — this matters more than it sounds, because most Ghanaian universities do not publish per-programme cut-offs at all.
+* **Result banding** — every match is graded **Safe** (3+ points clear), **Competitive** (within 3 points), **Reach** (the cut-off isn't a real published one) or **Near Miss**. Results sort safest-first and can be filtered by band.
+* **Near Miss + What-If advice** — programmes you miss by up to 3 aggregate points are still shown, clearly marked as *not yet eligible*, with the single grade upgrade that would close the gap (e.g. *"upgrading Core Mathematics from C6 to C5 cuts your aggregate to 21, which would make you eligible"*).
+* **Requirement chips** on every card: required cores, required electives, and "any N of these" pools.
+* **Live search**, **region filter**, and a **shareable link** that restores your exact inputs.
+* **Print-friendly report** — `Ctrl/Cmd + P` prints just the results, in light colours, one card per row.
 
-**Light and dark themes**, following your OS preference by default and remembering an explicit choice. All colours resolve through CSS custom properties, so switching themes swaps variables rather than restyling markup.
+### 🏛️ University Directory (`#directory`)
+Every institution as a card with its region, type (Public / Technical / Private), programme count, diploma count and published cut-off range, filterable by type, with a one-click jump into that school's catalogue.
+
+### 📊 Aggregate Calculator (`#calculator`)
+A standalone WASSCE calculator — pick 4 cores and 3 electives to see your Best-6 aggregate instantly, with **no eligibility check and no institution required**. Shows both the general/arts and science-track totals, because the third core differs between them.
+
+### 📚 Admission FAQ (`#faq`)
+Accordions covering how the aggregate is computed, why the third core changes per programme, what each band means, D7 diploma entry, combining sittings, and why qualifying here is not an admission decision.
+
+### ℹ️ About (`#about`)
+What makes this tool different: 100% free, privacy-first (grades are never stored), goal advice, and an explicit statement of the data's limits.
+
+### Throughout
+
+* **Browse Programmes** — no grades required. Pick an institution to browse its full catalogue with each programme's cut-off and subject requirements, live-searchable.
+* **Cut-off transparency.** Every programme card carries a badge showing how much its cut-off can be trusted (see [Data honesty](#data-honesty)) — this matters more than it sounds, because most Ghanaian universities do not publish per-programme cut-offs at all.
+* **Light and dark themes**, following your OS preference by default and remembering an explicit choice. All colours resolve through CSS custom properties, so switching themes swaps variables rather than restyling markup. Every text/background pair is verified to meet **WCAG AA** in both themes.
+* **Considered motion.** An infinite institution marquee, tactile `:active` press feedback, and view transitions — all animating only `transform`/`opacity`, with custom easing curves, hover states gated behind `@media (hover: hover)` so mobile taps don't stick, and full `prefers-reduced-motion` support.
 
 ---
 
 ## Currently Supported Institutions
 
-| Institution | Code | Programmes | Cut-off provenance |
-|---|---|---:|---|
-| University of Ghana | `UG` | 47 | unverified |
-| KNUST | `KNUST` | 109 | unverified |
-| University for Development Studies | `UDS` | 22 | unverified |
-| University of Professional Studies, Accra | `UPSA` | 17 | unverified |
-| University of Cape Coast | `UCC` | 133 | 114 published, 19 ceiling |
-| University of Education, Winneba | `UEW` | 142 | 1 published, 141 ceiling |
-| University of Health and Allied Sciences | `UHAS` | 22 | 22 published |
-| University of Mines and Technology | `UMAT` | 33 | ceiling only |
-| University of Energy and Natural Resources | `UENR` | 37 | ceiling only |
-| Akenten Appiah-Menka University (AAMUSTED) | `AAMUSTED` | 82 | ceiling only |
-| **Total** | | **644** | |
+| Institution | Code | Type | Region | Programmes | Published cut-off range |
+|---|---|---|---|---:|---|
+| University of Ghana | `UG` | Public | Greater Accra | 47 | — |
+| KNUST | `KNUST` | Public | Ashanti | 109 | — |
+| University of Cape Coast | `UCC` | Public | Central | 133 | 8–34 |
+| University of Education, Winneba | `UEW` | Public | Central | 142 | 24 |
+| University for Development Studies | `UDS` | Public | Northern | 22 | — |
+| University of Professional Studies, Accra | `UPSA` | Public | Greater Accra | 17 | — |
+| University of Health and Allied Sciences | `UHAS` | Public | Volta | 22 | 8–22 |
+| University of Mines and Technology | `UMAT` | Public | Western | 33 | — |
+| University of Energy and Natural Resources | `UENR` | Public | Bono | 37 | — |
+| Akenten Appiah-Menka University (AAMUSTED) | `AAMUSTED` | Public | Ashanti | 82 | — |
+| Accra Technical University | `ATU` | Technical | Greater Accra | 44 | 24–36 |
+| Ghana Communication Technology University | `GCTU` | Public | Greater Accra | 39 | — |
+| Ashesi University | `ASHESI` | Private | Eastern | 10 | — |
+| Valley View University | `VVU` | Private | Greater Accra | 33 | — |
+| **Total** | | | | **770** | |
+
+A dash means the institution publishes no per-programme cut-offs at all; those programmes fall back to the site-wide entry ceiling and are labelled accordingly in the UI.
 
 ---
 
 ## Data honesty
 
-**Only about 21% of seeded programmes have a real published per-programme cut-off.** This is a limitation of the source data, not of the app, and the interface is built to be explicit about it rather than hide it.
+**Only about a fifth of seeded programmes have a real published per-programme cut-off.** This is a limitation of the source data, not of the app, and the interface is built to be explicit about it rather than hide it.
 
 Each programme carries a `cutoff_source`, surfaced as a badge on its card:
 
-| Badge | Meaning | Count |
-|---|---|---:|
-| **Competitive cut-off** | A real per-programme cut-off published by the university. | 137 |
-| **General entry ceiling** | The university publishes no cut-off for this programme, so its site-wide minimum entry aggregate (usually 36) is shown instead. Clearing it means you **meet the minimum entry requirement — not that you would be admitted.** The true departmental cut-off is likely lower and more competitive. | 312 |
-| **Unverified cut-off** | Older seed data that predates our sourcing records and has not been traced to an official publication. | 195 |
+| Badge | Meaning |
+|---|---|
+| **Competitive cut-off** | A real per-programme cut-off published by the university. |
+| **General entry ceiling** | The university publishes no cut-off for this programme, so its site-wide minimum entry aggregate (usually 36) is shown instead. Clearing it means you **meet the minimum entry requirement — not that you would be admitted.** The true departmental cut-off is likely lower and more competitive. Programmes in this state are always banded **Reach**, never Safe. |
+| **Unverified cut-off** | Older seed data that predates our sourcing records and has not been traced to an official publication. |
 
-UMaT, UENR and AAMUSTED publish no per-programme cut-offs anywhere on their sites — UMaT's and UENR's own pages concede that competitive departmental cut-offs exist but are unpublished. Third-party aggregator sites do list per-course numbers; they are unsourced and contradict each other, so **none were used**. Where a university's requirements were ambiguous, the data deliberately errs toward a false negative over a false positive.
+UMaT, UENR, AAMUSTED, GCTU and both private universities publish no per-programme cut-offs anywhere on their sites — UMaT's and UENR's own pages concede that competitive departmental cut-offs exist but are unpublished. Third-party aggregator sites do list per-course numbers; they are unsourced and contradict each other, so **none were used**. Where a university's requirements were ambiguous, the data deliberately errs toward a false negative over a false positive.
 
 Per-school sourcing methodology, inferred requirements and known gaps are documented in `data/<code>_notes.md` (kept locally, not committed).
 
@@ -87,6 +114,7 @@ instance/admissions.db    canonical SQLite file (gitignored, regenerated by seed
 | `/` | GET | Serves the single-page UI. |
 | `/api/predict` | POST | Takes a grade payload, returns every qualifying programme with the student's aggregate and each cut-off. |
 | `/api/programs/<uni_code>` | GET | Returns the full catalogue for one university (codes are case-insensitive; unknown codes return 404). |
+| `/api/universities` | GET | Summary of every institution — region, programme and diploma counts, and published cut-off range. Powers the marquee and directory. |
 
 ---
 

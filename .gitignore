@@ -30,3 +30,6 @@ note.md
 
 # Per-university data sourcing notes (working documents, not shipped data)
 data/*_notes.md
+
+# Skills set
+skills-lock.json

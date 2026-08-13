@@ -24,6 +24,38 @@ def index():
     return render_template('index.html')
 
 
+@main.route('/api/universities', methods=['GET'])
+def list_universities():
+    """Summary of every seeded institution — powers the marquee and the directory.
+
+    Cut-off ranges are computed from *published* cut-offs only; a range built from
+    site-wide ceilings would just read "36-36" and imply a precision we don't have.
+    """
+    summaries = []
+
+    for university in University.query.order_by(University.name).all():
+        programs = university.programs
+        published = [p.cutoff_aggregate for p in programs if p.cutoff_source == "published"]
+
+        summaries.append({
+            "university": university.name,
+            "university_code": university.short_code,
+            "region": university.region,
+            "program_count": len(programs),
+            "diploma_count": sum(1 for p in programs if p.program_type == "Diploma"),
+            "published_cutoff_count": len(published),
+            "cutoff_min": min(published) if published else None,
+            "cutoff_max": max(published) if published else None,
+        })
+
+    return jsonify({
+        "status": "success",
+        "university_count": len(summaries),
+        "program_count": sum(s["program_count"] for s in summaries),
+        "universities": summaries,
+    })
+
+
 @main.route('/api/programs/<uni_code>', methods=['GET'])
 def list_programs(uni_code):
     """Browse mode: every program for one university, with raw cutoffs/requirements.

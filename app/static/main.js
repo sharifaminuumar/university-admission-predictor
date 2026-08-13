@@ -77,20 +77,20 @@ const electivesList = [
 // short_code seeded in the database. Both dropdowns and the results header are
 // built from this list, so onboarding a school only means adding one entry here.
 const UNIVERSITIES = [
-    { code: "UG", region: "Greater Accra", dropdownLabel: "University of Ghana (Legon)", summaryLabel: "University of Ghana" },
-    { code: "KNUST", region: "Ashanti", dropdownLabel: "Kwame Nkrumah University of Science and Technology (KNUST)", summaryLabel: "KNUST" },
-    { code: "UDS", region: "Northern", dropdownLabel: "University for Development Studies (UDS)", summaryLabel: "UDS" },
-    { code: "UPSA", region: "Greater Accra", dropdownLabel: "University of Professional Studies, Accra (UPSA)", summaryLabel: "UPSA" },
-    { code: "UCC", region: "Central", dropdownLabel: "University of Cape Coast (UCC)", summaryLabel: "University of Cape Coast" },
-    { code: "UEW", region: "Central", dropdownLabel: "University of Education, Winneba (UEW)", summaryLabel: "University of Education, Winneba" },
-    { code: "UHAS", region: "Volta", dropdownLabel: "University of Health and Allied Sciences (UHAS)", summaryLabel: "UHAS" },
-    { code: "UMAT", region: "Western", dropdownLabel: "University of Mines and Technology (UMaT)", summaryLabel: "UMaT" },
-    { code: "UENR", region: "Bono", dropdownLabel: "University of Energy and Natural Resources (UENR)", summaryLabel: "UENR" },
-    { code: "AAMUSTED", region: "Ashanti", dropdownLabel: "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development (AAMUSTED)", summaryLabel: "AAMUSTED" },
-    { code: "ATU", region: "Greater Accra", dropdownLabel: "Accra Technical University (ATU)", summaryLabel: "Accra Technical University" },
-    { code: "GCTU", region: "Greater Accra", dropdownLabel: "Ghana Communication Technology University (GCTU)", summaryLabel: "GCTU" },
-    { code: "ASHESI", region: "Eastern", dropdownLabel: "Ashesi University (Berekuso)", summaryLabel: "Ashesi University" },
-    { code: "VVU", region: "Greater Accra", dropdownLabel: "Valley View University (VVU)", summaryLabel: "Valley View University" }
+    { code: "UG", type: "Public", region: "Greater Accra", dropdownLabel: "University of Ghana (Legon)", summaryLabel: "University of Ghana" },
+    { code: "KNUST", type: "Public", region: "Ashanti", dropdownLabel: "Kwame Nkrumah University of Science and Technology (KNUST)", summaryLabel: "KNUST" },
+    { code: "UDS", type: "Public", region: "Northern", dropdownLabel: "University for Development Studies (UDS)", summaryLabel: "UDS" },
+    { code: "UPSA", type: "Public", region: "Greater Accra", dropdownLabel: "University of Professional Studies, Accra (UPSA)", summaryLabel: "UPSA" },
+    { code: "UCC", type: "Public", region: "Central", dropdownLabel: "University of Cape Coast (UCC)", summaryLabel: "University of Cape Coast" },
+    { code: "UEW", type: "Public", region: "Central", dropdownLabel: "University of Education, Winneba (UEW)", summaryLabel: "University of Education, Winneba" },
+    { code: "UHAS", type: "Public", region: "Volta", dropdownLabel: "University of Health and Allied Sciences (UHAS)", summaryLabel: "UHAS" },
+    { code: "UMAT", type: "Public", region: "Western", dropdownLabel: "University of Mines and Technology (UMaT)", summaryLabel: "UMaT" },
+    { code: "UENR", type: "Public", region: "Bono", dropdownLabel: "University of Energy and Natural Resources (UENR)", summaryLabel: "UENR" },
+    { code: "AAMUSTED", type: "Public", region: "Ashanti", dropdownLabel: "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development (AAMUSTED)", summaryLabel: "AAMUSTED" },
+    { code: "ATU", type: "Technical", region: "Greater Accra", dropdownLabel: "Accra Technical University (ATU)", summaryLabel: "Accra Technical University" },
+    { code: "GCTU", type: "Public", region: "Greater Accra", dropdownLabel: "Ghana Communication Technology University (GCTU)", summaryLabel: "GCTU" },
+    { code: "ASHESI", type: "Private", region: "Eastern", dropdownLabel: "Ashesi University (Berekuso)", summaryLabel: "Ashesi University" },
+    { code: "VVU", type: "Private", region: "Greater Accra", dropdownLabel: "Valley View University (VVU)", summaryLabel: "Valley View University" }
 ];
 
 // Regions that actually have institutions, alphabetised for the filter dropdowns.
@@ -926,3 +926,367 @@ if (hydrateFromUrl()) {
     const form = document.getElementById("gradeForm");
     if (form) form.dispatchEvent(new Event("submit", { bubbles: true, cancelable: true }));
 }
+
+// ===========================================================================
+// Multi-view navigation (hash routing)
+// ===========================================================================
+const VIEWS = ["predict", "directory", "calculator", "faq", "about"];
+const DEFAULT_VIEW = "predict";
+
+function currentViewFromHash() {
+    const hash = window.location.hash.replace("#", "");
+    return VIEWS.includes(hash) ? hash : DEFAULT_VIEW;
+}
+
+function showView(name, { scroll = true } = {}) {
+    const view = VIEWS.includes(name) ? name : DEFAULT_VIEW;
+
+    VIEWS.forEach(candidate => {
+        const panel = document.getElementById(`view-${candidate}`);
+        if (!panel) return;
+        const active = candidate === view;
+        panel.classList.toggle("hidden", !active);
+        // Re-trigger the entrance animation on each activation.
+        panel.classList.remove("view-enter");
+        if (active) {
+            void panel.offsetWidth;
+            panel.classList.add("view-enter");
+        }
+    });
+
+    document.querySelectorAll("#view-nav [data-view]").forEach(link => {
+        if (link.getAttribute("data-view") === view) {
+            link.setAttribute("aria-current", "page");
+        } else {
+            link.removeAttribute("aria-current");
+        }
+    });
+
+    // Lazily build the heavier views the first time they are opened.
+    if (view === "directory") renderDirectory();
+    if (view === "calculator") buildCalculator();
+    if (view === "faq") buildFaq();
+
+    if (scroll) window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+window.addEventListener("hashchange", () => showView(currentViewFromHash()));
+
+// ===========================================================================
+// Institution summaries — shared by the marquee and the directory
+// ===========================================================================
+let universitySummaries = null;
+
+async function loadUniversitySummaries() {
+    if (universitySummaries) return universitySummaries;
+
+    const response = await fetch("/api/universities");
+    const data = await response.json();
+    if (!response.ok || data.status !== "success") throw new Error("Could not load institutions");
+
+    // Merge the API's live counts with the frontend's presentation metadata.
+    universitySummaries = data.universities.map(row => {
+        const meta = UNIVERSITIES.find(uni => uni.code === row.university_code) || {};
+        return { ...row, type: meta.type || "Public", label: meta.summaryLabel || row.university };
+    });
+
+    const stats = document.getElementById("hero-stats");
+    if (stats) {
+        stats.innerText = `${data.university_count} institutions · ${data.program_count} programmes · always free`;
+    }
+
+    return universitySummaries;
+}
+
+function cutoffRangeText(row) {
+    if (!row.published_cutoff_count) return "No published cut-offs";
+    if (row.cutoff_min === row.cutoff_max) return `Cut-off ${row.cutoff_min}`;
+    return `Cut-offs ${row.cutoff_min}–${row.cutoff_max}`;
+}
+
+// ===========================================================================
+// Infinite marquee
+// ===========================================================================
+function marqueeCard(row) {
+    return `
+    <button type="button" class="marquee-card pressable shrink-0 w-60 text-left bg-surface-container-lowest border border-outline-variant rounded-xl p-4"
+            data-code="${escapeHtml(row.university_code)}" title="View ${escapeHtml(row.university)} programmes">
+        <div class="flex items-center justify-between gap-2 mb-2">
+            <span class="text-lg font-bold text-primary">${escapeHtml(row.university_code)}</span>
+            <span class="text-[10px] font-bold uppercase tracking-wider bg-surface-container-low text-on-surface-variant border border-outline-variant rounded px-1.5 py-0.5">${escapeHtml(row.region)}</span>
+        </div>
+        <p class="text-xs text-on-surface leading-snug mb-2 line-clamp-2 h-8 overflow-hidden">${escapeHtml(row.university)}</p>
+        <p class="text-xs font-bold text-on-surface-variant">${row.program_count} programmes</p>
+    </button>`;
+}
+
+async function buildMarquee() {
+    const track = document.getElementById("marquee-track");
+    if (!track) return;
+
+    let rows;
+    try {
+        rows = await loadUniversitySummaries();
+    } catch (err) {
+        console.error("Marquee load failed:", err);
+        track.closest(".marquee").classList.add("hidden");
+        return;
+    }
+
+    // Two identical copies so the -50% translation loops seamlessly.
+    const cards = rows.map(marqueeCard).join("");
+    track.innerHTML = cards + cards;
+    track.setAttribute("aria-hidden", "false");
+
+    // Duration scales with content so speed stays constant regardless of count.
+    track.style.animationDuration = `${Math.max(30, rows.length * 4)}s`;
+
+    track.addEventListener("click", event => {
+        const card = event.target.closest("[data-code]");
+        if (card) openCatalogue(card.getAttribute("data-code"));
+    });
+}
+
+// Jump to a school's catalogue in Browse mode from anywhere in the app.
+function openCatalogue(code) {
+    showView("predict", { scroll: false });
+    activateMode("browse");
+
+    const region = document.getElementById("browseRegionSelector");
+    if (region) {
+        region.value = "";
+        populateUniversitySelect(document.getElementById("browseUniversitySelector"), "Select an institution…", "");
+    }
+
+    const select = document.getElementById("browseUniversitySelector");
+    if (!select) return;
+    select.value = code;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+
+    // loadBrowsePrograms scrolls to the results itself once the fetch resolves.
+}
+
+// ===========================================================================
+// University Directory
+// ===========================================================================
+let directoryFilter = "";
+let directoryBuilt = false;
+
+const DIRECTORY_TYPES = ["Public", "Technical", "Private"];
+
+async function renderDirectory() {
+    const grid = document.getElementById("directory-grid");
+    const filterBar = document.getElementById("directory-filter");
+    if (!grid) return;
+
+    let rows;
+    try {
+        rows = await loadUniversitySummaries();
+    } catch (err) {
+        grid.innerHTML = `<p class="text-on-error-container">Could not load institutions. Please refresh.</p>`;
+        return;
+    }
+
+    if (filterBar && !directoryBuilt) {
+        const counts = { "": rows.length };
+        DIRECTORY_TYPES.forEach(t => { counts[t] = rows.filter(r => r.type === t).length; });
+        filterBar.innerHTML = [{ value: "", label: "All" }]
+            .concat(DIRECTORY_TYPES.map(t => ({ value: t, label: t })))
+            .map(btn => `
+                <button type="button" class="band-tab px-4 h-10 rounded-lg font-bold text-sm border border-outline-variant"
+                        data-type="${escapeHtml(btn.value)}" aria-selected="${btn.value === directoryFilter}">
+                    ${escapeHtml(btn.label)} (${counts[btn.value]})
+                </button>`).join("");
+
+        filterBar.querySelectorAll("button[data-type]").forEach(button => {
+            button.addEventListener("click", () => {
+                directoryFilter = button.getAttribute("data-type");
+                filterBar.querySelectorAll("button[data-type]").forEach(b =>
+                    b.setAttribute("aria-selected", String(b.getAttribute("data-type") === directoryFilter)));
+                paintDirectory(rows);
+            });
+        });
+        directoryBuilt = true;
+    }
+
+    paintDirectory(rows);
+}
+
+function paintDirectory(rows) {
+    const grid = document.getElementById("directory-grid");
+    const visible = directoryFilter ? rows.filter(row => row.type === directoryFilter) : rows;
+
+    grid.innerHTML = visible.map(row => `
+        <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-5 flex flex-col"
+             style="box-shadow: var(--shadow-soft);">
+            <div class="flex items-start justify-between gap-2 mb-3">
+                <span class="text-xl font-bold text-primary">${escapeHtml(row.university_code)}</span>
+                <span class="text-[10px] font-bold uppercase tracking-wider bg-primary-fixed text-primary rounded px-2 py-1">${escapeHtml(row.type)}</span>
+            </div>
+
+            <h3 class="font-bold text-on-surface leading-snug mb-3 flex-grow">${escapeHtml(row.university)}</h3>
+
+            <div class="space-y-1.5 text-xs text-on-surface-variant mb-4">
+                <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">location_on</span>${escapeHtml(row.region)} Region</p>
+                <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">menu_book</span>${row.program_count} programmes${row.diploma_count ? ` · ${row.diploma_count} diploma` : ""}</p>
+                <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">bar_chart</span>${escapeHtml(cutoffRangeText(row))}</p>
+            </div>
+
+            <button type="button" class="pressable w-full h-10 rounded-lg bg-primary text-on-primary font-bold text-sm flex items-center justify-center gap-1.5"
+                    data-open-catalogue="${escapeHtml(row.university_code)}">
+                <span class="material-symbols-outlined text-[18px]">arrow_forward</span> View Catalogue
+            </button>
+        </div>`).join("");
+
+    grid.querySelectorAll("[data-open-catalogue]").forEach(button => {
+        button.addEventListener("click", () => openCatalogue(button.getAttribute("data-open-catalogue")));
+    });
+}
+
+// ===========================================================================
+// Standalone aggregate calculator
+// ===========================================================================
+const CALC_CORES = ["English Language", "Core Mathematics", "Integrated Science", "Social Studies"];
+const GRADE_POINTS = { A1: 1, B2: 2, B3: 3, C4: 4, C5: 5, C6: 6, D7: 7, E8: 8, F9: 9 };
+let calculatorBuilt = false;
+
+function calcRow(label, id, isElective) {
+    const options = isElective
+        ? `<option value="">Select subject</option>` + electivesList.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")
+        : "";
+    const gradeOptions = `<option value="">Grade</option>` +
+        Object.keys(GRADE_POINTS).map(g => `<option value="${g}">${g}</option>`).join("");
+
+    return `
+    <div class="flex flex-col gap-1">
+        <label class="text-xs font-medium text-on-surface-variant" for="${id}_grade">${escapeHtml(label)}</label>
+        <div class="${isElective ? "grid grid-cols-2 gap-2" : ""}">
+            ${isElective ? `<select id="${id}_name" class="h-10 rounded-lg border-outline-variant bg-surface-container-lowest text-sm">${options}</select>` : ""}
+            <select id="${id}_grade" class="h-10 w-full rounded-lg border-outline-variant bg-surface-container-lowest text-sm">${gradeOptions}</select>
+        </div>
+    </div>`;
+}
+
+function buildCalculator() {
+    if (calculatorBuilt) return;
+
+    const cores = document.getElementById("calc-cores");
+    const electives = document.getElementById("calc-electives");
+    if (!cores || !electives) return;
+
+    cores.innerHTML = CALC_CORES.map((name, i) => calcRow(name, `calc_core${i}`, false)).join("");
+    electives.innerHTML = [1, 2, 3].map(i => calcRow(`Elective ${i}`, `calc_el${i}`, true)).join("");
+
+    document.querySelectorAll("#calc-cores select, #calc-electives select")
+        .forEach(select => select.addEventListener("change", runCalculator));
+
+    calculatorBuilt = true;
+    runCalculator();
+}
+
+function runCalculator() {
+    const box = document.getElementById("calc-result");
+    if (!box) return;
+
+    const grade = id => document.getElementById(id) ? document.getElementById(id).value : "";
+    const points = value => GRADE_POINTS[value];
+
+    const english = points(grade("calc_core0_grade"));
+    const maths = points(grade("calc_core1_grade"));
+    const science = points(grade("calc_core2_grade"));
+    const social = points(grade("calc_core3_grade"));
+    const electives = [1, 2, 3].map(i => points(grade(`calc_el${i}_grade`))).filter(Boolean);
+
+    const missing = [];
+    if (!english) missing.push("English");
+    if (!maths) missing.push("Core Maths");
+    if (!science && !social) missing.push("Integrated Science or Social Studies");
+    if (electives.length < 3) missing.push(`${3 - electives.length} more elective grade(s)`);
+
+    if (missing.length) {
+        box.innerHTML = `
+            <p class="text-sm text-on-surface-variant">Add your grades to see your aggregate.</p>
+            <p class="text-xs text-on-surface-variant mt-2">Still needed: ${escapeHtml(missing.join(", "))}</p>`;
+        return;
+    }
+
+    const bestThree = [...electives].sort((a, b) => a - b).slice(0, 3).reduce((a, b) => a + b, 0);
+    // The third core differs by track: science programmes always count Integrated
+    // Science, everything else takes whichever of Science/Social Studies is better.
+    const generalTotal = english + maths + Math.min(science || 9, social || 9) + bestThree;
+    const scienceTotal = science ? english + maths + science + bestThree : null;
+
+    box.innerHTML = `
+        <span class="text-xs uppercase tracking-wider text-on-surface-variant font-bold">Your Best-6 aggregate</span>
+        <div class="text-6xl font-bold text-primary my-2">${generalTotal}</div>
+        <p class="text-sm text-on-surface-variant">General / Arts &amp; Business track — counts the better of Integrated Science and Social Studies.</p>
+        ${scienceTotal !== null && scienceTotal !== generalTotal ? `
+        <div class="mt-4 pt-4 border-t border-outline-variant">
+            <span class="text-xs uppercase tracking-wider text-on-surface-variant font-bold">Science track</span>
+            <div class="text-3xl font-bold text-on-surface mt-1">${scienceTotal}</div>
+            <p class="text-xs text-on-surface-variant mt-1">Science programmes must count Integrated Science as the third core.</p>
+        </div>` : ""}
+        <a href="#predict" class="pressable inline-flex items-center gap-1.5 mt-5 h-10 px-4 rounded-lg bg-primary text-on-primary font-bold text-sm">
+            <span class="material-symbols-outlined text-[18px]">target</span> Check which programmes accept this
+        </a>`;
+}
+
+// ===========================================================================
+// FAQ
+// ===========================================================================
+const FAQ_ITEMS = [
+    {
+        q: "How is the WASSCE aggregate calculated?",
+        a: "Your aggregate is the sum of your best six subjects: English Language, Core Mathematics, a third core (Integrated Science or Social Studies), and your three best electives. Grades score A1=1 through F9=9, so a lower aggregate is better. The best possible is 6."
+    },
+    {
+        q: "Why does the third core subject change between programmes?",
+        a: "Science, health and engineering programmes must count Integrated Science as the third core. Everything else takes whichever of Integrated Science and Social Studies is better for you. That means the same grades can produce different aggregates at different programmes, which is why we recalculate per programme rather than once."
+    },
+    {
+        q: "What does \"General entry ceiling\" mean on a card?",
+        a: "It means that university publishes no cut-off for that programme, so we show its site-wide minimum entry aggregate instead — usually 36. Clearing it means you meet the minimum requirement to apply, not that you would be admitted. The real departmental cut-off is unknown and almost certainly more competitive."
+    },
+    {
+        q: "What is the difference between Safe, Competitive, Reach and Near Miss?",
+        a: "Safe means your aggregate is at least 3 points better than the cut-off. Competitive means you clear it by less than 3 points, so the place is contested. Reach means the cut-off is not a real published one, so clearing it proves little. Near Miss means you do not qualify yet — you are within 3 points, and we show the single grade upgrade that would close the gap."
+    },
+    {
+        q: "Can I enter a diploma or HND programme with a D7?",
+        a: "Yes. Ghanaian diploma and HND entry is normally advertised as \"passes (A1–D7)\" in the core subjects while still requiring credits (C6 or better) in the electives. Diploma programmes in this app apply that relaxed core rule and carry no aggregate ceiling, which is why their cut-off shows as \"Open\"."
+    },
+    {
+        q: "Can I combine results from two different sittings?",
+        a: "Most Ghanaian universities allow you to combine sittings, though some competitive programmes prefer a single sitting and a few discount the second attempt. This tool has no concept of sittings — enter the best grade you hold in each subject, and confirm the combining rule with the specific university before you apply."
+    },
+    {
+        q: "Does qualifying here mean I will be admitted?",
+        a: "No. This is a guide, not an admission decision. Cut-offs move year to year with demand, several programmes require entrance examinations or interviews we cannot model, and some universities weigh factors beyond grades entirely. Treat a result as a shortlist, not a promise."
+    }
+];
+
+let faqBuilt = false;
+
+function buildFaq() {
+    const list = document.getElementById("faq-list");
+    if (!list || faqBuilt) return;
+
+    list.innerHTML = FAQ_ITEMS.map(item => `
+        <details class="faq-item bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden">
+            <summary class="pressable cursor-pointer list-none p-5 flex items-center justify-between gap-4 font-bold text-on-surface">
+                <span>${escapeHtml(item.q)}</span>
+                <span class="faq-chevron material-symbols-outlined text-on-surface-variant shrink-0">expand_more</span>
+            </summary>
+            <div class="faq-answer">
+                <div><p class="px-5 pb-5 text-sm text-on-surface-variant leading-relaxed">${escapeHtml(item.a)}</p></div>
+            </div>
+        </details>`).join("");
+
+    faqBuilt = true;
+}
+
+// ---------------------------------------------------------------------------
+// Boot the multi-view layer
+// ---------------------------------------------------------------------------
+showView(currentViewFromHash(), { scroll: false });
+buildMarquee();

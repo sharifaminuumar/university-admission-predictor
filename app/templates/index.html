@@ -200,11 +200,20 @@
                     <div id="panel-eligibility" role="tabpanel" aria-labelledby="tab-eligibility">
                     <form id="gradeForm" class="space-y-8">
 
-                        <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant">
-                            <label for="universitySelector" class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
-                            <div class="relative">
-                                <select id="universitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-surface-container-lowest focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
-                                <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
+                        <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant space-y-4">
+                            <div>
+                                <label for="regionSelector" class="block font-semibold text-sm text-primary mb-2">Region</label>
+                                <div class="relative">
+                                    <select id="regionSelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-surface-container-lowest focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="universitySelector" class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
+                                <div class="relative">
+                                    <select id="universitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-surface-container-lowest focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
+                                </div>
                             </div>
                         </div>
 
@@ -260,6 +269,12 @@
 
                     <div id="panel-browse" role="tabpanel" aria-labelledby="tab-browse" class="hidden">
                         <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant">
+                            <label for="browseRegionSelector" class="block font-semibold text-sm text-primary mb-2">Region</label>
+                            <div class="relative mb-4">
+                                <select id="browseRegionSelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-surface-container-lowest focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
+                                <span class="absolute right-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline pointer-events-none">keyboard_arrow_down</span>
+                            </div>
+
                             <label for="browseUniversitySelector" class="block font-semibold text-sm text-primary mb-2">Target Institution</label>
                             <div class="relative">
                                 <select id="browseUniversitySelector" class="w-full h-12 pl-4 pr-10 rounded-lg border-outline-variant bg-surface-container-lowest focus:border-primary focus:ring-0 appearance-none font-medium cursor-pointer"></select>
@@ -340,6 +355,6 @@
         </div>
     </footer>
 
-    <script src="/static/main.js?v=5"></script>
+    <script src="/static/main.js?v=6"></script>
 </body>
 </html>

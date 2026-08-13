@@ -11,6 +11,10 @@ class University(db.Model):
     name = db.Column(db.String(150), nullable=False)
     short_code = db.Column(db.String(20), nullable=False, unique=True)
 
+    # Ghanaian administrative region the institution sits in, used by the
+    # frontend's region filter. "Unspecified" only if a data file omits it.
+    region = db.Column(db.String(60), nullable=False, default="Unspecified")
+
     # Relationship: One university has many programs
     programs = db.relationship('Program', backref='university_data', lazy=True, cascade="all, delete-orphan")
 

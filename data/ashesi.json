@@ -1,0 +1,312 @@
+{
+  "university_name": "Ashesi University",
+  "short_code": "ASHESI",
+  "region": "Eastern",
+  "programs": [
+    {
+      "program_name": "BSc. Biological Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi additionally states: 'Students intending to major in Engineering must have taken Physics and Elective/Further Mathematics.'"
+    },
+    {
+      "program_name": "BSc. Computer Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi additionally states: 'Students intending to major in Engineering must have taken Physics and Elective/Further Mathematics.'"
+    },
+    {
+      "program_name": "BSc. Electrical and Electronics Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi additionally states: 'Students intending to major in Engineering must have taken Physics and Elective/Further Mathematics.'"
+    },
+    {
+      "program_name": "BSc. Mechanical Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi additionally states: 'Students intending to major in Engineering must have taken Physics and Elective/Further Mathematics.'"
+    },
+    {
+      "program_name": "BSc. Mechatronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi additionally states: 'Students intending to major in Engineering must have taken Physics and Elective/Further Mathematics.'"
+    },
+    {
+      "program_name": "BSc. Business Administration",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi names no compulsory elective for this major; the engineering Physics/Elective Mathematics rule applies only to the engineering majors."
+    },
+    {
+      "program_name": "BSc. Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi names no compulsory elective for this major; the engineering Physics/Elective Mathematics rule applies only to the engineering majors."
+    },
+    {
+      "program_name": "BSc. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi names no compulsory elective for this major; the engineering Physics/Elective Mathematics rule applies only to the engineering majors."
+    },
+    {
+      "program_name": "LLB Law with Public Policy",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi names no compulsory elective for this major; the engineering Physics/Elective Mathematics rule applies only to the engineering majors."
+    },
+    {
+      "program_name": "BSc. Management Information Systems",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Ashesi publishes no aggregate cut-off. Its only published WASSCE bar is 'A minimum grade of C6 in each subject is required to apply' across the six scored subjects (Integrated Science, Core Math, Core English and three electives), which is an aggregate of 36. This is a minimum entry requirement, not a competitive cut-off. Admission is holistic: the committee weighs the personal essay, extracurriculars and high school transcript, and shortlisted candidates must pass a personal interview. Ashesi names no compulsory elective for this major; the engineering Physics/Elective Mathematics rule applies only to the engineering majors."
+    }
+  ]
+}

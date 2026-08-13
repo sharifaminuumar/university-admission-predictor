@@ -1,0 +1,1349 @@
+{
+  "university_name": "Accra Technical University",
+  "short_code": "ATU",
+  "region": "Greater Accra",
+  "programs": [
+    {
+      "program_name": "B.Tech. Electrical and Electronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Applied Electricity",
+            "Physics",
+            "Chemistry",
+            "Elective Mathematics",
+            "Technical Drawing",
+            "Computing / ICT",
+            "Electronics",
+            "Biology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU names eight acceptable electives and requires any three of them; encoded as an elective_options block with minimum_required 3."
+    },
+    {
+      "program_name": "B.Tech. Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU requires \"three (3) elective subjects including Elective Mathematics, Physics, and any other Elective subject\", so both named subjects are mandatory."
+    },
+    {
+      "program_name": "B.Tech. Water and Sanitation Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Biology",
+            "Elective Mathematics",
+            "Agricultural Science"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU names four electives (Chemistry, Biology, Elective Mathematics, General Agriculture) and requires three of them; encoded as elective_options with minimum_required 3."
+    },
+    {
+      "program_name": "B.Tech. Interior Design and Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU asks only for \"at least three (3) Credit passes in any elective subject\", so no elective is named. Cores are \"Integrated Science/Social Studies\"; only Integrated Science is listed as mandatory, and the pool is \"Any\" so Social Studies can still serve as the third core in the aggregate."
+    },
+    {
+      "program_name": "B.Tech. Medical Laboratory Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Level 100 (Morning/Evening) WASSCE entry only; the Level 200/300 HND and degree entry routes are not modelled. Any three of the four named science electives are required."
+    },
+    {
+      "program_name": "B.Tech. Medical Imaging Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Any three of the four named science electives are required."
+    },
+    {
+      "program_name": "B.Tech. Cyber Security",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU has two WASSCE routes: science applicants need three of Elective Mathematics, Physics, Chemistry and Biology, while \"for non-science students, Grade C6 or better in elective mathematics is required\". A single elective_options block cannot express two alternative routes, so the looser common denominator (at least one of the four named subjects) was used to avoid rejecting valid non-science applicants."
+    },
+    {
+      "program_name": "B.Tech. Applied Statistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Elective Mathematics",
+            "Computing / ICT",
+            "Applied Electricity",
+            "Technical Drawing",
+            "Economics",
+            "Geography",
+            "Financial Accounting"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU requires \"any three elective subjects including at least one of\" the listed subjects, hence minimum_required 1. Cores are \"Integrated Science, or Social Studies\", so the pool is \"Any\" rather than \"Sciences\" to let Social Studies count as the third core."
+    },
+    {
+      "program_name": "B.Tech. Public Relations with Digital Communication",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Cores are \"Integrated Science/Social Studies/Life Skills\"; only Integrated Science is listed. Electives: \"at least three (3) Credit passes in any elective subject\" — none named."
+    },
+    {
+      "program_name": "B.Tech. Accounting and Finance Analytics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Cores are \"Integrated Science/Social Studies/Life Skills\"; only Integrated Science is listed. No elective is named."
+    },
+    {
+      "program_name": "B.Tech. Logistics and Transport Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Cores are \"Integrated Science/Social Studies/Life Skills\"; only Integrated Science is listed. No elective is named."
+    },
+    {
+      "program_name": "B.Tech. Marketing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Cores are \"Integrated Science/Social Studies/Life Skills\"; only Integrated Science is listed. No elective is named."
+    },
+    {
+      "program_name": "B.Tech. Science Laboratory Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Any three of the four named science electives are required."
+    },
+    {
+      "program_name": "B.Tech. Biomedical Equipment Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Biology",
+            "Chemistry",
+            "Computing / ICT"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Two WASSCE routes: science applicants need three of Elective Mathematics, Physics, Biology and Chemistry; \"for non-science students, Grade C6 or better in elective mathematics and/or elective ICT is required\". Encoded as the looser common denominator (at least one of the five named subjects)."
+    },
+    {
+      "program_name": "B.Tech. Secretaryship and Administrative Practice",
+      "cutoff_aggregate": 24,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Published per-programme cut-off. ATU: \"WASSCE holders who have credits (A1-C6) in the following three (3) Core Subjects: English Language, Mathematics, and Integrated Science, plus credits (A1-C6) in Three Elective subjects with an Aggregate Score of 24 or better in any area of study.\" No elective subject is named."
+    },
+    {
+      "program_name": "B.Tech. Facilities Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme. Its stated rule is \"Six (6) credits (A1 - C6) in all subjects, including English Language, Core Mathematics and Integrated Science/Social Studies\", which arithmetically implies a best-6 aggregate of 36 or better; 36 is recorded as a general ceiling, not a published cut-off. No elective subject is named."
+    },
+    {
+      "program_name": "B.Tech. Construction Engineering Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme. Its stated rule is \"Six (6) credits (A1 - C6) in all subjects, including English Language, Core Mathematics and Integrated Science/Social Studies\", which arithmetically implies a best-6 aggregate of 36 or better; 36 is recorded as a general ceiling, not a published cut-off. No elective subject is named."
+    },
+    {
+      "program_name": "B.Tech. Fashion Design and Textiles Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Cores are \"English Language, Core Mathematics, plus Integrated Science or Social Studies\" and \"any three (3) elective subjects\" — no elective named. Listed on the programmes page as \"BTech Fashion Design and Textiles\"."
+    },
+    {
+      "program_name": "B.Tech. Mechanical Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Chemistry",
+            "Physics",
+            "Biology",
+            "Applied Electricity",
+            "Electronics",
+            "Metal Technology",
+            "Automobile Technology",
+            "Computing / ICT",
+            "Technical Drawing",
+            "Geography",
+            "Agricultural Science"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU requires \"any other three (3) of the following combinations of subjects: Elective Mathematics, Chemistry, Physics, Biology, Applied Electricity, Electronics, Metal Work, Auto Mechanics, Elective ICT, Technical Drawing, Geography, General Agriculture, etc.\" — encoded as minimum_required 3. \"Metal Work\" mapped to Metal Technology, \"Auto Mechanics\" to Automobile Technology, \"Elective ICT\" to Computing / ICT. The trailing \"etc.\" was treated as a closed list, which may reject an applicant offering an unlisted technical elective."
+    },
+    {
+      "program_name": "B.Tech. Automotive Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Chemistry",
+            "Physics",
+            "Biology",
+            "Applied Electricity",
+            "Electronics",
+            "Metal Technology",
+            "Automobile Technology",
+            "Computing / ICT",
+            "Technical Drawing",
+            "Geography",
+            "Agricultural Science"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU requires \"any other three (3) of the following combinations of subjects: Elective Mathematics, Chemistry, Physics, Biology, Applied Electricity, Electronics, Metal Work, Auto Mechanics, Elective ICT, Technical Drawing, Geography, General Agriculture, etc.\" — encoded as minimum_required 3. \"Metal Work\" mapped to Metal Technology, \"Auto Mechanics\" to Automobile Technology, \"Elective ICT\" to Computing / ICT. The trailing \"etc.\" was treated as a closed list, which may reject an applicant offering an unlisted technical elective."
+    },
+    {
+      "program_name": "B.Tech. Applied Informatics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Computing / ICT"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Two WASSCE routes: science applicants need three of Elective Mathematics, Physics and Chemistry; \"for non-science students, Grade C6 or better in Elective Mathematics and/or elective ICT is required\". Encoded as the looser common denominator (at least one of the four named subjects). ATU's page prints \"Physics 6\", read as Physics."
+    },
+    {
+      "program_name": "B.Tech. Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. Two WASSCE routes: science applicants need three of Elective Mathematics, Physics, Chemistry and Biology; \"for non-science students, a Grade C6 or better in elective mathematics is required\". Encoded as the looser common denominator (at least one of the four named subjects)."
+    },
+    {
+      "program_name": "B.Tech. Hospitality Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU asks for \"Grade C6 or better in any 3 elective subjects\" — none named. Listed on the programmes page as \"BTech Hospitality Management and Catering Technology\"."
+    },
+    {
+      "program_name": "B.Tech. Procurement and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Elective Mathematics",
+            "Computing / ICT",
+            "Applied Electricity",
+            "Technical Drawing",
+            "Economics",
+            "Geography",
+            "Financial Accounting"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU requires \"any three elective subjects including at least one of\" the listed subjects, hence minimum_required 1. Cores are \"Integrated Science or Social Studies\"; only Integrated Science is listed as mandatory."
+    },
+    {
+      "program_name": "B.Tech. Renewable Energy Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Elective Mathematics",
+            "Biology",
+            "Metal Technology",
+            "Automobile Technology",
+            "Building Construction Technology",
+            "Electronics",
+            "Wood Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme; the university states no site-wide WASSCE aggregate ceiling either, so aggregate 36 was assumed as the ceiling. Treat this as \"meets the stated minimum entry requirement\", not a competitive cut-off. ATU requires three credit passes from \"Physics, Chemistry, Mathematics, Biology, Metal Work, Auto Mechanics, Plumbing, Building Construction, Basic Electronics, Woodwork, Block Work and Technical Drawing\". \"Mathematics\" in that elective list was read as Elective Mathematics; Metal Work/Auto Mechanics/Building Construction/Basic Electronics/Woodwork mapped to their WASSCE names. \"Plumbing\" and \"Block Work\" are not WASSCE elective subjects and were dropped."
+    },
+    {
+      "program_name": "B.Tech. Food Manufacturing Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Agricultural Science",
+            "Food and Nutrition",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for this programme. Its stated rule is \"SIX (6) (A1-C6) in all subjects, including English Language, Core Mathematics and Integrated Science\", which arithmetically implies a best-6 aggregate of 36 or better; 36 is recorded as a general ceiling, not a published cut-off. The elective list is introduced with \"such as\" (Physics, Chemistry, Biology/Agriculture Science, Food and Nutrition, Elective Mathematics), i.e. explicitly illustrative, so minimum_required is 1 rather than 3."
+    },
+    {
+      "program_name": "B.Tech. Data Science and Analytics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "published",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Published per-programme aggregate. ATU: \"Applicants with a minimum grade of C6 or better in three (3) core subjects, i.e., English language, Core Mathematics, and Integrated Science, in addition to three (3) elective subjects with an aggregate score of 36 or better in the relevant area of study.\" No individual elective subject is named."
+    },
+    {
+      "program_name": "HND Mechanical Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Automobile Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Electrical and Electronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Building Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Interior Design and Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Furniture Design and Production",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Science Laboratory Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Statistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Fashion Design and Textiles",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Hotel, Catering and Institutional Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Accountancy",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Marketing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Purchasing and Supply",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Secretaryship and Management Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    },
+    {
+      "program_name": "HND Bilingual Secretaryship and Management Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "ATU publishes no aggregate cut-off for any HND programme, and states no site-wide WASSCE aggregate ceiling, so aggregate 36 was assumed. ATU's own HND rule is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" The predictor cannot express \"D7 passes plus three credits\", so cores and electives are modelled at C6 — stricter than ATU's published rule. No elective subject is named for any HND programme."
+    }
+  ]
+}

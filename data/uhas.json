@@ -1,6 +1,7 @@
 {
   "university_name": "University of Health and Allied Sciences",
   "short_code": "UHAS",
+  "region": "Volta",
   "programs": [
     {
       "program_name": "Bachelor of Medicine, Bachelor of Surgery (MBChB)",

@@ -1,6 +1,7 @@
 {
   "university_name": "University of Cape Coast",
   "short_code": "UCC",
+  "region": "Central",
   "programs": [
     {
       "program_name": "BCom Accounting",

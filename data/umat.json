@@ -1,6 +1,7 @@
 {
   "university_name": "University of Mines and Technology",
   "short_code": "UMAT",
+  "region": "Western",
   "programs": [
     {
       "program_name": "BSc. Mining Engineering",

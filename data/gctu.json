@@ -1,0 +1,1113 @@
+{
+  "university_name": "Ghana Communication Technology University",
+  "short_code": "GCTU",
+  "region": "Greater Accra",
+  "programs": [
+    {
+      "program_name": "BSc. Telecommunications Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics",
+            "Technical Drawing"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
+      },
+      "notes": "Faculty of Engineering text: 'Credits in three (3) SSSCE/WASSCE Core Subjects: (Mathematics, English Language and Integrated Science) plus three (3) credits in the following Elective Subjects: Elective Mathematics, Physics, and Chemistry/Applied Electricity/Electronics/Technical Drawing.' Elective Mathematics and Physics encoded as compulsory; the slash-list encoded as any one of four. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Computer Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics",
+            "Technical Drawing"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
+      },
+      "notes": "Faculty of Engineering text: 'Credits in three (3) SSSCE/WASSCE Core Subjects: (Mathematics, English Language and Integrated Science) plus three (3) credits in the following Elective Subjects: Elective Mathematics, Physics, and Chemistry/Applied Electricity/Electronics/Technical Drawing.' Elective Mathematics and Physics encoded as compulsory; the slash-list encoded as any one of four. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Electrical and Electronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        }
+      },
+      "notes": "Programme page: 'At least credits in the following core subjects: English Language, Mathematics and Integrated Science in addition to credits in THREE (3) of the following elective subjects: Physics, Mathematics, and Chemistry or Applied Electricity, or Electronics.' 'Mathematics' in the elective list read as Elective Mathematics. Technical Drawing is absent from this programme's own list (unlike Telecom/Computer Engineering) and is therefore not included. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Mathematics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        }
+      },
+      "notes": "Programme page: 'Credits in at least three (3) Elective Science Subjects (e.g., Elective Mathematics, Physics, Chemistry, Applied Electricity, Electronics, or Technical Drawing).' The 'e.g.' makes the list illustrative rather than exhaustive, so this encoding is STRICTER than the published rule - a science elective outside these six will not be credited. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Actuarial Science with Data Analytics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific entry requirement is published: the catalogue entry has no detail page. Only GCTU's university-wide requirement is encoded, so no electives are named. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Computational Statistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific entry requirement is published: the catalogue entry has no detail page. Only GCTU's university-wide requirement is encoded, so no electives are named. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page publishes no entry requirements (verified: the page body contains no admission text). Only GCTU's university-wide requirement is encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Mobile Computing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page publishes no entry requirements. Only GCTU's university-wide requirement is encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Credits (A1-C6) in 3 core subjects (English, Mathematics, Integrated Science) plus Elective Mathematics and any two electives.' GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Software Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Credits (A1-C6) in 3 core subjects (English, Mathematics, Integrated Science) plus Elective Mathematics and any two electives.' GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Computer Science (Cyber Security Option)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Credit passes in 3 core subjects (English, Mathematics, Science) plus 3 electives including Mathematics and Physics.' 'Mathematics' among the electives read as Elective Mathematics. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Data Science and Analytics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Credit passes in 3 core subjects (English, Mathematics, Science) plus 3 electives including Mathematics and one science-related subject.' The 'one science-related subject' names no specific subjects, so it is NOT encoded - only Elective Mathematics is enforced. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Information Systems",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'credit passes in three core subjects: English Language, Mathematics, and Integrated Science or Social Studies' plus 'credit passes in three elective subjects with an aggregate score of 36 or better'. No elective is named, so none are encoded. This page is one of the explicit confirmations that GCTU's WASSCE figure is 36. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Web Application Development",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'At least credits (A1-C6) in three (3) core subjects (English Language, Mathematics and Integrated Science) plus at least credits (A1-C6) in any three (3) elective subjects.' No elective named, so none encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Network and System Administration",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific entry requirement is published: the catalogue entry has no detail page. Only GCTU's university-wide requirement is encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Internet of Things and Big Data",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific entry requirement is published for the undergraduate programme (only the MSc/MPhil has a page). Only GCTU's university-wide requirement is encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Accounting Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Banking and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. E-Commerce and Marketing Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Financial Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page was checked in-browser and contains no admission requirement text at all. GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Business Administration - Human Resource Management Option",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Business Administration - Marketing Option",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Business Administration - Accounting Option",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Procurement and Logistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CONFLICTING SOURCE: this programme's own page reads 'SSSCE and WASSCE holders: Passes in six (6) subjects with an aggregate score of 24 or better...', lumping both certificates onto the SSSCE figure. GCTU's institution-level pages and its WASSCE-labelled programme pages all give 36 for WASSCE, so 36 is used here. GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "BSc. Business Administration - Management Option",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CONFLICTING SOURCE: this programme's own (legacy) page reads 'passes in six subjects with an aggregate score of 20 or better in the WASSCE/SSSCE' and lists SSSCE-era elective names (Typing, Clerical Office Duties, Business Studies) that are not WASSCE subjects. Neither the aggregate nor the elective list is encoded; GCTU's university-wide WASSCE figure of 36 is used. GCTU states the third core is 'Integrated Science (for Science related programs) or Social Studies (for non-science programs)'; only Integrated Science is listed here per the repository convention, and the engine enforces Integrated Science for every programme regardless. No electives are named for this programme ('any three elective subjects'), so none are encoded. GCTU publishes no competitive per-programme cut-off. This is the university-wide WASSCE minimum entry aggregate ('aggregate 24/36 respectively' for SSSCE/WASSCE, Admission Requirements for Undergraduate Programmes; restated as 'Aggregate score of 24 (SSSCE) or 36 (WASSCE)' on Faculty of Engineering programme pages). It means 'meets the minimum entry bar', not 'would likely be admitted'."
+    },
+    {
+      "program_name": "Diploma in Computational Statistics",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Telecommunications Engineering",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Information Technology",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Grades A1-D7 in 3 core subjects (English, Mathematics, Integrated Science/Social Studies) and 3 relevant electives.' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Information Systems",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Applicants must have passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE'; three cores (English, Mathematics, Integrated Science or Social Studies) plus any three electives. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Data Science and Analytics",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Passes (A1-D7) in 3 core subjects (English, Mathematics, Integrated Science/Social Studies) and 3 elective subjects (at least 3 credit passes A1-C6).' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Cyber Security",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Computer Science",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "Programme page: 'Credit passes (A1-C6) in three (3) core subjects including English, Mathematics, and Integrated Science/Social Studies, plus three (3) relevant elective subjects.' GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Multimedia Technology",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Web Application Development",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Public Relations",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Management",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Accounting",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "The programme page was checked and publishes no WASSCE requirement. GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    },
+    {
+      "program_name": "Diploma in Marketing",
+      "cutoff_aggregate": 39,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "GCTU's general diploma rule names no elective subjects ('three elective subjects' / 'three relevant electives'), so none are encoded. Note the app's engine requires a credit (A1-C6) in English, Core Mathematics and Integrated Science for every programme, which is stricter than GCTU's diploma rule allowing passes down to D7. Diploma entry aggregate. GCTU states 'passes in six (6) subjects with an aggregate score of 39 or better in WASSCE/SSSCE' (Diploma in Information Systems page) and 'an aggregate score of 39/27 or better in the WASSCE/SSSCE' (Admission Policy, Diploma in Business Administration). Applied to all GCTU diploma programmes; not a competitive cut-off."
+    }
+  ]
+}

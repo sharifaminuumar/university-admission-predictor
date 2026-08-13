@@ -3,19 +3,25 @@ import os
 
 from app import create_app, db
 
-# The single place to register a school: (short_code, display name, data filename).
+# The single place to register a school: (short_code, display name, region, data filename).
 # short_code must be UPPERCASE — /api/programs/<uni_code> matches on the uppercased code.
+# The region here is authoritative (knust.json historically had no metadata header);
+# a data file's own "region" key is cross-checked against it during seeding.
 UNIVERSITIES = [
-    ("UG", "University of Ghana", "ug.json"),
-    ("KNUST", "Kwame Nkrumah University of Science and Technology", "knust.json"),
-    ("UDS", "University for Development Studies", "uds.json"),
-    ("UPSA", "University of Professional Studies, Accra", "upsa.json"),
-    ("UCC", "University of Cape Coast", "ucc.json"),
-    ("UEW", "University of Education, Winneba", "uew.json"),
-    ("UHAS", "University of Health and Allied Sciences", "uhas.json"),
-    ("UMAT", "University of Mines and Technology", "umat.json"),
-    ("UENR", "University of Energy and Natural Resources", "uenr.json"),
-    ("AAMUSTED", "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development", "aamusted.json"),
+    ("UG", "University of Ghana", "Greater Accra", "ug.json"),
+    ("KNUST", "Kwame Nkrumah University of Science and Technology", "Ashanti", "knust.json"),
+    ("UDS", "University for Development Studies", "Northern", "uds.json"),
+    ("UPSA", "University of Professional Studies, Accra", "Greater Accra", "upsa.json"),
+    ("UCC", "University of Cape Coast", "Central", "ucc.json"),
+    ("UEW", "University of Education, Winneba", "Central", "uew.json"),
+    ("UHAS", "University of Health and Allied Sciences", "Volta", "uhas.json"),
+    ("UMAT", "University of Mines and Technology", "Western", "umat.json"),
+    ("UENR", "University of Energy and Natural Resources", "Bono", "uenr.json"),
+    ("AAMUSTED", "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development", "Ashanti", "aamusted.json"),
+    ("ATU", "Accra Technical University", "Greater Accra", "atu.json"),
+    ("GCTU", "Ghana Communication Technology University", "Greater Accra", "gctu.json"),
+    ("ASHESI", "Ashesi University", "Eastern", "ashesi.json"),
+    ("VVU", "Valley View University", "Greater Accra", "vvu.json"),
 ]
 
 # Resolved from this file's location, not the working directory, so seeding behaves
@@ -23,20 +29,22 @@ UNIVERSITIES = [
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 
 
-def load_programs(filename):
-    """Returns the program list from a data file, or None if the file is absent.
+def load_data_file(filename):
+    """Returns (programs, declared_region) from a data file, or (None, None) if absent.
 
-    Files are either {"university_name": ..., "programs": [...]} or a bare
-    [...] array (knust.json), so both shapes are accepted.
+    Files are either {"university_name": ..., "region": ..., "programs": [...]} or a
+    bare [...] array, so both shapes are accepted. A bare array declares no region.
     """
     path = os.path.join(DATA_DIR, filename)
     if not os.path.exists(path):
-        return None
+        return None, None
 
     with open(path, 'r', encoding='utf-8') as f:
         payload = json.load(f)
 
-    return payload.get('programs', payload) if isinstance(payload, dict) else payload
+    if isinstance(payload, dict):
+        return payload.get('programs', []), payload.get('region')
+    return payload, None
 
 
 app = create_app()
@@ -54,15 +62,21 @@ with app.app_context():
     seeded_programs = 0
     missing_files = []
 
-    for short_code, name, filename in UNIVERSITIES:
-        programs = load_programs(filename)
+    region_mismatches = []
+
+    for short_code, name, region, filename in UNIVERSITIES:
+        programs, declared_region = load_data_file(filename)
 
         if programs is None:
             missing_files.append(filename)
             print(f"  !  {short_code:<9} skipped — data/{filename} not found.")
             continue
 
-        university = University(name=name, short_code=short_code)
+        # Catch drift between the registry above and the data file's own region key.
+        if declared_region and declared_region != region:
+            region_mismatches.append(f"{short_code}: registry='{region}' vs {filename}='{declared_region}'")
+
+        university = University(name=name, short_code=short_code, region=region)
         db.session.add(university)
         db.session.flush()  # assigns the parent primary key before adding children
 
@@ -80,10 +94,14 @@ with app.app_context():
 
         seeded_universities += 1
         seeded_programs += len(programs)
-        print(f"  +  {short_code:<9} seeded {len(programs):>4} programmes.")
+        print(f"  +  {short_code:<9} {region:<15} seeded {len(programs):>4} programmes.")
 
     db.session.commit()
 
     print(f"\nSeeding complete: {seeded_universities} universities, {seeded_programs} programmes.")
     if missing_files:
         print(f"Missing data files ({len(missing_files)}): {', '.join(missing_files)}")
+    if region_mismatches:
+        print(f"\n!! Region mismatches ({len(region_mismatches)}) — registry wins, please reconcile:")
+        for mismatch in region_mismatches:
+            print(f"   - {mismatch}")

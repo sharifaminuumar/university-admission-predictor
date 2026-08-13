@@ -6,7 +6,9 @@ Project memory for the Ghanaian University Admission Predictor. Keep this file c
 
 A Flask web app that predicts which Ghanaian university programs a student qualifies for from their WASSCE results. A student picks a target institution and enters core + elective grades; the app computes their Best-6 aggregate and checks it against each program's cutoff and subject-specific requirements.
 
-Universities currently seeded (10, 644 programmes): **UG**, **KNUST**, **UDS**, **UPSA**, **UCC**, **UEW**, **UHAS**, **UMAT**, **UENR**, **AAMUSTED**.
+Universities currently seeded (14, 770 programmes): **UG**, **KNUST**, **UDS**, **UPSA**, **UCC**, **UEW**, **UHAS**, **UMAT**, **UENR**, **AAMUSTED**, **ATU**, **GCTU**, **ASHESI**, **VVU**.
+
+Each university carries a **`region`** (Ghanaian administrative region) on the `University` model, returned by both API endpoints and used by the Region filter that narrows the institution dropdown in both UI modes. The region in `seed_db.py`'s `UNIVERSITIES` registry is authoritative; a data file's own `region` key is cross-checked against it at seed time and any mismatch is printed as a warning.
 
 **Data-quality caveat worth knowing before trusting a result:** only ~21% of seeded programmes have a real published per-programme cut-off (UCC and UHAS). UMaT, UENR and AAMUSTED publish none at all, so ~48% of programmes sit at their university's site-wide ceiling (aggregate 36) — those entries mean "meets the minimum entry bar", *not* "would likely be admitted". Each school's `data/<code>_notes.md` (gitignored) records the sourcing.
 

@@ -41,6 +41,7 @@ def list_programs(uni_code):
         "status": "success",
         "university": university.name,
         "university_code": university.short_code,
+        "region": university.region,
         "program_count": len(programs),
         "programs": programs
     })
@@ -90,7 +91,8 @@ def predict():
                 "cutoff": program.cutoff_aggregate,
                 "cutoff_source": program.cutoff_source,
                 "student_aggregate": student_aggregate,
-                "university": program.university_data.name
+                "university": program.university_data.name,
+                "region": program.university_data.region
             })
 
     return jsonify({

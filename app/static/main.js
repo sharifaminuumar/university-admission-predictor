@@ -77,17 +77,24 @@ const electivesList = [
 // short_code seeded in the database. Both dropdowns and the results header are
 // built from this list, so onboarding a school only means adding one entry here.
 const UNIVERSITIES = [
-    { code: "UG", dropdownLabel: "University of Ghana (Legon)", summaryLabel: "University of Ghana" },
-    { code: "KNUST", dropdownLabel: "Kwame Nkrumah University of Science and Technology (KNUST)", summaryLabel: "KNUST" },
-    { code: "UDS", dropdownLabel: "University for Development Studies (UDS)", summaryLabel: "UDS" },
-    { code: "UPSA", dropdownLabel: "University of Professional Studies, Accra (UPSA)", summaryLabel: "UPSA" },
-    { code: "UCC", dropdownLabel: "University of Cape Coast (UCC)", summaryLabel: "University of Cape Coast" },
-    { code: "UEW", dropdownLabel: "University of Education, Winneba (UEW)", summaryLabel: "University of Education, Winneba" },
-    { code: "UHAS", dropdownLabel: "University of Health and Allied Sciences (UHAS)", summaryLabel: "UHAS" },
-    { code: "UMAT", dropdownLabel: "University of Mines and Technology (UMaT)", summaryLabel: "UMaT" },
-    { code: "UENR", dropdownLabel: "University of Energy and Natural Resources (UENR)", summaryLabel: "UENR" },
-    { code: "AAMUSTED", dropdownLabel: "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development (AAMUSTED)", summaryLabel: "AAMUSTED" }
+    { code: "UG", region: "Greater Accra", dropdownLabel: "University of Ghana (Legon)", summaryLabel: "University of Ghana" },
+    { code: "KNUST", region: "Ashanti", dropdownLabel: "Kwame Nkrumah University of Science and Technology (KNUST)", summaryLabel: "KNUST" },
+    { code: "UDS", region: "Northern", dropdownLabel: "University for Development Studies (UDS)", summaryLabel: "UDS" },
+    { code: "UPSA", region: "Greater Accra", dropdownLabel: "University of Professional Studies, Accra (UPSA)", summaryLabel: "UPSA" },
+    { code: "UCC", region: "Central", dropdownLabel: "University of Cape Coast (UCC)", summaryLabel: "University of Cape Coast" },
+    { code: "UEW", region: "Central", dropdownLabel: "University of Education, Winneba (UEW)", summaryLabel: "University of Education, Winneba" },
+    { code: "UHAS", region: "Volta", dropdownLabel: "University of Health and Allied Sciences (UHAS)", summaryLabel: "UHAS" },
+    { code: "UMAT", region: "Western", dropdownLabel: "University of Mines and Technology (UMaT)", summaryLabel: "UMaT" },
+    { code: "UENR", region: "Bono", dropdownLabel: "University of Energy and Natural Resources (UENR)", summaryLabel: "UENR" },
+    { code: "AAMUSTED", region: "Ashanti", dropdownLabel: "Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development (AAMUSTED)", summaryLabel: "AAMUSTED" },
+    { code: "ATU", region: "Greater Accra", dropdownLabel: "Accra Technical University (ATU)", summaryLabel: "Accra Technical University" },
+    { code: "GCTU", region: "Greater Accra", dropdownLabel: "Ghana Communication Technology University (GCTU)", summaryLabel: "GCTU" },
+    { code: "ASHESI", region: "Eastern", dropdownLabel: "Ashesi University (Berekuso)", summaryLabel: "Ashesi University" },
+    { code: "VVU", region: "Greater Accra", dropdownLabel: "Valley View University (VVU)", summaryLabel: "Valley View University" }
 ];
+
+// Regions that actually have institutions, alphabetised for the filter dropdowns.
+const REGIONS = [...new Set(UNIVERSITIES.map(uni => uni.region))].sort();
 
 function summaryLabelFor(uniCode) {
     const match = UNIVERSITIES.find(uni => uni.code === uniCode);
@@ -103,8 +110,16 @@ function escapeHtml(value) {
     );
 }
 
-function populateUniversitySelect(select, placeholder) {
+// Rebuilds an institution dropdown, optionally narrowed to one region. The
+// current selection is preserved when it still belongs to the chosen region,
+// so changing region never silently swaps the school under the user.
+function populateUniversitySelect(select, placeholder, region) {
     if (!select) return;
+
+    const previous = select.value;
+    const visible = region ? UNIVERSITIES.filter(uni => uni.region === region) : UNIVERSITIES;
+
+    select.innerHTML = "";
 
     if (placeholder) {
         const placeholderOption = document.createElement("option");
@@ -113,16 +128,60 @@ function populateUniversitySelect(select, placeholder) {
         select.appendChild(placeholderOption);
     }
 
-    UNIVERSITIES.forEach(uni => {
+    visible.forEach(uni => {
         const option = document.createElement("option");
         option.value = uni.code;
         option.text = uni.dropdownLabel;
         select.appendChild(option);
     });
+
+    const stillAvailable = visible.some(uni => uni.code === previous);
+    select.value = stillAvailable ? previous : (placeholder ? "" : (visible[0] ? visible[0].code : ""));
+
+    return stillAvailable;
 }
 
-populateUniversitySelect(document.getElementById("universitySelector"));
-populateUniversitySelect(document.getElementById("browseUniversitySelector"), "Select an institution…");
+function populateRegionSelect(select) {
+    if (!select) return;
+
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.text = "All regions";
+    select.appendChild(allOption);
+
+    REGIONS.forEach(region => {
+        const count = UNIVERSITIES.filter(uni => uni.region === region).length;
+        const option = document.createElement("option");
+        option.value = region;
+        option.text = `${region} (${count})`;
+        select.appendChild(option);
+    });
+}
+
+populateRegionSelect(document.getElementById("regionSelector"));
+populateRegionSelect(document.getElementById("browseRegionSelector"));
+populateUniversitySelect(document.getElementById("universitySelector"), null, "");
+populateUniversitySelect(document.getElementById("browseUniversitySelector"), "Select an institution…", "");
+
+// Eligibility mode: narrowing the region rebuilds the institution list.
+const regionSelector = document.getElementById("regionSelector");
+if (regionSelector) {
+    regionSelector.addEventListener("change", event => {
+        populateUniversitySelect(document.getElementById("universitySelector"), null, event.target.value);
+    });
+}
+
+// Browse mode: narrowing the region rebuilds the list and, if the loaded school
+// falls outside the new region, clears the catalogue rather than leaving a
+// result on screen that contradicts the filter.
+const browseRegionSelector = document.getElementById("browseRegionSelector");
+if (browseRegionSelector) {
+    browseRegionSelector.addEventListener("change", event => {
+        const browseSelect = document.getElementById("browseUniversitySelector");
+        const kept = populateUniversitySelect(browseSelect, "Select an institution…", event.target.value);
+        if (!kept) loadBrowsePrograms("");
+    });
+}
 
 // Populate Core Grade dropdowns
 ["Core Mathematics", "English Language", "Integrated Science", "Social Studies"].forEach(id => {
@@ -484,7 +543,7 @@ async function loadBrowsePrograms(uniCode) {
         }
 
         browsePrograms = data.programs || [];
-        if (heading) heading.innerText = data.university;
+        if (heading) heading.innerText = data.region ? `${data.university} — ${data.region}` : data.university;
         renderBrowsePrograms("");
         container.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } catch (err) {

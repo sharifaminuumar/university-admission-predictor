@@ -230,6 +230,15 @@
         }
         .marquee-card:active { transform: scale(0.98); }
 
+        /* ---- Mobile drawer --------------------------------------------------
+           Slides in on transform only; the backdrop cross-fades. Both start from
+           a near-final position rather than fully off-scale so the entrance reads
+           as movement, not materialisation. */
+        .drawer-panel { transform: translate3d(100%, 0, 0); transition: transform var(--dur-view) var(--ease-view); will-change: transform; }
+        .drawer-panel.drawer-open { transform: translate3d(0, 0, 0); }
+        .drawer-backdrop { opacity: 0; transition: opacity var(--dur-view) var(--ease-view); }
+        .drawer-backdrop.drawer-open { opacity: 1; }
+
         /* ---- Nav + accordions ---------------------------------------------- */
         .nav-link { position: relative; transition: color var(--dur-hover) ease, background-color var(--dur-hover) ease; }
         .nav-link[aria-current="page"] { background: var(--color-primary); color: var(--color-on-primary); }
@@ -302,41 +311,187 @@
 <body class="bg-surface text-on-surface font-sans overflow-x-hidden min-h-screen flex flex-col">
 
     <nav class="bg-surface shadow-sm sticky top-0 z-50 no-print">
-        <div class="flex justify-between items-center w-full px-6 max-w-7xl mx-auto h-16 gap-4">
-            <a href="#predict" class="text-xl md:text-2xl font-bold text-primary flex items-center gap-2 shrink-0 pressable">
+        <div class="flex justify-between items-center w-full px-4 sm:px-6 max-w-7xl mx-auto h-16 gap-4">
+            <a href="#home" class="text-lg sm:text-xl lg:text-2xl font-bold text-primary flex items-center gap-2 shrink-0 pressable">
                 <span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">school</span>
                 EduPredict Ghana
             </a>
-            <button type="button" id="themeToggle" aria-pressed="false" aria-label="Switch to dark mode" title="Switch to dark mode"
-                    class="shrink-0 h-10 w-10 rounded-full border border-outline-variant text-on-surface-variant flex items-center justify-center">
-                <span id="themeToggleIcon" class="material-symbols-outlined text-[20px]">dark_mode</span>
-            </button>
-        </div>
-        <div class="border-t border-outline-variant">
-            <div class="max-w-7xl mx-auto px-4 overflow-x-auto">
-                <div id="view-nav" class="flex gap-1 py-2 min-w-max">
-                    <a href="#predict" data-view="predict" class="nav-link px-3 py-2 rounded-lg font-semibold text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
-                        <span class="material-symbols-outlined text-[18px]">target</span> Check Eligibility
+
+            <!-- Desktop navigation, right-aligned beside the theme toggle -->
+            <div class="flex items-center gap-2">
+                <div id="view-nav" class="hidden lg:flex items-center gap-0.5">
+                    <a href="#home" data-view="home" class="nav-link px-2.5 py-2 rounded-lg font-semibold text-xs lg:text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
+                        <span class="material-symbols-outlined text-[17px]">home</span> Home
                     </a>
-                    <a href="#directory" data-view="directory" class="nav-link px-3 py-2 rounded-lg font-semibold text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
-                        <span class="material-symbols-outlined text-[18px]">account_balance</span> University Directory
+                    <a href="#predict" data-view="predict" class="nav-link px-2.5 py-2 rounded-lg font-semibold text-xs lg:text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
+                        <span class="material-symbols-outlined text-[17px]">target</span> Check Eligibility
                     </a>
-                    <a href="#calculator" data-view="calculator" class="nav-link px-3 py-2 rounded-lg font-semibold text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
-                        <span class="material-symbols-outlined text-[18px]">calculate</span> Aggregate Calculator
+                    <a href="#directory" data-view="directory" class="nav-link px-2.5 py-2 rounded-lg font-semibold text-xs lg:text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
+                        <span class="material-symbols-outlined text-[17px]">account_balance</span> Directory
                     </a>
-                    <a href="#faq" data-view="faq" class="nav-link px-3 py-2 rounded-lg font-semibold text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
-                        <span class="material-symbols-outlined text-[18px]">help</span> Admission FAQ
+                    <a href="#calculator" data-view="calculator" class="nav-link px-2.5 py-2 rounded-lg font-semibold text-xs lg:text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
+                        <span class="material-symbols-outlined text-[17px]">calculate</span> Calculator
                     </a>
-                    <a href="#about" data-view="about" class="nav-link px-3 py-2 rounded-lg font-semibold text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
-                        <span class="material-symbols-outlined text-[18px]">info</span> About
+                    <a href="#faq" data-view="faq" class="nav-link px-2.5 py-2 rounded-lg font-semibold text-xs lg:text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
+                        <span class="material-symbols-outlined text-[17px]">help</span> FAQ
+                    </a>
+                    <a href="#about" data-view="about" class="nav-link px-2.5 py-2 rounded-lg font-semibold text-xs lg:text-sm text-on-surface-variant flex items-center gap-1.5 whitespace-nowrap">
+                        <span class="material-symbols-outlined text-[17px]">info</span> About
                     </a>
                 </div>
+
+                <button type="button" id="themeToggle" aria-pressed="false" aria-label="Switch to dark mode" title="Switch to dark mode"
+                        class="shrink-0 h-10 w-10 rounded-full border border-outline-variant text-on-surface-variant flex items-center justify-center">
+                    <span id="themeToggleIcon" class="material-symbols-outlined text-[20px]">dark_mode</span>
+                </button>
+
+                <button type="button" id="menuToggle" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Open menu"
+                        class="lg:hidden shrink-0 h-10 w-10 rounded-full border border-outline-variant text-on-surface-variant flex items-center justify-center">
+                    <span class="material-symbols-outlined text-[20px]">menu</span>
+                </button>
             </div>
         </div>
     </nav>
 
+    <!-- Mobile drawer: slides in from the right below 768px -->
+    <div id="drawer-backdrop" class="drawer-backdrop fixed inset-0 z-[60] bg-black/40 lg:hidden hidden no-print"></div>
+    <aside id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu"
+           class="drawer-panel fixed top-0 right-0 bottom-0 z-[70] w-72 max-w-[85vw] bg-surface-container-lowest border-l border-outline-variant lg:hidden hidden no-print">
+        <div class="flex items-center justify-between h-16 px-5 border-b border-outline-variant">
+            <span class="font-bold text-primary">Menu</span>
+            <button type="button" id="menuClose" aria-label="Close menu"
+                    class="h-9 w-9 rounded-full border border-outline-variant text-on-surface-variant flex items-center justify-center">
+                <span class="material-symbols-outlined text-[18px]">close</span>
+            </button>
+        </div>
+        <div id="drawer-nav" class="p-3 flex flex-col gap-1">
+            <a href="#home" data-view="home" class="nav-link px-4 py-3 rounded-xl font-semibold text-sm text-on-surface-variant flex items-center gap-3">
+                <span class="material-symbols-outlined text-[20px]">home</span> Home
+            </a>
+            <a href="#predict" data-view="predict" class="nav-link px-4 py-3 rounded-xl font-semibold text-sm text-on-surface-variant flex items-center gap-3">
+                <span class="material-symbols-outlined text-[20px]">target</span> Check Eligibility
+            </a>
+            <a href="#directory" data-view="directory" class="nav-link px-4 py-3 rounded-xl font-semibold text-sm text-on-surface-variant flex items-center gap-3">
+                <span class="material-symbols-outlined text-[20px]">account_balance</span> University Directory
+            </a>
+            <a href="#calculator" data-view="calculator" class="nav-link px-4 py-3 rounded-xl font-semibold text-sm text-on-surface-variant flex items-center gap-3">
+                <span class="material-symbols-outlined text-[20px]">calculate</span> Aggregate Calculator
+            </a>
+            <a href="#faq" data-view="faq" class="nav-link px-4 py-3 rounded-xl font-semibold text-sm text-on-surface-variant flex items-center gap-3">
+                <span class="material-symbols-outlined text-[20px]">help</span> Admission FAQ
+            </a>
+            <a href="#about" data-view="about" class="nav-link px-4 py-3 rounded-xl font-semibold text-sm text-on-surface-variant flex items-center gap-3">
+                <span class="material-symbols-outlined text-[20px]">info</span> About
+            </a>
+        </div>
+    </aside>
+
     <main class="flex-grow">
-      <div id="view-predict" data-view-panel>
+      <!-- ================= Home ================= -->
+      <div id="view-home" data-view-panel class="hidden">
+        <section class="pt-14 pb-10">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-5 leading-[1.1]">
+                    Ghana's AI-Powered WASSCE Admission Predictor
+                </h1>
+                <p class="text-lg text-on-surface-variant mb-6 max-w-2xl mx-auto leading-relaxed">
+                    Instant, data-driven eligibility analysis across
+                    <span data-metric="universities">Ghanaian universities</span> and
+                    <span data-metric="programmes">accredited programmes</span>.
+                </p>
+
+                <div id="home-metrics" class="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm font-bold text-on-surface-variant mb-8"></div>
+
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="#predict" class="pressable h-12 px-6 rounded-xl bg-primary text-on-primary font-bold flex items-center justify-center gap-2">
+                        <span class="material-symbols-outlined text-[20px]">target</span> Predict Admission Eligibility
+                    </a>
+                    <a href="#directory" class="pressable h-12 px-6 rounded-xl border border-outline-variant text-on-surface font-bold flex items-center justify-center gap-2">
+                        <span class="material-symbols-outlined text-[20px]">account_balance</span> Explore University Directory
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-12 no-print" aria-label="Supported institutions">
+            <div class="marquee py-2">
+                <div id="home-marquee-track" class="marquee-track px-4"></div>
+            </div>
+        </section>
+
+        <section class="pb-16 max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-2 text-center">How it works</h2>
+            <p class="text-on-surface-variant text-center mb-10 max-w-xl mx-auto">Three steps, no account, no payment.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-6" style="box-shadow: var(--shadow-soft);">
+                    <span class="inline-flex items-center justify-center h-9 w-9 rounded-full bg-primary text-on-primary font-bold mb-4">1</span>
+                    <h3 class="font-bold text-on-surface mb-2">Input WASSCE Grades</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">Enter your four core subjects and three electives. Nothing is stored, and no sign-up is required.</p>
+                </div>
+                <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-6" style="box-shadow: var(--shadow-soft);">
+                    <span class="inline-flex items-center justify-center h-9 w-9 rounded-full bg-primary text-on-primary font-bold mb-4">2</span>
+                    <h3 class="font-bold text-on-surface mb-2">Algorithmic Evaluation</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">The engine checks mandatory cores, "any N of these" elective pools, D7 diploma pathways, and your margin against each cut-off.</p>
+                </div>
+                <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-6" style="box-shadow: var(--shadow-soft);">
+                    <span class="inline-flex items-center justify-center h-9 w-9 rounded-full bg-primary text-on-primary font-bold mb-4">3</span>
+                    <h3 class="font-bold text-on-surface mb-2">Actionable Insights</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">Results come banded Safe, Competitive, Reach or Near Miss — with a "what-if" tip showing the single grade upgrade that would close the gap.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-16 max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">Why EduPredict</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-6" style="box-shadow: var(--shadow-soft);">
+                    <span class="material-symbols-outlined text-primary bg-primary-fixed p-2 rounded-lg mb-3 inline-block">fact_check</span>
+                    <h3 class="font-bold text-on-surface mb-2">Data Honesty</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-3">Every cut-off is badged so you know what it means. We never present a university's minimum entry floor as if it were a competitive cut-off.</p>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-primary-fixed text-primary">
+                            <span class="material-symbols-outlined text-[13px]">verified</span>Competitive cut-off
+                        </span>
+                        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-warning-container text-on-warning-container border border-warning-outline">
+                            <span class="material-symbols-outlined text-[13px]">info</span>General entry floor
+                        </span>
+                    </div>
+                </div>
+                <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-6" style="box-shadow: var(--shadow-soft);">
+                    <span class="material-symbols-outlined text-primary bg-primary-fixed p-2 rounded-lg mb-3 inline-block">construction</span>
+                    <h3 class="font-bold text-on-surface mb-2">D7 Diploma Pathways</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">Technical and TVET diploma entry accepts D7 passes in the cores. Most predictors reject those students outright — we detect the pathway automatically.</p>
+                </div>
+                <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-6" style="box-shadow: var(--shadow-soft);">
+                    <span class="material-symbols-outlined text-primary bg-primary-fixed p-2 rounded-lg mb-3 inline-block">lock</span>
+                    <h3 class="font-bold text-on-surface mb-2">100% Private &amp; Free</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">No fees, no Mobile Money, no accounts. Your grades are computed per request and never stored.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-20 max-w-5xl mx-auto px-6">
+            <div class="bg-surface-container-low border border-outline-variant rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-5 items-start">
+                <span class="material-symbols-outlined text-primary bg-primary-fixed p-3 rounded-xl shrink-0">verified_user</span>
+                <div>
+                    <h3 class="font-bold text-on-surface mb-2 text-lg">Data verification &amp; benchmarking</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-3">
+                        Programme data is compiled from official university admission portals and prospectuses, and cross-referenced
+                        against public platforms such as
+                        <a href="https://ghanaunichecker.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline underline-offset-2">Ghana Uni Checker</a>
+                        so students receive reliable guidance.
+                    </p>
+                    <p class="text-xs text-on-surface-variant leading-relaxed">
+                        Where a university publishes no per-programme cut-off, we say so explicitly rather than inventing one.
+                        Third-party aggregate figures that cite no source are never used as data.
+                    </p>
+                </div>
+            </div>
+        </section>
+      </div>
+
+      <div id="view-predict" data-view-panel class="hidden">
         <section class="pt-12 pb-6">
             <div class="max-w-4xl mx-auto px-6 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4 leading-tight">
@@ -614,16 +769,76 @@
       </div>
     </main>
 
-    <footer class="bg-surface-container-highest border-t border-outline-variant mt-auto">
-        <div class="w-full py-8 px-6 flex flex-col md:flex-row justify-between items-center gap-4 max-w-7xl mx-auto text-sm text-on-surface-variant">
-            <div class="font-bold text-primary">EduPredict Ghana</div>
-            <p>© 2026 Admission Predictor Ghana. All academic data is for simulation purposes only.</p>
+    <footer class="bg-surface-container-highest border-t border-outline-variant mt-auto no-print">
+        <div class="max-w-7xl mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+                <div>
+                    <div class="font-bold text-primary text-lg flex items-center gap-2 mb-3">
+                        <span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">school</span>
+                        EduPredict Ghana
+                    </div>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                        Free WASSCE admission eligibility analysis for Ghanaian students. Built so nobody has to pay
+                        to find out where they stand.
+                    </p>
+                    <p class="text-xs text-on-surface-variant leading-relaxed mb-4">
+                        <strong class="text-on-surface">Disclaimer:</strong> this is a guide, not an admission decision.
+                        Cut-offs change year to year, and some programmes require entrance exams or interviews that a
+                        grade-based tool cannot model.
+                    </p>
+                    <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                        <a href="#predict" class="text-primary font-semibold hover:underline underline-offset-2">Check Eligibility</a>
+                        <a href="#directory" class="text-primary font-semibold hover:underline underline-offset-2">Directory</a>
+                        <a href="#calculator" class="text-primary font-semibold hover:underline underline-offset-2">Calculator</a>
+                        <a href="#faq" class="text-primary font-semibold hover:underline underline-offset-2">FAQ</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-on-surface mb-3 text-sm uppercase tracking-wider">Verification &amp; Benchmarking</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-3">
+                        Programme requirements and cut-offs are sourced from official university admission portals,
+                        prospectuses and published gazettes, then cross-referenced across those official sources.
+                    </p>
+                    <p class="text-xs text-on-surface-variant leading-relaxed">
+                        Where an institution publishes no per-programme cut-off, the card says so rather than showing an
+                        invented number. Unsourced third-party figures are never used.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-on-surface mb-3 text-sm uppercase tracking-wider">Built by</h3>
+                    <div class="flex flex-col gap-2.5">
+                        <a href="https://github.com/sharifaminuumar" target="_blank" rel="noopener noreferrer"
+                           class="pressable inline-flex items-center gap-3 px-4 py-2.5 rounded-xl border border-outline-variant bg-surface-container-lowest text-on-surface font-semibold text-sm w-fit">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" class="shrink-0">
+                                <path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+                            </svg>
+                            Sharif Aminu Umar
+                            <span class="material-symbols-outlined text-[15px] text-on-surface-variant">open_in_new</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/otr-sharif-aminu" target="_blank" rel="noopener noreferrer"
+                           class="pressable inline-flex items-center gap-3 px-4 py-2.5 rounded-xl border border-outline-variant bg-surface-container-lowest text-on-surface font-semibold text-sm w-fit">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" class="shrink-0">
+                                <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/>
+                            </svg>
+                            Sharif Aminu
+                            <span class="material-symbols-outlined text-[15px] text-on-surface-variant">open_in_new</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-outline-variant mt-10 pt-6 text-center">
+                <p class="text-sm text-on-surface-variant">© 2026 EduPredict Ghana. Built for Ghanaian students.</p>
+            </div>
         </div>
     </footer>
 
     <div id="toast" role="status" aria-live="polite"
          class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] px-5 py-3 rounded-full bg-primary text-on-primary font-bold text-sm shadow-lg no-print"></div>
 
-    <script src="/static/main.js?v=12"></script>
+    <script src="/static/main.js?v=15"></script>
 </body>
 </html>

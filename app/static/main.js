@@ -930,8 +930,8 @@ if (hydrateFromUrl()) {
 // ===========================================================================
 // Multi-view navigation (hash routing)
 // ===========================================================================
-const VIEWS = ["predict", "directory", "calculator", "faq", "about"];
-const DEFAULT_VIEW = "predict";
+const VIEWS = ["home", "predict", "directory", "calculator", "faq", "about"];
+const DEFAULT_VIEW = "home";
 
 function currentViewFromHash() {
     const hash = window.location.hash.replace("#", "");
@@ -954,13 +954,16 @@ function showView(name, { scroll = true } = {}) {
         }
     });
 
-    document.querySelectorAll("#view-nav [data-view]").forEach(link => {
+    // Both the desktop bar and the mobile drawer share the nav-link markup.
+    document.querySelectorAll("#view-nav [data-view], #drawer-nav [data-view]").forEach(link => {
         if (link.getAttribute("data-view") === view) {
             link.setAttribute("aria-current", "page");
         } else {
             link.removeAttribute("aria-current");
         }
     });
+
+    closeDrawer();
 
     // Lazily build the heavier views the first time they are opened.
     if (view === "directory") renderDirectory();
@@ -990,10 +993,7 @@ async function loadUniversitySummaries() {
         return { ...row, type: meta.type || "Public", label: meta.summaryLabel || row.university };
     });
 
-    const stats = document.getElementById("hero-stats");
-    if (stats) {
-        stats.innerText = `${data.university_count} institutions · ${data.program_count} programmes · always free`;
-    }
+    paintMetrics(data.university_count, data.program_count);
 
     return universitySummaries;
 }
@@ -1007,43 +1007,94 @@ function cutoffRangeText(row) {
 // ===========================================================================
 // Infinite marquee
 // ===========================================================================
+// Institutional colours for the crest monograms. These are recognisable brand
+// colours, not reproductions of the universities' actual crests — real crests are
+// trademarked artwork we have no licence to embed.
+const CREST_COLOURS = {
+    UG:       { bg: "#001e40", fg: "#fecb00" },
+    KNUST:    { bg: "#0b5d3b", fg: "#ffd200" },
+    UCC:      { bg: "#1b3a8f", fg: "#ffffff" },
+    UEW:      { bg: "#0f6466", fg: "#ffffff" },
+    UDS:      { bg: "#6b4423", fg: "#f5d76e" },
+    UPSA:     { bg: "#12275c", fg: "#e8b800" },
+    UHAS:     { bg: "#00695f", fg: "#ffffff" },
+    UMAT:     { bg: "#7a1420", fg: "#f0c419" },
+    UENR:     { bg: "#2e7d32", fg: "#ffffff" },
+    AAMUSTED: { bg: "#5b1a35", fg: "#f2c14e" },
+    ATU:      { bg: "#0b4f8a", fg: "#ffffff" },
+    GCTU:     { bg: "#4a2c82", fg: "#ffffff" },
+    ASHESI:   { bg: "#7f1d1d", fg: "#ffffff" },
+    VVU:      { bg: "#1b6b3a", fg: "#ffffff" },
+};
+
+const CREST_FALLBACK = { bg: "#43474f", fg: "#ffffff" };
+
+// A monogram crest: the first two letters of the short code on the institution's
+// colour, drawn as SVG so it stays crisp at any density.
+function crestSvg(code, size = 34) {
+    const palette = CREST_COLOURS[code] || CREST_FALLBACK;
+    const initials = String(code).slice(0, 2).toUpperCase();
+
+    return `
+    <svg width="${size}" height="${size}" viewBox="0 0 40 40" role="img" aria-label="${escapeHtml(code)} crest" class="shrink-0">
+        <rect width="40" height="40" rx="10" fill="${palette.bg}"/>
+        <path d="M20 4 L34 9 v11 c0 8-6 14-14 16 C12 34 6 28 6 20 V9 Z" fill="${palette.fg}" opacity="0.14"/>
+        <text x="20" y="20" text-anchor="middle" dominant-baseline="central"
+              font-family="Inter, sans-serif" font-size="15" font-weight="800" fill="${palette.fg}">${escapeHtml(initials)}</text>
+    </svg>`;
+}
+
+// Programme counts are generalised so the copy stays evergreen as schools are
+// added, and rounded DOWN so the figure is never an overstatement.
+function generaliseCount(value, step = 10) {
+    const floored = Math.floor(value / step) * step;
+    return floored >= step ? `${floored}+` : `${value}`;
+}
+
+function programmeCountLabel(row) {
+    if (row.program_count >= 20) return `${generaliseCount(row.program_count, 10)} Programmes`;
+    return "Accredited Degrees & Diplomas";
+}
+
 function marqueeCard(row) {
     return `
-    <button type="button" class="marquee-card pressable shrink-0 w-60 text-left bg-surface-container-lowest border border-outline-variant rounded-xl p-4"
+    <button type="button" class="marquee-card pressable shrink-0 w-64 text-left bg-surface-container-lowest border border-outline-variant rounded-xl p-4"
             data-code="${escapeHtml(row.university_code)}" title="View ${escapeHtml(row.university)} programmes">
-        <div class="flex items-center justify-between gap-2 mb-2">
-            <span class="text-lg font-bold text-primary">${escapeHtml(row.university_code)}</span>
-            <span class="text-[10px] font-bold uppercase tracking-wider bg-surface-container-low text-on-surface-variant border border-outline-variant rounded px-1.5 py-0.5">${escapeHtml(row.region)}</span>
+        <div class="flex items-center gap-2.5 mb-2.5">
+            ${crestSvg(row.university_code)}
+            <span class="text-lg font-bold text-primary leading-none">${escapeHtml(row.university_code)}</span>
+            <span class="ml-auto text-[10px] font-bold uppercase tracking-wider bg-surface-container-low text-on-surface-variant border border-outline-variant rounded px-1.5 py-0.5">${escapeHtml(row.region)}</span>
         </div>
         <p class="text-xs text-on-surface leading-snug mb-2 line-clamp-2 h-8 overflow-hidden">${escapeHtml(row.university)}</p>
-        <p class="text-xs font-bold text-on-surface-variant">${row.program_count} programmes</p>
+        <p class="text-xs font-bold text-on-surface-variant">${escapeHtml(programmeCountLabel(row))}</p>
     </button>`;
 }
 
 async function buildMarquee() {
-    const track = document.getElementById("marquee-track");
-    if (!track) return;
+    const tracks = [document.getElementById("marquee-track"), document.getElementById("home-marquee-track")]
+        .filter(Boolean);
+    if (!tracks.length) return;
 
     let rows;
     try {
         rows = await loadUniversitySummaries();
     } catch (err) {
         console.error("Marquee load failed:", err);
-        track.closest(".marquee").classList.add("hidden");
+        tracks.forEach(track => track.closest(".marquee").classList.add("hidden"));
         return;
     }
 
     // Two identical copies so the -50% translation loops seamlessly.
     const cards = rows.map(marqueeCard).join("");
-    track.innerHTML = cards + cards;
-    track.setAttribute("aria-hidden", "false");
 
-    // Duration scales with content so speed stays constant regardless of count.
-    track.style.animationDuration = `${Math.max(30, rows.length * 4)}s`;
-
-    track.addEventListener("click", event => {
-        const card = event.target.closest("[data-code]");
-        if (card) openCatalogue(card.getAttribute("data-code"));
+    tracks.forEach(track => {
+        track.innerHTML = cards + cards;
+        // Duration scales with content so speed stays constant regardless of count.
+        track.style.animationDuration = `${Math.max(30, rows.length * 4)}s`;
+        track.addEventListener("click", event => {
+            const card = event.target.closest("[data-code]");
+            if (card) openCatalogue(card.getAttribute("data-code"));
+        });
     });
 }
 
@@ -1290,3 +1341,89 @@ function buildFaq() {
 // ---------------------------------------------------------------------------
 showView(currentViewFromHash(), { scroll: false });
 buildMarquee();
+
+// ===========================================================================
+// Generalised metrics + mobile drawer
+// ===========================================================================
+
+// Copy stays evergreen by deriving from live counts rather than hardcoded
+// numbers, and always rounds DOWN so a claim is never an overstatement.
+function paintMetrics(universityCount, programmeCount) {
+    const universities = `${universityCount} Universities`;
+    const programmes = `${generaliseCount(programmeCount, 100)} Programmes`;
+
+    const hero = document.getElementById("hero-stats");
+    if (hero) hero.innerText = `${universities} · ${programmes} · 100% Free`;
+
+    const banner = document.getElementById("home-metrics");
+    if (banner) {
+        banner.innerHTML = [universities, programmes, "100% Free &amp; Open Access"]
+            .map(text => `<span class="px-3 py-1.5 rounded-full bg-surface-container-low border border-outline-variant">${text}</span>`)
+            .join("");
+    }
+
+    document.querySelectorAll('[data-metric="universities"]').forEach(el => { el.innerText = `${universityCount} Ghanaian universities`; });
+    document.querySelectorAll('[data-metric="programmes"]').forEach(el => { el.innerText = `${generaliseCount(programmeCount, 100)} accredited programmes`; });
+}
+
+// Looked up at call time, not module scope: showView() calls closeDrawer() during
+// boot, which would hit the temporal dead zone of a `const` declared down here.
+function drawerParts() {
+    return {
+        panel: document.getElementById("mobile-drawer"),
+        backdrop: document.getElementById("drawer-backdrop"),
+        toggle: document.getElementById("menuToggle"),
+    };
+}
+
+function openDrawer() {
+    const { panel: drawer, backdrop: drawerBackdrop, toggle } = drawerParts();
+    if (!drawer || !drawerBackdrop) return;
+    drawer.classList.remove("hidden");
+    drawerBackdrop.classList.remove("hidden");
+    // Commit the pre-animation position before adding the open class, otherwise
+    // the browser collapses both into one frame and nothing appears to move.
+    void drawer.offsetWidth;
+    drawer.classList.add("drawer-open");
+    drawerBackdrop.classList.add("drawer-open");
+    document.body.style.overflow = "hidden";
+    if (toggle) toggle.setAttribute("aria-expanded", "true");
+}
+
+function closeDrawer() {
+    const { panel: drawer, backdrop: drawerBackdrop, toggle } = drawerParts();
+    if (!drawer || !drawerBackdrop || drawer.classList.contains("hidden")) return;
+    drawer.classList.remove("drawer-open");
+    drawerBackdrop.classList.remove("drawer-open");
+    document.body.style.overflow = "";
+    if (toggle) toggle.setAttribute("aria-expanded", "false");
+
+    // Keep it in the DOM until the slide-out finishes, then hide it from
+    // assistive tech and tab order.
+    setTimeout(() => {
+        if (!drawer.classList.contains("drawer-open")) {
+            drawer.classList.add("hidden");
+            drawerBackdrop.classList.add("hidden");
+        }
+    }, 240);
+}
+
+const menuToggle = document.getElementById("menuToggle");
+if (menuToggle) menuToggle.addEventListener("click", openDrawer);
+
+const menuClose = document.getElementById("menuClose");
+if (menuClose) menuClose.addEventListener("click", closeDrawer);
+
+const backdropEl = document.getElementById("drawer-backdrop");
+if (backdropEl) backdropEl.addEventListener("click", closeDrawer);
+
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeDrawer();
+});
+
+// Returning to desktop width should never leave a drawer stranded open.
+if (window.matchMedia) {
+    window.matchMedia("(min-width: 1024px)").addEventListener("change", event => {
+        if (event.matches) closeDrawer();
+    });
+}

@@ -482,7 +482,11 @@ function renderEligibilityResults(query) {
                 </div>
             </div>
 
-            <div class="mt-3">${cutoffSourceBadge(prog.cutoff_source)}${cutoffCaveat(prog.cutoff_source)}</div>
+            <div class="pt-4 mt-4 border-t border-outline-variant">
+                ${requirementsSection(prog.requirements)}
+            </div>
+
+            <div>${cutoffSourceBadge(prog.cutoff_source)}${cutoffCaveat(prog.cutoff_source)}</div>
         </div>
     `).join("");
 }
@@ -568,16 +572,64 @@ function cutoffCaveat(source) {
             </p>`;
 }
 
+function subjectChip(subject, grade) {
+    return `<span class="inline-flex items-center gap-1 bg-surface-container-low border border-outline-variant rounded-md px-2 py-1 text-xs">
+                ${escapeHtml(subject)}
+                <strong class="text-primary">${escapeHtml(grade || "C6")}</strong>
+            </span>`;
+}
+
 function subjectChips(requirementList, emptyText) {
     if (!Array.isArray(requirementList) || requirementList.length === 0) {
         return `<span class="text-xs text-on-surface-variant italic">${escapeHtml(emptyText)}</span>`;
     }
 
-    return requirementList.map(req => `
-        <span class="inline-flex items-center gap-1 bg-surface-container-low border border-outline-variant rounded-md px-2 py-1 text-xs">
-            ${escapeHtml(req.subject)}
-            <strong class="text-primary">${escapeHtml(req.minimum_grade || "C6")}</strong>
-        </span>`).join("");
+    return requirementList.map(req => subjectChip(req.subject, req.minimum_grade)).join("");
+}
+
+function requirementGroup(label, chipsHtml) {
+    return `<div class="mb-3">
+                <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1.5">${escapeHtml(label)}</span>
+                <div class="flex flex-wrap gap-1.5">${chipsHtml}</div>
+            </div>`;
+}
+
+// Shared by the eligibility result cards and the Browse catalogue so both present
+// requirements identically. `elective_options` is rendered as its own "Any N of"
+// group — without it, an OR-shaped rule (UHAS Medicine, UMaT's substitutable third
+// elective) would look like it had no elective requirement at all.
+function requirementsSection(requirements) {
+    const reqs = requirements || {};
+    const options = reqs.elective_options;
+
+    let html = requirementGroup(
+        "Required cores",
+        subjectChips(reqs.mandatory_cores, "Standard core subjects")
+    );
+
+    const hasOptions = options && Array.isArray(options.subjects) && options.subjects.length > 0;
+    const hasNamedElectives = Array.isArray(reqs.mandatory_electives) && reqs.mandatory_electives.length > 0;
+
+    // With a pool present, an empty mandatory list means "no *additional* subject",
+    // not "anything goes" — word it so the two groups read together.
+    html += requirementGroup(
+        "Required electives",
+        subjectChips(
+            reqs.mandatory_electives,
+            hasOptions ? "None beyond the pool below" : "Any 3 passing electives"
+        )
+    );
+
+    if (hasOptions) {
+        const needed = options.minimum_required || options.subjects.length;
+        const grade = options.minimum_grade || "C6";
+        html += requirementGroup(
+            `Any ${needed} of these`,
+            options.subjects.map(subject => subjectChip(subject, grade)).join("")
+        );
+    }
+
+    return html;
 }
 
 async function loadBrowsePrograms(uniCode) {
@@ -668,15 +720,7 @@ function renderBrowsePrograms(query) {
 
             <div class="mb-3">${cutoffSourceBadge(prog.cutoff_source)}${cutoffCaveat(prog.cutoff_source)}</div>
 
-            <div class="mb-3">
-                <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1.5">Required Cores</span>
-                <div class="flex flex-wrap gap-1.5">${subjectChips(reqs.mandatory_cores, "Standard core subjects")}</div>
-            </div>
-
-            <div class="mb-3">
-                <span class="text-xs text-on-surface-variant block uppercase tracking-wider mb-1.5">Required Electives</span>
-                <div class="flex flex-wrap gap-1.5">${subjectChips(reqs.mandatory_electives, "Any 3 passing electives")}</div>
-            </div>
+            ${requirementsSection(reqs)}
 
             <div class="pt-3 border-t border-outline-variant flex items-center gap-2 text-xs text-on-surface-variant">
                 <span class="material-symbols-outlined text-[16px]">category</span>

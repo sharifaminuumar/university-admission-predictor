@@ -102,7 +102,10 @@ def predict():
                 "margin": margin,
                 "band": band,
                 "university": program.university_data.name,
-                "region": program.university_data.region
+                "region": program.university_data.region,
+                # Sent so a result card can show WHY the student qualifies, using the
+                # same requirement chips the Browse catalogue renders.
+                "requirements": program_data_dict["requirements"]
             })
 
     # Safest first: biggest margin, then the more trustworthy cut-offs, then by name

@@ -9,9 +9,18 @@ function currentTheme() {
     return document.documentElement.classList.contains("dark") ? "dark" : "light";
 }
 
+let themeSwitchTimer = null;
+
 function applyTheme(theme) {
     const isDark = theme === "dark";
     const root = document.documentElement;
+
+    // Suppress transitions across the swap. Every themed property carries one, so
+    // without this the whole page cross-fades at once instead of flipping cleanly.
+    root.setAttribute("data-theme-switching", "");
+    clearTimeout(themeSwitchTimer);
+    themeSwitchTimer = setTimeout(() => root.removeAttribute("data-theme-switching"), 60);
+
     root.classList.toggle("dark", isDark);
     root.classList.toggle("light", !isDark);
 
@@ -1436,7 +1445,15 @@ function closeDrawer() {
 }
 
 const menuToggle = document.getElementById("menuToggle");
-if (menuToggle) menuToggle.addEventListener("click", openDrawer);
+if (menuToggle) {
+    // Toggle, not open-only: the backdrop normally covers this button while the
+    // drawer is open, but a second press should never re-open an open drawer.
+    menuToggle.addEventListener("click", () => {
+        const { panel } = drawerParts();
+        if (panel && panel.classList.contains("drawer-open")) closeDrawer();
+        else openDrawer();
+    });
+}
 
 const menuClose = document.getElementById("menuClose");
 if (menuClose) menuClose.addEventListener("click", closeDrawer);

@@ -148,11 +148,17 @@
            exits use stronger custom curves. Everything animates transform/opacity
            only — animating width/height/margin forces layout on every frame. */
         :root {
-            --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
-            --ease-view: cubic-bezier(0.16, 1, 0.3, 1);
+            /* Named curves from the ui-animation skill. Built-in ease/ease-out
+               accelerate too gently and read soft rather than decisive. */
+            --ease-enter: cubic-bezier(0.22, 1, 0.36, 1);   /* entrances, transform hover */
+            --ease-move:  cubic-bezier(0.25, 1, 0.5, 1);    /* slides, panels */
+            --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);  /* iOS-like drawer */
+            --ease-out: var(--ease-enter);                  /* kept: older rules reference it */
+            --ease-view: var(--ease-enter);
             --dur-press: 140ms;
             --dur-hover: 180ms;
             --dur-view: 220ms;
+            --dur-drawer: 280ms;
             --border-rgb: 0, 30, 64;
             --shadow-soft:
                 0 1px 2px rgba(var(--border-rgb), 0.06),
@@ -167,16 +173,23 @@
             --shadow-soft-lifted: 0 2px 4px rgba(0, 0, 0, 0.5), 0 16px 40px rgba(0, 0, 0, 0.55);
         }
 
-        /* Tactile press feedback on anything pressable. Kept at 140ms — long
-           enough to perceive, short enough never to feel like lag. */
-        button, .pressable, [role="tab"] {
-            transition: transform var(--dur-press) var(--ease-out),
+        /* Tactile press feedback. Properties are listed explicitly — `transition: all`
+           silently adopts any property added later. touch-action removes the ~300ms
+           tap delay mobile browsers reserve for double-tap zoom. */
+        button, .pressable, [role="tab"], a[href^="#"] {
+            touch-action: manipulation;
+            transition: transform var(--dur-press) var(--ease-enter),
                         background-color var(--dur-hover) ease,
                         color var(--dur-hover) ease,
                         border-color var(--dur-hover) ease,
                         box-shadow var(--dur-hover) ease;
         }
-        button:active:not(:disabled), .pressable:active, [role="tab"]:active { transform: scale(0.98); }
+        /* Press DOWN is instant so the control never lags the finger; the release
+           eases back out over --dur-press. */
+        button:active:not(:disabled), .pressable:active, [role="tab"]:active {
+            transform: scale(0.98);
+            transition-duration: 0s;
+        }
         button:disabled { transform: none; }
 
         /* Hover effects only where a real pointer exists, so a tap on mobile
@@ -203,6 +216,7 @@
                 transition-duration: 0.01ms !important;
             }
             .marquee-track { animation: none !important; }
+            .drawer-panel.drawer-open #drawer-nav > a { animation: none !important; opacity: 1; transform: none; }
         }
 
         /* ---- Infinite marquee ----------------------------------------------
@@ -234,10 +248,38 @@
            Slides in on transform only; the backdrop cross-fades. Both start from
            a near-final position rather than fully off-scale so the entrance reads
            as movement, not materialisation. */
-        .drawer-panel { transform: translate3d(100%, 0, 0); transition: transform var(--dur-view) var(--ease-view); will-change: transform; }
+        /* Panel and backdrop are a paired pair: they share duration and curve, or
+           the mismatch is what reads as "something feels off". */
+        .drawer-panel {
+            transform: translate3d(100%, 0, 0);
+            transition: transform var(--dur-drawer) var(--ease-drawer);
+            will-change: transform;
+        }
         .drawer-panel.drawer-open { transform: translate3d(0, 0, 0); }
-        .drawer-backdrop { opacity: 0; transition: opacity var(--dur-view) var(--ease-view); }
+        .drawer-backdrop { opacity: 0; transition: opacity var(--dur-drawer) var(--ease-drawer); }
         .drawer-backdrop.drawer-open { opacity: 1; }
+
+        /* Drawer links stagger in behind the panel, most important first. Total
+           stays under 300ms so it never delays the tap that follows. */
+        .drawer-panel.drawer-open #drawer-nav > a {
+            animation: drawer-item var(--dur-view) var(--ease-enter) both;
+        }
+        @keyframes drawer-item {
+            from { opacity: 0; transform: translate3d(12px, 0, 0); }
+            to   { opacity: 1; transform: none; }
+        }
+        .drawer-panel.drawer-open #drawer-nav > a:nth-child(1) { animation-delay: 40ms; }
+        .drawer-panel.drawer-open #drawer-nav > a:nth-child(2) { animation-delay: 70ms; }
+        .drawer-panel.drawer-open #drawer-nav > a:nth-child(3) { animation-delay: 100ms; }
+        .drawer-panel.drawer-open #drawer-nav > a:nth-child(4) { animation-delay: 130ms; }
+        .drawer-panel.drawer-open #drawer-nav > a:nth-child(5) { animation-delay: 160ms; }
+        .drawer-panel.drawer-open #drawer-nav > a:nth-child(6) { animation-delay: 190ms; }
+
+        /* Without this, flipping the theme animates every colour token at once,
+           because each themed property carries a transition. */
+        [data-theme-switching] *,
+        [data-theme-switching] *::before,
+        [data-theme-switching] *::after { transition: none !important; }
 
         /* ---- Nav + accordions ---------------------------------------------- */
         .nav-link { position: relative; transition: color var(--dur-hover) ease, background-color var(--dur-hover) ease; }
@@ -837,6 +879,6 @@
     <div id="toast" role="status" aria-live="polite"
          class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] px-5 py-3 rounded-full bg-primary text-on-primary font-bold text-sm shadow-lg no-print"></div>
 
-    <script src="/static/main.js?v=17"></script>
+    <script src="/static/main.js?v=19"></script>
 </body>
 </html>

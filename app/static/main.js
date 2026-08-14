@@ -306,6 +306,7 @@ Object.entries(MODES).forEach(([name, ids]) => {
 
 // null = no prediction run yet; an array = results ready (possibly empty).
 let lastEligiblePrograms = null;
+let lastPredictionCode = null;
 
 document.getElementById("gradeForm").addEventListener("submit", async function(e) {
     e.preventDefault();
@@ -366,6 +367,7 @@ function displayResults(data, uniCode) {
     if (!container) return;
 
     lastEligiblePrograms = data.eligible_programs || [];
+    lastPredictionCode = uniCode;
 
     container.classList.remove("hidden");
     container.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -462,7 +464,9 @@ function renderEligibilityResults(query) {
         return `
         <div class="result-card card-lift border-l-4 ${notEligible ? "border-l-error-outline" : "border-l-primary"} p-5 border-y border-r border-outline-variant rounded-xl overflow-hidden relative">
             <div class="flex justify-between items-start gap-2 mb-3">
-                <span class="material-symbols-outlined ${notEligible ? "text-on-error-container bg-error-container" : "text-primary bg-primary-fixed"} p-2 rounded-lg">school</span>
+                ${lastPredictionCode
+                    ? logoBadge(lastPredictionCode, 40)
+                    : `<span class="material-symbols-outlined ${notEligible ? "text-on-error-container bg-error-container" : "text-primary bg-primary-fixed"} p-2 rounded-lg">school</span>`}
                 ${bandBadge(prog.band)}
             </div>
 
@@ -1029,6 +1033,26 @@ const CREST_COLOURS = {
 
 const CREST_FALLBACK = { bg: "#43474f", fg: "#ffffff" };
 
+// Adding a university later means dropping <shortcode>.png into this folder —
+// no JavaScript change required.
+function logoPath(code) {
+    return `/static/images/logos/${String(code).toLowerCase()}.png`;
+}
+
+// The real logo sits on top of the generated monogram. If the file is missing or
+// fails to load, `this.remove()` drops the <img> and the monogram underneath
+// becomes visible — a graceful fallback with no innerHTML string-escaping.
+function logoBadge(code, size = 40) {
+    return `
+    <span class="logo-badge shrink-0 relative inline-flex items-center justify-center rounded-lg overflow-hidden bg-surface-container-low border border-outline-variant"
+          style="width:${size}px;height:${size}px;">
+        ${crestSvg(code, size - 6)}
+        <img src="${escapeHtml(logoPath(code))}" alt="${escapeHtml(code)} logo" decoding="async"
+             onerror="this.remove()"
+             class="absolute inset-0 w-full h-full object-contain p-1"/>
+    </span>`;
+}
+
 // A monogram crest: the first two letters of the short code on the institution's
 // colour, drawn as SVG so it stays crisp at any density.
 function crestSvg(code, size = 34) {
@@ -1061,7 +1085,7 @@ function marqueeCard(row) {
     <button type="button" class="marquee-card pressable shrink-0 w-64 text-left bg-surface-container-lowest border border-outline-variant rounded-xl p-4"
             data-code="${escapeHtml(row.university_code)}" title="View ${escapeHtml(row.university)} programmes">
         <div class="flex items-center gap-2.5 mb-2.5">
-            ${crestSvg(row.university_code)}
+            ${logoBadge(row.university_code, 40)}
             <span class="text-lg font-bold text-primary leading-none">${escapeHtml(row.university_code)}</span>
             <span class="ml-auto text-[10px] font-bold uppercase tracking-wider bg-surface-container-low text-on-surface-variant border border-outline-variant rounded px-1.5 py-0.5">${escapeHtml(row.region)}</span>
         </div>
@@ -1171,7 +1195,10 @@ function paintDirectory(rows) {
         <div class="uni-card bg-surface-container-lowest border border-outline-variant rounded-2xl p-5 flex flex-col"
              style="box-shadow: var(--shadow-soft);">
             <div class="flex items-start justify-between gap-2 mb-3">
-                <span class="text-xl font-bold text-primary">${escapeHtml(row.university_code)}</span>
+                <span class="flex items-center gap-2.5">
+                    ${logoBadge(row.university_code, 40)}
+                    <span class="text-xl font-bold text-primary">${escapeHtml(row.university_code)}</span>
+                </span>
                 <span class="text-[10px] font-bold uppercase tracking-wider bg-primary-fixed text-primary rounded px-2 py-1">${escapeHtml(row.type)}</span>
             </div>
 

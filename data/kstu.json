@@ -1,0 +1,2883 @@
+{
+  "university_name": "Kumasi Technical University",
+  "short_code": "KSTU",
+  "region": "Ashanti",
+  "programs": [
+    {
+      "program_name": "Bachelor of Arts in Communication Design",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Arts in Secretaryship and Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires credit passes (A1-C6) in six subjects: three cores \"including English Language, Social Studies / Integrated Science and Mathematics\" plus three relevant electives. Because Social Studies is an accepted alternative to Integrated Science, only English Language and Core Mathematics are listed as mandatory cores. No elective subject is named."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Agricultural Mechanization Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page names electives \"Agricultural Science, Horticulture, Crop Husbandry, Animal Husbandry, Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity and related subjects\". The trailing \"and related subjects\" makes the list open-ended, and Auto Mechanic and Basic Electronics have no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Automotive Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credit passes in Elective Mathematics and any two (2) of the following subjects: Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics and Applied Electricity\". Elective Mathematics is individually compulsory and is encoded. The \"any two of\" list contains Auto Mechanic and Basic Electronics, which have no equivalent in this app's elective vocabulary, so that half of the rule is left unencoded rather than encoded as a subset."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Chemical Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credits (A1-C6) in the following three core subjects: English Language, Mathematics and integrated science, plus credits (A1-C6) in three science-based, elective subjects including Chemistry with an aggregate score of 36 or better\". Chemistry is individually compulsory and is encoded; the other two electives are described only as \"science-based\" and are not named, so they are not encoded. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Technical Drawing",
+            "Building Construction Technology"
+          ],
+          "minimum_required": 2,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit Passes (A1 - C6) in six (6) subjects comprising three (3) core subjects, including English Language and Mathematics, Science, plus three (3) relevant elective subjects - Elective Mathematics and two (2) of the following (Physics, Chemistry, Technical Drawing, Building Construction)\". This is a closed list whose every member has a canonical equivalent, so it is fully encoded: Elective Mathematics compulsory plus any two of the four named alternatives."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Electrical and Electronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Mechanical Engineering (Manufacturing)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit passes (A1-C6) in six (6) subjects comprising three (3) core subjects: Core English Language, Core Mathematics and Integrated Science plus three (3) credit passes (A1-C6) in any of the following elective subjects: Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity, Welding and fabrication and any other relevant related courses with aggregate 36 or better\". The trailing \"and any other relevant related courses\" makes the list open-ended, and Auto Mechanic, Basic Electronics and Welding and fabrication have no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded as a subset. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Mechanical Engineering (Metallurgy and Materials)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit passes (A1-C6) in six (6) subjects comprising three (3) core subjects: Core English Language, Core Mathematics and Integrated Science plus three (3) credit passes (A1-C6) in any of the following elective subjects: Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity, Welding and fabrication and any other relevant related courses with aggregate 36 or better\". The trailing \"and any other relevant related courses\" makes the list open-ended, and Auto Mechanic, Basic Electronics and Welding and fabrication have no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded as a subset. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Mechanical Engineering (Plant)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit passes (A1-C6) in six (6) subjects comprising three (3) core subjects: Core English Language, Core Mathematics and Integrated Science plus three (3) credit passes (A1-C6) in any of the following elective subjects: Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity, Welding and fabrication and any other relevant related courses with aggregate 36 or better\". The trailing \"and any other relevant related courses\" makes the list open-ended, and Auto Mechanic, Basic Electronics and Welding and fabrication have no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded as a subset. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Mechatronics Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Oil and Gas Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Engineering in Refrigeration and Air Conditioning",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit passes (A1-C6) in six (6) subjects comprising three (3) core subjects: Core English Language, Core Mathematics and Integrated Science plus three (3) credit passes (A1-C6) in any of the following elective subjects: Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity, Welding and fabrication and any other relevant related courses with aggregate 36 or better\". The trailing \"and any other relevant related courses\" makes the list open-ended, and Auto Mechanic, Basic Electronics and Welding and fabrication have no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded as a subset. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Science in Health Information Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Passes (A1-C6) in Core English Language, Core Mathematic, and Integrated Science plus [three] Elective Subjects with an Aggregate Score of 36 or better in relevant Area of Study (including Agricultural Science or General Science or General Arts with Geography and Economics options or Business with economics option)\". The elective sentence is garbled on the live page and names areas of study rather than subjects, so no elective restriction is encoded. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Science in Accountancy with Computing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Agribusiness with Entrepreneurship",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page states \"Students from SHS who read courses from all areas of specialization are eligible\" and requires \"Credit Passes (A1 - C6) in six (6) subjects comprising three (3) Core subjects, including English Language and Mathematics, plus any three (3) elective subjects in any area of specialization\". Only English Language and Core Mathematics are named as cores, and electives are explicitly unrestricted."
+    },
+    {
+      "program_name": "Bachelor of Science in Applied Mathematics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Applied Statistics (Environmental Statistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Economics",
+            "Biology",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credits (A1-C6) in the following Three (3) Core Subjects: English Language, Mathematics and Integrated Science plus credits in Three Elective Subjects and a pass in any of these subjects: Physics, Chemistry, Economics, Biology or Elective Mathematics\". That \"any one of\" list is closed and fully canonical, so it is encoded. The page quotes \"Aggregate Score of 24 or better\" in a sentence that merges the WASSCE and SSSCE bands; 24 is the SSSCE scale, so it is NOT used as the WASSCE cut-off here."
+    },
+    {
+      "program_name": "Bachelor of Science in Applied Statistics (Financial Statistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credit passes (A1-C6) in the following three (3) core subjects: English Language, Mathematics and Integrated Science plus credits (A1C6) in three elective subjects\" and names no elective list. The page states an \"aggregate score of 24 or better\" under the WASSCE heading, but its sibling Applied Statistics pages give 24 as the SSSCE figure and 36 as the WASSCE figure, so 24 reads as a copy-paste of the SSSCE scale. 36 is kept and this discrepancy is flagged rather than silently applying a much tighter bar."
+    },
+    {
+      "program_name": "Bachelor of Science in Applied Statistics (Health Statistics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Economics",
+            "Biology",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires the three cores plus elective subjects \"and a pass in any of these subjects: Physics, Chemistry, Economics, Biology or Elective Mathematics\". That closed, fully canonical \"any one of\" list is encoded. The page quotes \"Aggregate Score of 24 or better\" in a sentence that merges the WASSCE and SSSCE bands; 24 is the SSSCE scale and is not used as the WASSCE cut-off."
+    },
+    {
+      "program_name": "Bachelor of Science in Banking and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Building Services Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Entrepreneurship and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Estate Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit Passes (A1-C6) in six subjects comprising three core subjects, including English Language and Mathematics, plus three relevant elective subjects\". Only two cores are named and no elective is."
+    },
+    {
+      "program_name": "Bachelor of Science in Facilities Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires three cores \"including English Language and Mathematics\" plus three relevant electives \"including Economics and/or Business Management and other related subjects relevant to the programme, including Government, French, Geography, Mathematics, Building Construction, Management in Living, Accounting, Costing, etc.\" The \"and/or\", \"other related subjects\" and \"etc.\" make the list open-ended, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Information Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credit passes (A1-C6) in Six (6) subjects comprising three (3) core subjects: English language, Mathematics and Integrated Science or Social Studies, plus any three (3) related elective subjects\". Integrated Science and Social Studies are alternatives, so only the two unconditional cores are listed; electives are unrestricted."
+    },
+    {
+      "program_name": "Bachelor of Science in Marketing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Procurement and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page names the electives \"Accounting, Business Management, Business Mathematics and Principles of Costing, Economics, Government, Geography and Elective Mathematics\". Business Mathematics and Principles of Costing have no equivalent in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine applicant; the elective restriction is therefore left unencoded. Cores are \"English Language, Social Studies / Integrated Science and Mathematics\", so only the two unconditional cores are listed."
+    },
+    {
+      "program_name": "Bachelor of Science in Supply Chain and Data Analytics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Science in Sustainable Banking and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Architectural Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Building Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires three cores \"including English Language and Mathematics\" plus three electives from a list that includes Wood/Metal work, Communication Design, Sculpture, Ceramic Graphic Design and Painting. Several of those have no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded as a subset."
+    },
+    {
+      "program_name": "Bachelor of Technology in Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Computer Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit passes (A1-C6) in three (3) core subjects including English Language, Mathematics and Integrated Science/Social Studies plus credit passes in three elective subjects, namely Elective Mathematics or Physics and any other two elective subjects\". The Elective Mathematics OR Physics rule is encoded as an any-one-of group; the other two electives are unrestricted. Integrated Science and Social Studies are alternatives, so neither is a mandatory core."
+    },
+    {
+      "program_name": "Bachelor of Technology in Data Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Electrical and Electronic Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Credit Passes (A1-C6) in six (6) subjects comprising core subjects, including English Language, Mathematics, and Integrated Science; and three (3) elective science subjects Physics, Elective Mathematics, Chemistry/Applied Electricity/Applied Electronics\". Physics and Elective Mathematics are individually compulsory; the third is an OR of Chemistry, Applied Electricity and Electronics, encoded as an any-one-of group. The page also asks for at least C6 in Social Studies; following the convention used for UENR, that extra core requirement is not enforced by this app."
+    },
+    {
+      "program_name": "Bachelor of Technology in Fashion Design and Textiles Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"Grade C6 or better in three (3) core subjects including English Language, Core Mathematics and Integrated Science/ Social Studies\" plus C6 in three elective subjects, and states \"the six (6) passes should not exceed aggregate thirty-six (36)\" - so 36 is stated on this page rather than assumed. Integrated Science and Social Studies are alternatives, so only the two unconditional cores are listed; no elective is named."
+    },
+    {
+      "program_name": "Bachelor of Technology in Food Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Biology",
+            "Physics",
+            "Food and Nutrition",
+            "Management in Living",
+            "Agricultural Science",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"three (3) Passes (A1-C6) in WASSCE Core Subjects (English Language, Mathematics, and Integrated Science), and three (3) Passes (A1-C6) in WASSCE Elective Subjects (Chemistry, Biology, Physics, Food and Nutrition, Management in Living, Agricultural Science, Elective Mathematics) with an aggregate of 36 or better\". That elective list is closed and every member has a canonical equivalent, so it is fully encoded as any three of the seven. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Technology in Hospitality Management and Catering Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Industrial Laboratory Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Biology",
+            "Agricultural Science",
+            "Chemistry",
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"six (6) credit passes (A1-C6) in core English, Core Mathematics and Integrated Science plus Biology, Agricultural Science, Chemistry and Physics/Elective Mathematics\". Four elective subjects are named for three elective slots, so rather than force all four the rule is encoded as any three of the closed, fully canonical set."
+    },
+    {
+      "program_name": "Bachelor of Technology in Interior Design Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Medical Laboratory Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"six (6) credits passes (A1-C6) in core English, Core Mathematics and Integrated Science plus Biology, Chemistry and Physics\". All three electives are individually compulsory and canonical, so all three are encoded."
+    },
+    {
+      "program_name": "Bachelor of Technology in Pharmaceutical Sciences",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credit passes in three (3) Core subjects (English, Mathematics and Integrated Science), and credit passes in three (3) elective subjects (Physics, Chemistry and Biology) with an aggregate of 36\". All three electives are individually compulsory and canonical. The aggregate 36 is stated on this page."
+    },
+    {
+      "program_name": "Bachelor of Technology in Textiles Production and Soft Furnishing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires C6 or better in three cores \"including English Language, Core Mathematics and Integrated Science/ Social Studies\" plus C6 in three electives, and states the six passes \"should not exceed aggregate thirty-six (36)\" - 36 is stated here, not assumed. No elective is named."
+    },
+    {
+      "program_name": "Bachelor of Technology in Agribusiness with Entrepreneurship",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page states that students from all areas of specialization are eligible and names only English Language and Core Mathematics as required cores, with any three elective subjects."
+    },
+    {
+      "program_name": "Bachelor of Technology in Automotive Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "KsTU's site-wide first-degree requirement (kstu.edu.gh/admissions/requirements) is \"a minimum grade of C6 or better in three (3) core subjects i.e. English Language, Core Mathematics, and Integrated Science as well as in three (3) relevant elective subjects\". No aggregate cut-off is published for this programme, so cutoff_aggregate 36 is an assumed encoding of \"credits in six subjects\", not a KsTU number - read it as \"meets the stated minimum entry requirement\", not a competitive cut-off. The three electives are described only as \"relevant\" with no named subject list, so no elective restriction is encoded. The programme page requires \"credit passes in Elective Mathematics and any two (2) of the following subjects: Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics and Applied Electricity\". Elective Mathematics is individually compulsory and is encoded. The \"any two of\" list contains Auto Mechanic and Basic Electronics, which have no equivalent in this app's elective vocabulary, so that half of the rule is left unencoded."
+    },
+    {
+      "program_name": "HND Accounting with Computing",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies. The programme page requires \"Credit Passes (A1-C6) in six subjects comprising three core subjects, including English Language and Mathematics, plus three relevant elective subjects (i.e. Financial Accounting, Business Management, Costing Accounting, Economics, Elective Mathematics, Geography and Government)\". Costing Accounting has no equivalent in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine applicant and the elective restriction is left unencoded."
+    },
+    {
+      "program_name": "HND Agribusiness and Entrepreneurship",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies. The programme page states applicants from \"General Science, General Agriculture, General Arts, Business, Home Economics, and Visual Arts\" are all eligible and asks for \"Passes (A1-D7) in all core subjects including English Language, Mathematics and science; and must possess a minimum of C6 or better in any three (3) subjects relevant to the area of specialization\". Electives are therefore unrestricted."
+    },
+    {
+      "program_name": "HND Automotive Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "HND Banking Technology and Finance",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies."
+    },
+    {
+      "program_name": "HND Chemical Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This programme's own page states only \"Six passes (A1-D7) in all subjects, including English Language and Mathematics\" with \"a minimum of C6 in any three\" relevant to the area of specialization, so Integrated Science is not listed as a mandatory core for it. KsTU carries two pages for this programme. The fuller one requires \"passes (A1-D7) in three (3) core subjects: English Language, Core Mathematics and Integrated Science plus a minimum of (C6) in three (3) elective subjects which include Chemistry, Elective Mathematics and any relevant subject such as Physics and Biology\". Chemistry and Elective Mathematics are individually compulsory and are encoded; the third elective is open. The other page states only English and Mathematics as cores, so Integrated Science is not enforced."
+    },
+    {
+      "program_name": "HND Civil Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "HND Computer Science",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "HND Dispensing Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Chemistry",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Biology",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. The programme page requires six subjects comprising three cores \"English Language, Integrated Science and Mathematics, plus three (3) credit passes in Chemistry, Biology and Physics/ Mathematics\". Chemistry and Biology are individually compulsory; the third is Physics OR Elective Mathematics, encoded as an any-one-of group. KsTU's two pages for this programme disagree on the grade band (one says A1-C6, the other A1-D7); the looser site-wide HND band is used so no genuine applicant is wrongly rejected."
+    },
+    {
+      "program_name": "HND Electrical and Electronic Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [
+          {
+            "subject": "Elective Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Physics",
+            "minimum_grade": "C6"
+          }
+        ],
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Applied Electricity",
+            "Electronics"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "C6"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. The programme page requires \"Passes (A1-D7) in six (6) subjects comprising three core subjects: English language, Mathematics, and Integrated Science\" and \"a minimum of (C6) in any three (3) elective subjects - Mathematics, Physics and EITHER Chemistry OR Applied Electricity or Electronics\". Elective Mathematics and Physics are individually compulsory; the third is an OR of Chemistry, Applied Electricity and Electronics, encoded as an any-one-of group. All are canonical."
+    },
+    {
+      "program_name": "HND Entrepreneurship and Finance",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies."
+    },
+    {
+      "program_name": "HND Estate Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies."
+    },
+    {
+      "program_name": "HND Fashion Design and Textiles Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies."
+    },
+    {
+      "program_name": "HND Health Statistics",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "HND Hotel, Catering and Institutional Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Management in Living",
+            "Food and Nutrition",
+            "Economics",
+            "General Knowledge in Art",
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Agricultural Science"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies. The programme page requires \"credit passes (A1 - D7) in six (6) subjects comprising three (3) core subjects: English Language, Integrated Science and Mathematics, plus passes (C6 or better) in any three (3) of these Elective subjects: Management in Living and Food Nutrition, Economics, General Knowledge in Arts, Biology, Chemistry, Physics, and Agriculture\". That closed list maps entirely onto canonical subjects and is encoded as any three at C6."
+    },
+    {
+      "program_name": "HND Industrial Laboratory",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. The programme page requires \"Six (6) Passes (A1 - D7) in all subjects, three (3) of which should be credit Passes (C6) or better\" and \"credit passes (C6) or better, in Science Electives (Physics, Chemistry and Biology / Electives Mathematics)\". That closed, fully canonical set is encoded as any three at C6."
+    },
+    {
+      "program_name": "HND Interior Design and Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This programme's own page states only \"Six passes (A1-D7) in all subjects, including English Language and Mathematics\" with \"a minimum of C6 in any three\" relevant to the area of specialization, so Integrated Science is not listed as a mandatory core for it."
+    },
+    {
+      "program_name": "HND Marketing",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Metallurgy and Foundry)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Plant)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Production)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This programme's own page states only \"Six passes (A1-D7) in all subjects, including English Language and Mathematics\" with \"a minimum of C6 in any three\" relevant to the area of specialization, so Integrated Science is not listed as a mandatory core for it."
+    },
+    {
+      "program_name": "HND Medical Laboratory Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This programme's own page states only \"Six passes (A1-D7) in all subjects, including English Language and Mathematics\" with \"a minimum of C6 in any three\" relevant to the area of specialization, so Integrated Science is not listed as a mandatory core for it."
+    },
+    {
+      "program_name": "HND Purchasing and Supply",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies. The programme page asks for \"passes in at least three (3) core subjects including Mathematics and English and three (3) Elective passes with aggregate not more than twenty four (24)\". That aggregate 24 is quoted in a sentence covering WASSCE and SSSCE together and 24 is the SSSCE scale, so it is NOT applied as a WASSCE cut-off - an aggregate-24 bar on an HND would be more selective than most degrees here and reads as a legacy figure. Flagged rather than applied."
+    },
+    {
+      "program_name": "HND Science and Industrial Laboratory Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This programme's own page states only \"Six passes (A1-D7) in all subjects, including English Language and Mathematics\" with \"a minimum of C6 in any three\" relevant to the area of specialization, so Integrated Science is not listed as a mandatory core for it."
+    },
+    {
+      "program_name": "HND Secretaryship and Management Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded. This is an Arts/Business programme, where KsTU accepts Social Studies in place of Integrated Science; that OR cannot be encoded in mandatory_cores, so only English Language and Core Mathematics are listed as mandatory and the aggregate takes the better of Integrated Science and Social Studies."
+    },
+    {
+      "program_name": "HND Statistics",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide HND requirement (kstu.edu.gh/admissions/requirements) is \"six (6) passes (A1-D7) in all subjects including English Language, Core Mathematics and Integrated Science (or Social Studies for Arts and Business Programmes) and at least three (3) of the subjects must be C6 or better. The elective subjects must be relevant to the programme.\" KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". The \"at least three subjects at C6\" rule cannot be expressed in this schema and is not enforced. Electives are described only as \"relevant\", with no named subject list, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Agribusiness and Finance",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page states applicants from \"General Science, General Agriculture, General Arts, Business, Home Economics, and Visual Arts\" are eligible and requires \"Credit Passes (A1-D7) in five (5) subjects comprising three core subjects, including English Language, Integrated Science and Mathematics, plus two (2) elective subjects\". Electives are unrestricted."
+    },
+    {
+      "program_name": "Diploma in Automotive Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Banking and Small Business Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Banking Technology and Finance",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Business Administration (CTVET)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Computerized Accounting",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires only \"Six (6) passes including English and Core Mathematics\" and adds \"It is not a requirement to have learnt accounting in prior education\", so no elective restriction applies."
+    },
+    {
+      "program_name": "Diploma in Electrical and Electronic Engineering (CTVET)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Electronic Marketing (CTVET)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires only \"Four (4) SSSCE/WASSCE passes including English Language and Mathematics\". No grade band and no elective subjects are named."
+    },
+    {
+      "program_name": "Diploma in Fashion Design and Textiles",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Hardware and Networking (CTVET)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Health Statistics",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Elective Mathematics",
+            "Economics",
+            "Geography"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "D7"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Passes (A1 - D7) in 3 Core subjects: English Language, Integrated Science and Core Mathematics plus Passes in 3 Elective subjects including a pass in any of the following subjects: Physics, Chemistry, Biology, Elective Mathematics, Economics and Geography\". That closed, fully canonical any-one-of list is encoded at the D7 band the page states."
+    },
+    {
+      "program_name": "Diploma in Hospitality Operations and Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Information Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Six (6) Passes (A1 - D7) in all subjects, including English and Mathematics\", with no elective restriction."
+    },
+    {
+      "program_name": "Diploma in Library and Information Science",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Mass Communication and Journalism (CTVET)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Mechanical Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Procurement and Materials Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Public Relations",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires only \"Four (4) SSSCE/WASSCE passes including English Language and Mathematics\". No grade band and no elective subjects are named."
+    },
+    {
+      "program_name": "Diploma in Real Estate Agency and Brokerage",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Passes (A1-D7) in Six subjects comprising three (3) core subjects, including English Language and Mathematics, plus any three (3) elective subjects\" - electives explicitly unrestricted."
+    },
+    {
+      "program_name": "Diploma in Web Applications and Database (CTVET)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Automotive Engineering (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Three (3) Credit passes (A1-D7) in English Language, Core Mathematics, and Integrated Science plus two (2) credit passes (A1-D7) in Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics and Applied Electricity with aggregate 39 or better\". Auto Mechanic and Basic Electronics have no canonical equivalent, so the elective restriction is left unencoded. The page's aggregate 39 is a real KsTU figure but is not applied: this app encodes diploma entry as 54 (\"no aggregate bar\") because a D7 core minimum is arithmetically incompatible with a tighter ceiling. Flagged here instead."
+    },
+    {
+      "program_name": "Diploma in Banking Technology and Finance (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Chemical Engineering (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Civil Engineering (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Six (6) Passes (A1-D7) in six (6) subjects, including English Language and Mathematics, plus three (3) relevant elective subjects including Physics and/or Elective Mathematics, and any of the following: Chemistry, Building Construction, Wood/Metal work, Technical Drawing/Engineering Science, and Geography\". The \"and/or\" and the slashed pairs make the rule ambiguous and \"Wood/Metal work\" does not map cleanly onto a single canonical subject, so the elective restriction is left unencoded rather than guessed at."
+    },
+    {
+      "program_name": "Diploma in Computerized Accounting (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page names the electives \"Financial Accounting, Business Management, Costing, Accounting, Economics, Elective Mathematics, Geography and Government\". Costing has no equivalent in this app's elective vocabulary, so the elective restriction is left unencoded rather than encoded as a subset."
+    },
+    {
+      "program_name": "Diploma in Construction Technology (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Credit Passes (A1-D7) in six (6) subjects comprising three core subjects, including English Language and Mathematics, plus three (3) relevant elective subjects which must be at least C6\" from a list including Wood/Metalwork, Communication Design, Sculpture, Ceramic Graphic Design and Painting. Several have no canonical equivalent, so the elective restriction is left unencoded."
+    },
+    {
+      "program_name": "Diploma in Fashion Design Studies (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Food Processing Technology (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Chemistry",
+            "Biology",
+            "Physics",
+            "Food and Nutrition",
+            "Management in Living",
+            "Agricultural Science",
+            "Elective Mathematics"
+          ],
+          "minimum_required": 2,
+          "minimum_grade": "D7"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Credit Passes (A1 - D7) in Five (5) subjects comprising Three (3) Core subjects (English Language, Integrated Science and Mathematics), Plus Two (2) Elective subjects (Chemistry, Biology, Physics, Food and Nutrition, Management in Living, Agricultural Science Related Course, Elective Mathematics)\". That closed list is fully canonical and is encoded as any two, at the D7 band the page itself states."
+    },
+    {
+      "program_name": "Diploma in Graphic Design",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded."
+    },
+    {
+      "program_name": "Diploma in Health Statistics (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Elective Mathematics",
+            "Economics",
+            "Geography"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "D7"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Passes (A1 - D7) in 3 Core subjects: English Language, Integrated Science and Core Mathematics plus Passes in 3 Elective subjects including a pass in any of the following subjects: Physics, Chemistry, Biology, Elective Mathematics, Economics and Geography\". That closed, fully canonical any-one-of list is encoded at the D7 band the page states."
+    },
+    {
+      "program_name": "Diploma in Information Technology (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Six (6) Passes (A1 - D7) in all subjects, including English and Mathematics\", with no elective restriction."
+    },
+    {
+      "program_name": "Diploma in Mechanical Engineering (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"passes (A1-D7) in three (3) core subjects: Core English Language, Core Mathematics, and Integrated Science plus three (3) credit passes (A1-C6) in any of the following electives: Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity and any other relevant related courses with aggregate 36 or better\". The trailing \"and any other relevant related courses\" makes the list open-ended and Auto Mechanic and Basic Electronics have no canonical equivalent, so the elective restriction is left unencoded."
+    },
+    {
+      "program_name": "Diploma in Mechatronics Engineering (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"passes (A1-D7) in three (3) core subjects: Core English Language, Core Mathematics, and Integrated Science plus three (3) credit passes (A1- D7) in elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics and Applied Electricity with aggregate 36 or better\". Auto Mechanic and Basic Electronics have no canonical equivalent, so the elective restriction is left unencoded rather than encoded as a subset."
+    },
+    {
+      "program_name": "Diploma in Procurement and Supply Chain Management (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"Six (6) Passes (A1- D7) in all subjects\", with no elective restriction."
+    },
+    {
+      "program_name": "Diploma in Welding and Fabrication (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. The programme page requires \"passes (A1-D7) in three (3) core subjects: Core English Language, Core Mathematics, and Integrated Science plus three (3) credit passes (A1-C6) in any of the following electives: Elective Mathematics, Physics, Technical Drawing, Engineering Science, Chemistry, Metal Work, Auto Mechanic, Basic Electronics, Applied Electricity and any other relevant related courses with aggregate 36 or better\". The trailing \"and any other relevant related courses\" makes the list open-ended and Auto Mechanic and Basic Electronics have no canonical equivalent, so the elective restriction is left unencoded."
+    },
+    {
+      "program_name": "Higher Diploma in Health Statistics (Tertiary)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Elective Mathematics",
+            "Economics",
+            "Geography"
+          ],
+          "minimum_required": 1,
+          "minimum_grade": "D7"
+        },
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "D7"
+      },
+      "notes": "KsTU's site-wide Diploma requirement (kstu.edu.gh/admissions/requirements) is \"Passes in five (5) WASSCE/SSSCE subjects including English and Core Mathematics\". Only those two cores are named, so Integrated Science is not listed as mandatory. KsTU does not restate the grade band here; its HND section defines a KsTU \"pass\" as A1-D7, so D7 is used as the core minimum. KsTU publishes no aggregate cut-off, so cutoff_aggregate 54 encodes \"no aggregate bar\". No elective subjects are named, so no elective restriction is encoded. Encoded from the Health Statistics diploma pages, which require \"Passes (A1 - D7) in 3 Core subjects: English Language, Integrated Science and Core Mathematics plus Passes in 3 Elective subjects including a pass in any of the following subjects: Physics, Chemistry, Biology, Elective Mathematics, Economics and Geography\"."
+    }
+  ]
+}

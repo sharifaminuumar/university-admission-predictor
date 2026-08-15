@@ -100,6 +100,10 @@ const UNIVERSITIES = [
     { code: "GCTU", type: "Public", region: "Greater Accra", dropdownLabel: "Ghana Communication Technology University (GCTU)", summaryLabel: "GCTU" },
     { code: "ASHESI", type: "Private", region: "Eastern", dropdownLabel: "Ashesi University (Berekuso)", summaryLabel: "Ashesi University" },
     { code: "VVU", type: "Private", region: "Greater Accra", dropdownLabel: "Valley View University (VVU)", summaryLabel: "Valley View University" },
+    { code: "TTU", type: "Technical", region: "Western", dropdownLabel: "Takoradi Technical University (TTU)", summaryLabel: "Takoradi Technical University" },
+    { code: "KSTU", type: "Technical", region: "Ashanti", dropdownLabel: "Kumasi Technical University (KsTU)", summaryLabel: "Kumasi Technical University" },
+    { code: "HTU", type: "Technical", region: "Volta", dropdownLabel: "Ho Technical University (HTU)", summaryLabel: "Ho Technical University" },
+    { code: "CUG", type: "Private", region: "Bono", dropdownLabel: "Catholic University of Ghana (CUG)", summaryLabel: "Catholic University of Ghana" },
     { code: "CKT-UTAS", type: "Public", region: "Upper East", dropdownLabel: "C. K. Tedam University of Technology and Applied Sciences (CKT-UTAS)", summaryLabel: "CKT-UTAS" },
     { code: "SDD-UBIDS", type: "Public", region: "Upper West", dropdownLabel: "Simon Diedong Dombo University of Business and Integrated Development Studies (SDD-UBIDS)", summaryLabel: "SDD-UBIDS" }
 ];

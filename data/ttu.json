@@ -1,0 +1,2265 @@
+{
+  "university_name": "Takoradi Technical University",
+  "short_code": "TTU",
+  "region": "Western",
+  "programs": [
+    {
+      "program_name": "B.Tech. Ceramics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "B.Tech. Fashion Design",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "B.Tech. Graphics Design",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "B.Tech. Painting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "B.Tech. Sculpture",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "B.Tech. Textiles",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Commercial Arts - Ceramics Option",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Commercial Arts - Graphic Design Option",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Commercial Arts - Painting Option",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Commercial Arts - Sculpture Option",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Commercial Arts - Textiles Option",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Industrial Arts (Leather Option)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "HND Fashion Design and Textiles Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially."
+    },
+    {
+      "program_name": "Diploma of Technology in Arts and Design",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially. TTU lists only English Language and Mathematics as required subjects for this diploma, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Fashion",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU requires \"any three (3) elective subjects relevant to their area of specialization\" and names a Visual Arts list (Ceramics, Graphic Design, Bead Making, Basketry, Leatherworks, Clothing & Textiles, Sculpture, Picture Making, Jewelry, Woodwork, Metalwork, General Knowledge in Art). Most of those studio subjects do not exist in this app's elective vocabulary, so encoding only the selectable subset would wrongly reject a genuine Visual Arts applicant. The elective restriction is therefore left unencoded rather than encoded partially. TTU lists only English Language and Mathematics as required subjects for this diploma, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "B.Tech. Statistics with Computing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Economics",
+            "Geography",
+            "Government",
+            "Business Management",
+            "Financial Accounting"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU prints five numbered elective lists against the five numbered B.Tech programmes of this faculty; the mapping is positional and is corroborated by content (list 4 - Elective Maths, Physics, Chemistry, Biology - sits against Medical Laboratory Science, list 2 - Food & Nutrition, Biology, Management in Living - against Hospitality Management). TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "B.Tech. Hospitality Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Food and Nutrition",
+            "Economics",
+            "French",
+            "Biology",
+            "Management in Living",
+            "General Knowledge in Art"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU prints five numbered elective lists against the five numbered B.Tech programmes of this faculty; the mapping is positional and is corroborated by content (list 4 - Elective Maths, Physics, Chemistry, Biology - sits against Medical Laboratory Science, list 2 - Food & Nutrition, Biology, Management in Living - against Hospitality Management). TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "B.Tech. Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Economics",
+            "Geography",
+            "Government",
+            "Literature in English",
+            "Business Management",
+            "Elective Mathematics",
+            "Physics",
+            "Financial Accounting"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU prints five numbered elective lists against the five numbered B.Tech programmes of this faculty; the mapping is positional and is corroborated by content (list 4 - Elective Maths, Physics, Chemistry, Biology - sits against Medical Laboratory Science, list 2 - Food & Nutrition, Biology, Management in Living - against Hospitality Management). TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate. TTU offers this degree with four options (Data Management and Analytics, Software Engineering, Networking, Web Technology and Multimedia) that share one entry requirement; captured as a single programme."
+    },
+    {
+      "program_name": "B.Tech. Medical Laboratory Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU prints five numbered elective lists against the five numbered B.Tech programmes of this faculty; the mapping is positional and is corroborated by content (list 4 - Elective Maths, Physics, Chemistry, Biology - sits against Medical Laboratory Science, list 2 - Food & Nutrition, Biology, Management in Living - against Hospitality Management). TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "B.Tech. Tourism Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Food and Nutrition",
+            "Economics",
+            "French",
+            "Geography",
+            "History",
+            "Christian Religious Studies (CRS)",
+            "Government",
+            "Literature in English",
+            "Business Management",
+            "Management in Living",
+            "General Knowledge in Art"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU prints five numbered elective lists against the five numbered B.Tech programmes of this faculty; the mapping is positional and is corroborated by content (list 4 - Elective Maths, Physics, Chemistry, Biology - sits against Medical Laboratory Science, list 2 - Food & Nutrition, Biology, Management in Living - against Hospitality Management). TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Dispensing Technology (Pharmacy Technician)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Medical Laboratory Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Science Laboratory Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Information and Communication Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Hotel, Catering & Institutional Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Statistics",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "HND Tourism Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU lists seven HND programmes in this faculty but prints only five numbered elective lists, so the programme-to-list mapping cannot be resolved from the brochure. Rather than guess, the elective restriction is left unencoded; only the cores and the pass-level bar are enforced. TTU mandates Integrated Science (with no Social Studies alternative) for every Faculty of Applied Sciences programme, so elective_category_pool is \"Sciences\" to force Integrated Science as the third core in the Best-6 aggregate."
+    },
+    {
+      "program_name": "Diploma of Technology in Hotel, Catering & Institutional Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU lists four Diploma of Technology programmes in this faculty against seven numbered requirement items (five subject lists plus two certificate alternatives), so the mapping is unresolvable; the elective restriction is left unencoded rather than guessed."
+    },
+    {
+      "program_name": "Diploma of Technology in Information Technology (IT)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU lists four Diploma of Technology programmes in this faculty against seven numbered requirement items (five subject lists plus two certificate alternatives), so the mapping is unresolvable; the elective restriction is left unencoded rather than guessed."
+    },
+    {
+      "program_name": "Diploma of Technology in Science Laboratory Technician",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU lists four Diploma of Technology programmes in this faculty against seven numbered requirement items (five subject lists plus two certificate alternatives), so the mapping is unresolvable; the elective restriction is left unencoded rather than guessed."
+    },
+    {
+      "program_name": "Diploma of Technology in Tourism Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU lists four Diploma of Technology programmes in this faculty against seven numbered requirement items (five subject lists plus two certificate alternatives), so the mapping is unresolvable; the elective restriction is left unencoded rather than guessed."
+    },
+    {
+      "program_name": "B.Tech. Accounting with Computing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "B.Tech. Marketing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "B.Tech. Procurement, Logistics and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "B.Tech. Secretaryship and Management Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "HND Accountancy",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "HND Marketing",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "HND Procurement & Supply",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "HND Secretaryship & Management Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty."
+    },
+    {
+      "program_name": "Diploma of Technology in Accounting",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty. TTU lists only English Language and Mathematics as required subjects for this diploma, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Marketing",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty. TTU lists only English Language and Mathematics as required subjects for this diploma, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Procurement, Logistics and Supply Chain Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty. TTU lists only English Language and Mathematics as required subjects for this diploma, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Secretaryship & Management Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU requires \"any three (3) elective subjects which are relevant to their area of specialization\" and names no subjects at all for this faculty, so mandatory_electives is left empty. TTU lists only English Language and Mathematics as required subjects for this diploma, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "B.Tech. Civil Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "B.Tech. Electrical/Electronics Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "B.Tech. Mechanical Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "B.Tech. Petroleum Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "B.Tech. Process Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "B.Tech. Renewable Energy Engineering",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "B.Tech. Welding and Fabrication",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names exactly six acceptable electives (Engineering Science, Elective Mathematics, Physics, Chemistry, Metal Work, Technical Drawing) and requires any three, encoded as an elective_options block with minimum_required 3. \"Metal Work\" is mapped to the WASSCE subject Metal Technology."
+    },
+    {
+      "program_name": "HND Civil Engineering - Competency-Based Training (CBT)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "HND Electrical/Electronics Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Plant Option)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Production Option)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Automotive Option)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "HND Mechanical Engineering (Refrigeration Option)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "HND Welding and Fabrication",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing",
+            "Automobile Technology"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work, Vehicle Technology, I.C. Engines, Workshop Process & Practice, Air Conditioning and Technical Drawing, and requires any three at C6 or better. \"Metal Work\" is mapped to Metal Technology and \"Vehicle Technology\" to Automobile Technology; I.C. Engines, Workshop Process & Practice and Air Conditioning are technical-institute subjects with no WASSCE elective equivalent and are omitted, which makes this rule marginally stricter than TTU's."
+    },
+    {
+      "program_name": "Diploma of Technology in Automotive Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "E8"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work and Technical Drawing for this diploma. It lists only English Language and Mathematics as required subjects, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Civil Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "E8"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work and Technical Drawing for this diploma. It lists only English Language and Mathematics as required subjects, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Electrical Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "E8"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work and Technical Drawing for this diploma. It lists only English Language and Mathematics as required subjects, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "Diploma of Technology in Mechanical Engineering",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_options": {
+          "subjects": [
+            "Engineering Science",
+            "Elective Mathematics",
+            "Physics",
+            "Chemistry",
+            "Metal Technology",
+            "Technical Drawing"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "E8"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU names Elective Mathematics, Engineering Science, Physics, Chemistry, Metal Work and Technical Drawing for this diploma. It lists only English Language and Mathematics as required subjects, so Integrated Science is not encoded as a core."
+    },
+    {
+      "program_name": "B.Tech. Construction Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Metal Technology",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Building Construction Technology",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names Elective Mathematics, Physics, Engineering Science, Metal Work, Wood Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Building Construction, Plumbing, Geography, Economics and Government, and requires any three. \"Metal Work\" maps to Metal Technology, \"Woodwork\"/\"Wood Science\" to Wood Technology and \"Building Construction\" to Building Construction Technology; \"Plumbing\" has no WASSCE elective equivalent and is omitted."
+    },
+    {
+      "program_name": "B.Tech. Interior Design and Wood Works",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Metal Technology",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Building Construction Technology",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names Elective Mathematics, Physics, Engineering Science, Metal Work, Wood Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Building Construction, Plumbing, Geography, Economics and Government, and requires any three. \"Metal Work\" maps to Metal Technology, \"Woodwork\"/\"Wood Science\" to Wood Technology and \"Building Construction\" to Building Construction Technology; \"Plumbing\" has no WASSCE elective equivalent and is omitted."
+    },
+    {
+      "program_name": "B.Tech. Plumbing Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Metal Technology",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Building Construction Technology",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "TTU publishes no aggregate cut-off for this programme, and states no site-wide WASSCE aggregate ceiling anywhere on ttu.edu.gh, so aggregate 36 was assumed as the ceiling. Read this as \"meets the stated minimum entry requirement\", not a competitive cut-off. TTU names Elective Mathematics, Physics, Engineering Science, Metal Work, Wood Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Building Construction, Plumbing, Geography, Economics and Government, and requires any three. \"Metal Work\" maps to Metal Technology, \"Woodwork\"/\"Wood Science\" to Wood Technology and \"Building Construction\" to Building Construction Technology; \"Plumbing\" has no WASSCE elective equivalent and is omitted."
+    },
+    {
+      "program_name": "HND Construction Engineering & Management - Competency-Based Training (CBT)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Physics, Engineering Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Geography, Economics and Government, and requires C6 or better in any three. \"Woodwork\" maps to Wood Technology."
+    },
+    {
+      "program_name": "HND Interior Design Technology - Competency-Based Training (CBT)",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Physics, Engineering Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Geography, Economics and Government, and requires C6 or better in any three. \"Woodwork\" maps to Wood Technology."
+    },
+    {
+      "program_name": "HND Real Estate Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Physics, Engineering Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Geography, Economics and Government, and requires C6 or better in any three. \"Woodwork\" maps to Wood Technology."
+    },
+    {
+      "program_name": "HND Plumbing Technology",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "D7",
+        "elective_options": {
+          "subjects": [
+            "Elective Mathematics",
+            "Physics",
+            "Engineering Science",
+            "Chemistry",
+            "Wood Technology",
+            "Technical Drawing",
+            "Agricultural Science",
+            "Geography",
+            "Economics",
+            "Government"
+          ],
+          "minimum_required": 3,
+          "minimum_grade": "C6"
+        },
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "HND entry at TTU is \"grades (A1-D7) in six (6) subjects, including English Language, Mathematics and Integrated Science, and C6 or better in any three (3) relevant electives\". Cores are therefore relaxed to D7 via core_minimum_grade and cutoff_aggregate is set to 54 (our encoding for \"no aggregate bar\"), since one D7 plus five C6 already exceeds 36. TTU publishes no aggregate cut-off for HND programmes. TTU names Elective Mathematics, Physics, Engineering Science, Chemistry, Woodwork, Technical Drawing or Agricultural Science, Geography, Economics and Government, and requires C6 or better in any three. \"Woodwork\" maps to Wood Technology."
+    },
+    {
+      "program_name": "Diploma of Technology in Construction Engineering & Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU asks for \"at least two (2) elective passes in Physics, Engineering Science, Chemistry, Woodwork, Metal Work, Technical Drawing, Agricultural Science, Geography, Economics, Government and other subjects relevant to their area of specialization\". The trailing \"and other subjects relevant\" makes the list open-ended, so the elective restriction is left unencoded rather than treated as closed."
+    },
+    {
+      "program_name": "Diploma of Technology in Real Estate Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU asks for \"at least two (2) elective passes in Physics, Engineering Science, Chemistry, Woodwork, Metal Work, Technical Drawing, Agricultural Science, Geography, Economics, Government and other subjects relevant to their area of specialization\". The trailing \"and other subjects relevant\" makes the list open-ended, so the elective restriction is left unencoded rather than treated as closed."
+    },
+    {
+      "program_name": "Diploma of Technology in Communication and Media Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "E8"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "E8"
+          }
+        ],
+        "mandatory_electives": [],
+        "core_minimum_grade": "E8",
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "E8"
+      },
+      "notes": "Diploma of Technology entry at TTU is \"grades (A1-E8) in five (5) subjects\", a pass-level bar looser even than the HND D7 rule, so core_minimum_grade is E8 and cutoff_aggregate is 54 (our encoding for \"no aggregate bar\"). TTU publishes no aggregate cut-off for these programmes. TTU asks for \"relevant electives OR area of specialisation\" without naming any subject, so mandatory_electives is left empty. Integrated Science/Social Studies is accepted, so only Integrated Science is listed as the third core and the pool is \"Any\"."
+    }
+  ]
+}

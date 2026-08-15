@@ -1,0 +1,317 @@
+{
+  "university_name": "Catholic University of Ghana",
+  "short_code": "CUG",
+  "region": "Bono",
+  "programs": [
+    {
+      "program_name": "BSc. Business Administration (Accounting)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off. 36 is the university-wide WASSCE minimum ('Should achieve an aggregate score of 36 or better'), not a competitive departmental cut-off. No programme-specific elective subjects are published; the Business pool reflects the faculty only."
+    },
+    {
+      "program_name": "BSc. Business Administration (Management)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off. 36 is the university-wide WASSCE minimum, not a competitive departmental cut-off. No programme-specific elective subjects are published."
+    },
+    {
+      "program_name": "BSc. Business Administration (Economics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off. 36 is the university-wide WASSCE minimum, not a competitive departmental cut-off. No programme-specific elective subjects are published."
+    },
+    {
+      "program_name": "BSc. Human Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off. 36 is the university-wide WASSCE minimum, not a competitive departmental cut-off. No programme-specific elective subjects are published."
+    },
+    {
+      "program_name": "Diploma in Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG's diploma entry requirement is credit passes A1-C6 (NOT the more common A1-D7 pass route), so no core_minimum_grade relaxation applies and the aggregate bar stays at 36: 'Must have credit passes (A1-C6) in three core subjects... Additionally, credit passes (A1-C6) in any three elective subjects relevant to the program of study.'"
+    },
+    {
+      "program_name": "Diploma in Human Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG's diploma entry requirement is credit passes A1-C6, not A1-D7, so no core_minimum_grade relaxation applies and the aggregate bar stays at 36."
+    },
+    {
+      "program_name": "B.Ed. (Mathematics)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum. Elective Mathematics is NOT encoded as mandatory because CUG does not state it."
+    },
+    {
+      "program_name": "B.Ed. (Accounting)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "B.Ed. (Computer Science)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "B.Ed. (Geography)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "B.Ed. (Religious Studies)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "BSc. Nursing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off and no programme-specific elective subjects. 36 is the university-wide WASSCE minimum ('aggregate score of 36 or better'). Integrated Science is treated as the required third core here because CUG's core rule is 'Integrated Science OR Social Studies' and this is a health-science programme; no elective science subjects are claimed as mandatory since CUG does not name any."
+    },
+    {
+      "program_name": "BSc. Midwifery",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off and no programme-specific elective subjects. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "BSc. Public Health Nursing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off and no programme-specific elective subjects. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "BSc. Physiotherapy",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off and no programme-specific elective subjects. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "BSc. Journalism",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "BA Religious Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off or subject list. 36 is the university-wide WASSCE minimum."
+    },
+    {
+      "program_name": "BSc. Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off and names no required electives. 36 is the university-wide WASSCE minimum. Elective Mathematics is deliberately not encoded as mandatory since CUG does not state it."
+    },
+    {
+      "program_name": "BSc. Information Technology",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {"subject": "English Language", "minimum_grade": "C6"},
+          {"subject": "Core Mathematics", "minimum_grade": "C6"},
+          {"subject": "Integrated Science", "minimum_grade": "C6"}
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "CUG publishes no per-programme cut-off and names no required electives. 36 is the university-wide WASSCE minimum."
+    }
+  ]
+}

@@ -22,6 +22,12 @@ UNIVERSITIES = [
     ("GCTU", "Ghana Communication Technology University", "Greater Accra", "gctu.json"),
     ("ASHESI", "Ashesi University", "Eastern", "ashesi.json"),
     ("VVU", "Valley View University", "Greater Accra", "vvu.json"),
+    ("TTU", "Takoradi Technical University", "Western", "ttu.json"),
+    ("KSTU", "Kumasi Technical University", "Ashanti", "kstu.json"),
+    ("HTU", "Ho Technical University", "Volta", "htu.json"),
+    ("CKT-UTAS", "C. K. Tedam University of Technology and Applied Sciences", "Upper East", "ckt-utas.json"),
+    ("SDD-UBIDS", "Simon Diedong Dombo University of Business and Integrated Development Studies", "Upper West", "sdd-ubids.json"),
+    ("CUG", "Catholic University of Ghana", "Bono", "cug.json"),
 ]
 
 # Resolved from this file's location, not the working directory, so seeding behaves

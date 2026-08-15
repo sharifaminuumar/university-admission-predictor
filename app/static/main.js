@@ -99,7 +99,9 @@ const UNIVERSITIES = [
     { code: "ATU", type: "Technical", region: "Greater Accra", dropdownLabel: "Accra Technical University (ATU)", summaryLabel: "Accra Technical University" },
     { code: "GCTU", type: "Public", region: "Greater Accra", dropdownLabel: "Ghana Communication Technology University (GCTU)", summaryLabel: "GCTU" },
     { code: "ASHESI", type: "Private", region: "Eastern", dropdownLabel: "Ashesi University (Berekuso)", summaryLabel: "Ashesi University" },
-    { code: "VVU", type: "Private", region: "Greater Accra", dropdownLabel: "Valley View University (VVU)", summaryLabel: "Valley View University" }
+    { code: "VVU", type: "Private", region: "Greater Accra", dropdownLabel: "Valley View University (VVU)", summaryLabel: "Valley View University" },
+    { code: "CKT-UTAS", type: "Public", region: "Upper East", dropdownLabel: "C. K. Tedam University of Technology and Applied Sciences (CKT-UTAS)", summaryLabel: "CKT-UTAS" },
+    { code: "SDD-UBIDS", type: "Public", region: "Upper West", dropdownLabel: "Simon Diedong Dombo University of Business and Integrated Development Studies (SDD-UBIDS)", summaryLabel: "SDD-UBIDS" }
 ];
 
 // Regions that actually have institutions, alphabetised for the filter dropdowns.

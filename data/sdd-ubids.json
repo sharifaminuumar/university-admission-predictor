@@ -1,0 +1,1954 @@
+{
+  "university_name": "Simon Diedong Dombo University of Business and Integrated Development Studies",
+  "short_code": "SDD-UBIDS",
+  "region": "Upper West",
+  "programs": [
+    {
+      "program_name": "BA. Development Communication",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Integrated Development Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Environment and Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. African Discourse Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Environmental Sanitation, Health and Safety",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Environment and Resource Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Integrated Community Development",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Social and Behaviour Change Communication",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BA. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Social and Development Administration",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Population and Family Health",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Geography and Urban Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Political Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Sociology with Social Work",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Social Statistics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. History and Diaspora Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. French",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Geo-spatial Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Social and Development Administration",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Peace, Conflict and Justice Administration",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Social Statistics",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Population and Family Health",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BSc. Project Planning and Community Development",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Planning",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Real Estate",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Land Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Urban Design and Planning",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Construction Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Estate Agency",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Integrated Urban Planning",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Project Planning and Community Development",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BSc. Social Policy and Development",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Development Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Organizational Practice and Development",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Urban Governance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Development Management",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Social Policy and Development",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Organizational Practice and Development",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Urban Governance",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BSc. Migration and Security",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Migration and Security",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BA. Management Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BA. Innovation and Entrepreneurship",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BCom. Banking and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BCom. Accounting",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BCom. Procurement and Supply Chain Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BCom. Marketing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BCom. Human Resource Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Health Administration",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Accounting and Finance",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Hospitality and Tourism Management",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Business Studies",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BEd. History with Political Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Geography",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Economics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Social Studies",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Business Studies (Accounting/Management options)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Business Management and English",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Accounting and Mathematics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Business Economics and Mathematics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. French",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. English",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Dagaare",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BEd. Basic Education",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Social Science Education",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Basic Education",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Business Education",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "BSc. Computer Science",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Informatics",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "BSc. Business Computing",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    },
+    {
+      "program_name": "2-Year Diploma in Computer Science",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Informatics",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Sciences",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "2-Year Diploma in Business Computing",
+      "cutoff_aggregate": 54,
+      "cutoff_source": "general_ceiling",
+      "type": "Diploma",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "D7"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "D7"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Business",
+        "global_minimum_grade": "C6",
+        "core_minimum_grade": "D7"
+      },
+      "notes": "SDD-UBIDS diploma entry (Admissions Requirements page): \"Three (3) credit passes in the applicant's area of specialisation (elective subjects)\" and \"Two (2) passes (D7, D or better) in English Language and Mathematics in WASSCE/SSSCE\". No elective subjects are named, so none are enforced. No aggregate ceiling is published for diplomas and D7 cores are accepted, so no aggregate bar is applied (54 = Open); subject requirements still apply. The published text names only English and Core Mathematics; Integrated Science is listed here at the same D7 pass level because the engine always screens the three universal cores."
+    },
+    {
+      "program_name": "Bachelor of Laws (LLB)",
+      "cutoff_aggregate": 36,
+      "cutoff_source": "general_ceiling",
+      "type": "Regular",
+      "requirements": {
+        "mandatory_cores": [
+          {
+            "subject": "English Language",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimum_grade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimum_grade": "C6"
+          }
+        ],
+        "mandatory_electives": [],
+        "elective_category_pool": "Any",
+        "global_minimum_grade": "C6"
+      },
+      "notes": "No programme-specific cut-off aggregate is published by SDD-UBIDS. The university's Admissions Requirements page states only the general bar - credit passes (A1-C6) in six subjects comprising three cores (including English Language and Mathematics) plus three relevant electives - and its admissions notice adds \"Should have an aggregate score of 36 or better of the best six subjects (three core and three elective)\". 36 is therefore the site-wide general ceiling, not a competitive departmental cut-off. No elective subjects are named for any individual programme (the requirement is \"any three elective subjects ... among others\"), so none are enforced."
+    }
+  ]
+}

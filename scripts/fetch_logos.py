@@ -68,6 +68,13 @@ SCHOOLS = [
     ("gctu",     "Ghana Communication Technology University",        "https://www.gctu.edu.gh"),
     ("ashesi",   "Ashesi University",                                "https://www.ashesi.edu.gh"),
     ("vvu",      "Valley View University",                           "https://www.vvu.edu.gh"),
+    ("ttu",      "Takoradi Technical University",                    "https://ttu.edu.gh"),
+    ("kstu",     "Kumasi Technical University",                      "https://kstu.edu.gh"),
+    ("htu",      "Ho Technical University",                          "https://htu.edu.gh"),
+    ("ckt-utas", "C. K. Tedam University of Technology and Applied Sciences", "https://cktutas.edu.gh"),
+    ("sdd-ubids", "Simon Diedong Dombo University of Business and Integrated Development Studies",
+                                                                     "https://ubids.edu.gh"),
+    ("cug",      "Catholic University of Ghana",                     "https://cug.edu.gh"),
 ]
 
 TIMEOUT = 25
